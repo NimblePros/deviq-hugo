@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo *)",
+      "Bash(npm *)",
+      "Bash(choco *)",
+      "Bash(pwsh *)",
+      "Bash(markdownlint *)"
+    ]
+  }
+}

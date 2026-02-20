@@ -27,6 +27,11 @@ go.work.sum
 # env file
 .env
 
+# Hugo build output and cache
+public/
+resources/
+.hugo_build.lock
+
 # Editor/IDE
 # .idea/
 # .vscode/

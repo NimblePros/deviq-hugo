@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo version:*)",
+      "Bash(go version:*)",
+      "Bash(hugo new site:*)",
+      "Bash(hugo mod init:*)",
+      "Bash(hugo mod get:*)",
+      "Bash(hugo mod tidy:*)",
+      "Bash(hugo build:*)"
+    ]
+  }
+}

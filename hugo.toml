@@ -1,0 +1,38 @@
+baseURL = "https://deviq.com/"
+languageCode = "en-us"
+title = "DevIQ"
+
+enableRobotsTXT = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Software development reference and learning"
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+
+  [params.footer]
+    enable = true
+    displayCopyright = true
+
+  [params.search]
+    enable = true
+    type = "flexsearch"
+
+[menu]
+  [[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    pageRef = "/docs"
+    weight = 1
