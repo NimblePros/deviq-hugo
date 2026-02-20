@@ -35,3 +35,6 @@ resources/
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Reference files (Gatsby source, not part of Hugo site)
+_reference/

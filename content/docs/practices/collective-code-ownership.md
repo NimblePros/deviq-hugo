@@ -1,0 +1,29 @@
+﻿---
+title: Collective Code Ownership
+date: 2024-08-21
+description: Explore the practice of Collective Code Ownership, where all team members are responsible for the codebase. Learn how this approach promotes collaboration, quality, and faster issue resolution.
+params:
+  image: /docs/practices/images/CollectiveCodeOwnership-400x400.png
+---
+
+![Collective Code Ownership](./images/CollectiveCodeOwnership-400x400.png)
+
+Collective code ownership breaks down fiefdoms within an application's codebase. Nobody "owns" a particular part of the code. Everyone on the team is responsible for all of the code.  This enables [pair programming](/docs/practices/pair-programming/) and [refactoring](/docs/practices/refactoring/) by the [whole team](/docs/practices/whole-team/). It also increases the project's [bus factor](/docs/terms/bus-factor/).
+
+This goes against traditional, cynical, job security advice. Writing cryptic code that only you can understand would seem to make you difficult to replace, improving job security. However such practices are detrimental to the project and the team, and developers who are able to work effectively in teams and who can deliver quality results will always be more in demand than those whose code is obtuse and difficult to understand for the sake of being difficult (or clever).
+
+Collective code ownership means the team applies their coding standards consistently. [Names](/docs/practices/naming-things/) are chosen that make sense to everybody on the team. Things that are clever or cryptic are replaced by things that are simple and well understood. The result is [readable code](/docs/practices/code-readability/) the whole team can work on, and code that is better for having been reviewed by multiple sets of eyes.
+
+## See Also
+
+[Naming Things](/docs/practices/naming-things/)
+
+[Keep It Simple](/docs/principles/keep-it-simple/)
+
+[Code Readability](/docs/practices/code-readability/)
+
+## References
+
+[Collective Ownership](http://www.extremeprogramming.org/rules/collective.html)
+
+2016 Software Craftsmanship Calendar

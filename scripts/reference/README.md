@@ -16,11 +16,13 @@ Scripts for running, building, starting, and adding new content should be in the
 
 ## Move to Scripts/Migrate
 
-Scripts that will only be useful during the migration from Gatsby to Hugo should go in /scripts/migrate
+Scripts that will only be useful during the migration from Gatsby to Hugo should go in /scripts/migrate.
 
-- migrate-gatsby-blog.ps1 (requires edits) - Comprehensive Gatsby-to-Hugo migration with frontmatter conversion and featured image generation. References ardalis-specific paths and logo.
-- migrate-posts.ps1 (requires edits) - Simple post migration from Gatsby content/blog to Hugo content/posts. References nimblepros-blog-gatsby folder.
-- migrate-images-to-assets.ps1 (requires edits) - Copies images from static/img to assets/img for Hugo image processing. References site-specific hero images.
+**These three reference scripts were used as the basis for the adapted scripts in `/scripts/migrate/` and no longer need to be moved.**
+
+- migrate-gatsby-blog.ps1 - Comprehensive Gatsby-to-Hugo migration with frontmatter conversion and featured image generation. Blog/post-oriented; ardalis-specific. Used as reference for `migrate-content.ps1`.
+- migrate-posts.ps1 - Simple directory copy migration from Gatsby content/blog. References nimblepros-blog-gatsby folder. Superseded by `migrate-content.ps1`.
+- migrate-images-to-assets.ps1 - Copies images from static/img to assets/img. References site-specific hero images. Superseded by `migrate-images.ps1`.
 
 ## Move to Scripts
 

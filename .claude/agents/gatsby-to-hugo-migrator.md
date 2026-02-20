@@ -18,23 +18,28 @@ You are a specialized migration agent for converting the DevIQ.com documentation
 ## Key Gatsby-to-Hugo Mappings
 
 ### Content Format
+
 - MDX → Hugo Markdown + shortcodes
 - `src/docs/` → `content/` (preserve directory structure)
 - `.mdx` extensions → `.md`
 
 ### Configuration
+
 - `gatsby-config.js` `siteMetadata` → `hugo.toml` `[params]`
 - `src/config/` navigation → Hugo menu config in `hugo.toml` `[[menus.main]]`
 - `_redirects` → `netlify.toml` `[[redirects]]` or Hugo `aliases` in frontmatter
 
 ### Frontmatter
+
 Gatsby frontmatter fields map directly to Hugo:
+
 - `title` → `title`
 - `description` → `description`
 - `date` → `date` (ensure RFC 3339 format)
 - Add `draft: false` if not present
 
 ### Plugins → Hugo Equivalents
+
 | Gatsby Plugin | Hugo Equivalent |
 |---|---|
 | `gatsby-plugin-mdx` / images | Hugo image processing (`assets/` + `figure` shortcode) |
@@ -46,6 +51,7 @@ Gatsby frontmatter fields map directly to Hugo:
 | `netlify-cms` | Remove (or Hugo CMS alternative) |
 
 ### MDX Components → Hugo Shortcodes
+
 - Custom MDX components should be converted to Hugo shortcodes in `layouts/shortcodes/`
 - Inline JSX expressions are not supported; replace with Hugo template logic or shortcodes
 
