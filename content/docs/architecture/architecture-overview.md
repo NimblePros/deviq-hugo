@@ -13,4 +13,5 @@ Much like how a house needs a solid foundation in order to stay strong, an appli
 - [Clean Architecture](/docs/architecture/clean-architecture/)
 - [Event-Driven Architecture](/docs/architecture/event-driven-architecture/)
 - [Laws of Software Architecture](/docs/laws/laws-software-architecture/)
+- [Layered Architecture](/docs/architecture/layered-architecture/)
 - [Vertical Slice Architecture](/docs/architecture/vertical-slice-architecture/)
