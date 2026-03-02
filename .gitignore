@@ -39,6 +39,9 @@ resources/
 # Reference files (Gatsby source, not part of Hugo site)
 _reference/
 
+# Hugo module vendor directory
+_vendor/
+
 # Node.js dependencies
 node_modules/
 package.json

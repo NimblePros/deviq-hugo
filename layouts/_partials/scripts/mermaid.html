@@ -1,0 +1,8 @@
+{{- /* Mermaid diagrams are loaded client-side when mermaid.base is configured */ -}}
+{{- with site.Params.mermaid.base -}}
+  {{- $mermaidBase := . -}}
+  <script type="module">
+    import mermaid from '{{ $mermaidBase }}/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{- end -}}

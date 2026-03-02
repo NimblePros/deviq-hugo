@@ -1,3 +1,9 @@
+/* DevIQ custom styles - overrides for the Hextra theme */
+
+/* Navbar logo text styling */
+.hextra-navbar-title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
 /* Section card alternating colors for the home page */
 .deviq-card-odd {
   background-color: #eef2ff;
