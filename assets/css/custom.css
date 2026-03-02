@@ -1,18 +1,5 @@
 /* DevIQ custom styles - overrides for the Hextra theme */
 
-/* Primary color override: DevIQ orange */
-:root {
-  --primary-hue: 25deg;
-  --primary-saturation: 95%;
-  --primary-lightness: 53%;
-}
-
-.dark {
-  --primary-hue: 25deg;
-  --primary-saturation: 95%;
-  --primary-lightness: 60%;
-}
-
 /* Navbar logo text styling */
 .hextra-navbar-title {
   font-weight: 800;
