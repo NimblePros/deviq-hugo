@@ -36,3 +36,10 @@ enableRobotsTXT = true
     name = "Docs"
     pageRef = "/docs"
     weight = 1
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    pageRef = "/search"
+    weight = 2
+    [menu.main.params]
+      icon = "search"
