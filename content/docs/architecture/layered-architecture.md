@@ -1,31 +1,23 @@
 ---
 title: Layered Architecture
-date: 2025-03-01
-description: Layered Architecture organizes software into horizontal layers, each with a distinct responsibility, where each layer only communicates with adjacent layers.
+date: 2026-03-01
+description: Layered Architecture organizes software into distinct layers, each with specific responsibilities, where each layer only communicates with adjacent layers.
 ---
 
-Layered Architecture (also known as N-Layered Architecture) is one of the most common architectural patterns in software development. It organizes a system into a set of horizontal layers, where each layer has a distinct role and responsibility. Layers communicate only with adjacent layers, enforcing separation of concerns and creating a clear structure that is easy to reason about.
-
-The most classic form is the three-tier architecture:
-
-1. **Presentation Layer** – Handles the user interface and user interaction.
-2. **Business Logic Layer** – Contains the application's core logic and rules.
-3. **Data Access Layer** – Manages data persistence and retrieval.
-
-Additional layers, such as a service layer or an infrastructure layer, are commonly added as applications grow in complexity, giving rise to the more general term *N-Layer Architecture*.
+Layered Architecture (also known as n-tier architecture) is one of the most common architectural patterns in software development. It organizes an application into a set of layers, where each layer has a specific role and responsibility. Layers communicate only with adjacent layers, creating a clear separation of concerns.
 
 ## How It Works
 
-Each layer in a Layered Architecture depends on the layer directly below it, and exposes its functionality upward to the layer above. Dependencies flow in one direction—top to bottom.
+In a layered architecture, the application is divided into horizontal layers stacked on top of one another. Each layer provides services to the layer above it and consumes services from the layer below it. The classic three-tier example looks like this:
 
 ```mermaid
 graph TD
-    A[Presentation Layer] --> B[Business Logic Layer]
-    B --> C[Data Access Layer]
-    C --> D[Database]
+    UI[Presentation Layer / UI] --> BLL[Business Logic Layer / BLL]
+    BLL --> DAL[Data Access Layer / DAL]
+    DAL --> DB[(Database)]
 ```
 
-A request from the user enters through the Presentation Layer, is processed by the Business Logic Layer, and data is retrieved or stored via the Data Access Layer. The response follows the same path in reverse.
+Dependencies flow downward: the UI depends on the business logic layer, which depends on the data access layer. A request from the user enters through the Presentation Layer, is processed by the Business Logic Layer, and data is retrieved or stored via the Data Access Layer. The response follows the same path in reverse.
 
 ## Benefits
 
@@ -48,12 +40,33 @@ A request from the user enters through the Presentation Layer, is processed by t
 - **Strict Layering**: A layer may only communicate with the layer immediately below it.
 - **Relaxed Layering**: A layer may communicate with any lower layer, skipping intermediate layers for performance or convenience.
 
-## Related Topics
+## Common Layers
 
-- [N-Tier Architecture](/docs/architecture/n-tier-architecture/) – A related architectural style that focuses on physical deployment tiers rather than logical layers.
-- [Vertical Slice Architecture](/docs/architecture/vertical-slice-architecture/) – An alternative approach that organizes code by feature rather than by layer.
-- [Clean Architecture](/docs/architecture/clean-architecture/) – A layering approach that keeps business rules at the center and infrastructure at the edges.
+The most commonly used layers in a layered architecture are:
 
-## References
+- **Presentation Layer (UI)**: Handles user interaction and display. Contains forms, web pages, API controllers, and view models.
+- **Business Logic Layer (BLL)**: Contains the core application logic and business rules. Processes data between the UI and the data access layer.
+- **Data Access Layer (DAL)**: Manages communication with data stores such as databases. Contains repositories, queries, and data models.
 
+Some applications also include:
+
+- **Application Layer**: Coordinates tasks and delegates work to domain objects. Sits between the UI and the business logic layer, handling use cases and workflows.
+- **Service Layer**: Provides a defined API over business logic for use by the presentation layer or external systems.
+
+## Logical Layers vs. Physical Tiers
+
+It is important to distinguish between *logical layers* and *physical tiers*:
+
+- **Logical layers** are conceptual divisions of code responsibility within an application. They represent how code is organized and separated by concern, but may all run within the same process or on the same machine.
+- **Physical tiers** refer to the actual deployment of components on separate physical or virtual machines. A tier is an independently deployable unit (e.g., a web server, an application server, a database server).
+
+A three-layer application may be deployed as a two-tier system (e.g., web + database), or as a three-tier system (e.g., web server + app server + database server), or even as a single-tier system (everything on one machine). Layers and tiers do not have to map one-to-one.
+
+## Related Resources
+
+- [N-Tier Architecture](/docs/architecture/n-tier-architecture/)
+- [Clean Architecture](/docs/architecture/clean-architecture/)
+- [Vertical Slice Architecture](/docs/architecture/vertical-slice-architecture/)
+- [Separation of Concerns](/docs/principles/separation-of-concerns/)
 - Richards, Mark, and Neal Ford. *Fundamentals of Software Architecture: An Engineering Approach*. O'Reilly Media, 2020.
+
