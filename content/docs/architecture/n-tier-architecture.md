@@ -54,7 +54,7 @@ graph TD
 
 ## Tradeoffs
 
-N-Tier Architecture is a pragmatic choice for many applications, particularly those with clear separation between UI, logic, and data. It is familiar, well-documented, and supported by most frameworks. However, as systems grow in complexity, teams often find that strict layering can introduce rigidity. Alternative approaches like [Vertical Slice Architecture](/docs/architecture/vertical-slice-architecture/) or [Clean Architecture](/docs/architecture/clean-architecture/) address some of these limitations by organizing code around features or domain models rather than technical concerns.
+N-Tier Architecture is a pragmatic choice for many applications, particularly those with clear separation between UI, logic, and data. It is familiar, well-documented, and supported by most frameworks. However, as systems grow in complexity, teams often find that strict layering can introduce rigidity. Alternative approaches like [Vertical Slice Architecture](/docs/architecture/vertical-slice-architecture/) or [Clean Architecture](/docs/architecture/clean-architecture/) address some of these limitations by organizing code around features or domain models rather than technical concerns. Even these approaches have limits, however, since they don't produce truly modular systems organized around [bounded contexts](https://deviq.com/#). For that, choose the [modular monolith](https://deviq.com/#) or [microservices](https://deviq.com/#) architecture.
 
 ## Related Resources
 
