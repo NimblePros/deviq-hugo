@@ -4,4 +4,31 @@
 .hextra-navbar-title {
   font-weight: 800;
   letter-spacing: -0.02em;
+/* Section card alternating colors for the home page */
+.deviq-card-odd {
+  background-color: #eef2ff;
+}
+
+.deviq-card-even {
+  background-color: #e0e7ff;
+}
+
+.deviq-card-odd:hover,
+.deviq-card-even:hover {
+  background-color: #c7d2fe;
+  cursor: pointer;
+}
+
+.dark .deviq-card-odd {
+  background-color: #1e1b4b;
+}
+
+.dark .deviq-card-even {
+  background-color: #312e81;
+}
+
+.dark .deviq-card-odd:hover,
+.dark .deviq-card-even:hover {
+  background-color: #3730a3;
+  cursor: pointer;
 }
