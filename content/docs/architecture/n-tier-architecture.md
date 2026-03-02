@@ -37,7 +37,7 @@ graph TD
 
 ## Benefits
 
-- **Separation of concerns**: Each layer has a clear, focused responsibility, making the system easier to understand and reason about.
+- **[Separation of Concerns](/docs/principles/separation-of-concerns/)**: Each layer has a clear, focused responsibility, making the system easier to understand and reason about.
 - **Maintainability**: Changes to one layer (e.g., swapping a database) can often be made without affecting other layers.
 - **Reusability**: The BLL can be reused across multiple presentation layers (e.g., a web app and an API).
 - **Scalability**: Physical tiers can be scaled independently based on load (e.g., adding more application servers without scaling the database).
