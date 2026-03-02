@@ -20,11 +20,22 @@ enableRobotsTXT = true
 
   [params.navbar]
     displayTitle = true
-    displayLogo = false
+    displayLogo = true
+    [params.navbar.logo]
+      path = "images/logo.svg"
+      dark = "images/logo-dark.svg"
+      width = "28"
+      height = "28"
+      link = "/"
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
 
   [params.footer]
     enable = true
     displayCopyright = true
+    displayPoweredBy = false
 
   [params.search]
     enable = true
@@ -36,3 +47,8 @@ enableRobotsTXT = true
     name = "Docs"
     pageRef = "/docs"
     weight = 1
+  [[menu.main]]
+    identifier = "theme-toggle"
+    weight = 100
+    [menu.main.params]
+      type = "theme-toggle"
