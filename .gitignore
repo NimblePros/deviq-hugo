@@ -38,3 +38,8 @@ resources/
 
 # Reference files (Gatsby source, not part of Hugo site)
 _reference/
+
+# Node.js dependencies
+node_modules/
+package.json
+package-lock.json
