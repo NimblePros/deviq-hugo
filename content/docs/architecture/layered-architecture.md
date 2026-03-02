@@ -17,7 +17,28 @@ graph TD
     DAL --> DB[(Database)]
 ```
 
-Dependencies flow downward: the UI depends on the business logic layer, which depends on the data access layer.
+Dependencies flow downward: the UI depends on the business logic layer, which depends on the data access layer. A request from the user enters through the Presentation Layer, is processed by the Business Logic Layer, and data is retrieved or stored via the Data Access Layer. The response follows the same path in reverse.
+
+## Benefits
+
+- **Separation of Concerns**: Each layer has a well-defined responsibility, making the codebase easier to understand and navigate.
+- **Maintainability**: Changes to one layer are largely isolated from other layers, reducing the risk of unintended side effects.
+- **Testability**: Individual layers can be tested in isolation with appropriate mocking or stubbing of adjacent layers.
+- **Familiarity**: Layered Architecture is widely understood and easy to onboard new developers onto, as it reflects a natural mental model of how software systems work.
+- **Reusability**: Lower layers (such as data access or business logic) can potentially be reused across multiple presentation surfaces (web, mobile, desktop).
+
+## Drawbacks
+
+- **Performance Overhead**: Requests must pass through each layer even when not all layers add value for a particular operation, introducing unnecessary processing.
+- **Tight Coupling Between Layers**: Although layers are separated by interface, they are still vertically coupled—a change to the data model may ripple upward through every layer.
+- **Anemic Domain Model**: Business logic can become thin and procedural when spread across a service layer and data layer, leading to an [anemic domain model](/docs/domain-driven-design/anemic-model/).
+- **Monolithic Tendencies**: Layered architectures often grow into large, tightly-coupled monoliths over time, making them harder to scale or evolve.
+- **Scalability Challenges**: Scaling a single layer independently is difficult because layers share the same deployment unit in many implementations.
+
+## Variations
+
+- **Strict Layering**: A layer may only communicate with the layer immediately below it.
+- **Relaxed Layering**: A layer may communicate with any lower layer, skipping intermediate layers for performance or convenience.
 
 ## Common Layers
 
@@ -47,3 +68,5 @@ A three-layer application may be deployed as a two-tier system (e.g., web + data
 - [Clean Architecture](/docs/architecture/clean-architecture/)
 - [Vertical Slice Architecture](/docs/architecture/vertical-slice-architecture/)
 - [Separation of Concerns](/docs/principles/separation-of-concerns/)
+- Richards, Mark, and Neal Ford. *Fundamentals of Software Architecture: An Engineering Approach*. O'Reilly Media, 2020.
+
