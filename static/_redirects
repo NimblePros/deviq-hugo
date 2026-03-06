@@ -1,0 +1,78 @@
+# https://docs.netlify.com/routing/redirects/redirect-options/#http-status-codes
+# 301 is the default
+/home                               /
+/pages/about                        /
+
+/values                             /values/values-overview
+
+/principles/principles-overview/    /principles/
+/category/patterns/                 /design-patterns/
+/builder-design-pattern/            /design-patterns/builder-pattern
+/guard-clause/                      /design-patterns/guard-clause
+/null-object-pattern/               /design-patterns/null-object-pattern
+/repository-pattern/                /design-patterns/repository-pattern
+/specification-pattern/             /design-patterns/specification-pattern
+/state-design-pattern/              /design-patterns/state-design-pattern
+/strategy-design-pattern/           /design-patterns/strategy-pattern
+/singleton/                         /design-patterns/singleton
+
+/category/practices/                /practices/practices-overview
+/code-readability/                  /practices/code-readability
+/dependency-injection/              /practices/dependency-injection
+/dogfooding/                        /practices/dogfooding
+/naming-things/                     /practices/naming-things
+/pain-driven-development/           /practices/pain-driven-development
+/test-driven-development/           /practices/test-driven-development
+/vertical-slices/                   /practices/vertical-slices
+
+/category/principles/               /principles/
+/boy-scout-rule/                    /principles/principles/boy-scout-rule
+/dependency-inversion-principle/    /principles/dependency-inversion-principle
+/don-t-repeat-yourself/             /principles/dont-repeat-yourself
+/encapsulation/                     /principles/encapsulation
+/explicit-dependencies-principle/   /principles/explicit-dependencies-principle
+/hollywood-principle/               /principles/hollywood-principle
+/interface-segregation-principle/   /principles/interface-segregation-principle
+/inversion-of-control/              /principles/inversion-of-control
+/keep-it-simple/                    /principles/keep-it-simple
+/liskov-substitution-principle/     /principles/liskov-substitution-principle
+/open-closed-principle/             /principles/open-closed-principle
+/persistence-ignorance/             /principles/persistence-ignorance
+/separation-of-concerns/            /principles/separation-of-concerns
+/single-responsibility-principle/   /principles/single-responsibility-principle
+/solid/                             /principles/solid
+/stable-dependencies/               /principles/stable-dependencies
+/tell-dont-ask/                     /principles/tell-dont-ask
+/yagni/                             /principles/yagni
+
+/category/values                    /values/values-overview
+/communication/                     /values/communication
+/courage/                           /values/courage
+/simplicity/                        /values/simplicity
+
+/antipatterns/                      /antipatterns/antipatterns-overview
+/category/antipatterns/             /antipatterns/antipatterns-overview
+/tag/antipattern/                   /antipatterns/antipatterns-overview
+/code-smells/                       /antipatterns/code-smells
+/duct-tape-coder/                   /antipatterns/duct-tape-coder
+/flags-over-objects/                /antipatterns/flags-over-objects
+/iceberg-class/                     /antipatterns/iceberg-class
+/magic-strings/                     /antipatterns/magic-strings
+/spaghetti-code/                    /antipatterns/spaghetti-code
+/static-cling/                      /antipatterns/static-cling
+
+/aggregate-pattern/                 /domain-driven-design/aggregate-pattern
+/anemic-model/                      /domain-driven-design/anemic-model
+/entity/                            /domain-driven-design/entity
+/value-object/                      /domain-driven-design/value-object
+
+/category/tools/                    /tools/build-server
+/build-server/                      /tools/build-server
+
+/bus-factor/                        /terms/bus-factor
+/kinds-of-models/                   /terms/kinds-of-models
+/technical-debt/                    /terms/technical-debt
+
+/other/singleton                    /design-patterns/singleton
+/other/*                            /terms/:splat
+

@@ -1,5 +1,14 @@
 /* DevIQ custom styles - overrides for the Hextra theme */
 
+/* Fonts: Inter (body) + Space Grotesk (headings) */
+:root {
+  --hx-default-font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+}
+
 /* Navbar height override to fit logo */
 .hextra-nav-container nav {
   height: 80px;
