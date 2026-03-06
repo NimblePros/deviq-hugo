@@ -4,6 +4,8 @@
 .hextra-navbar-title {
   font-weight: 800;
   letter-spacing: -0.02em;
+}
+
 /* Section card alternating colors for the home page */
 .deviq-card-odd {
   background-color: #eef2ff;
@@ -31,4 +33,12 @@
 .dark .deviq-card-even:hover {
   background-color: #3730a3;
   cursor: pointer;
+}
+
+/* Keep Mermaid diagrams readable in dark themes */
+pre.mermaid,
+.mermaid,
+pre.mermaid svg,
+.mermaid svg {
+  background-color: #fff;
 }
