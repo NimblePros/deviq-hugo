@@ -1,5 +1,9 @@
 {{- $favicon := .Site.Params.favicon | default "favicon.png" -}}
 {{- $faviconExists := fileExists (printf "static/%s" $favicon) -}}
+{{- $favicon16 := .Site.Params.favicon16 -}}
+{{- $favicon32 := .Site.Params.favicon32 -}}
+{{- $faviconIco := .Site.Params.faviconIco -}}
+{{- $appleTouchIcon := .Site.Params.appleTouchIcon -}}
 
 {{- if $faviconExists -}}
   {{- $ext := lower (path.Ext $favicon) -}}
@@ -14,17 +18,17 @@
 
   <link rel="icon" href="{{ $favicon | relURL }}"{{ if ne $type "" }} type="{{ $type }}"{{ end }}{{ if eq $ext ".svg" }} id="favicon-svg"{{ end }} />
 
-  {{- if fileExists "static/favicon.ico" -}}
-    <link rel="icon shortcut" href="{{ "favicon.ico" | relURL }}" sizes="32x32" />
+  {{- if $faviconIco -}}
+    <link rel="icon shortcut" href="{{ $faviconIco | relURL }}" sizes="32x32" />
   {{- end -}}
-  {{- if fileExists "static/favicon-16x16.png" -}}
-    <link rel="icon" href="{{ "favicon-16x16.png" | relURL }}" type="image/png" sizes="16x16" />
+  {{- if $favicon16 -}}
+    <link rel="icon" href="{{ $favicon16 | relURL }}" type="image/png" sizes="16x16" />
   {{- end -}}
-  {{- if fileExists "static/favicon-32x32.png" -}}
-    <link rel="icon" href="{{ "favicon-32x32.png" | relURL }}" type="image/png" sizes="32x32" />
+  {{- if $favicon32 -}}
+    <link rel="icon" href="{{ $favicon32 | relURL }}" type="image/png" sizes="32x32" />
   {{- end -}}
-  {{- if fileExists "static/apple-touch-icon.png" -}}
-    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}" sizes="180x180" />
+  {{- if $appleTouchIcon -}}
+    <link rel="apple-touch-icon" href="{{ $appleTouchIcon | relURL }}" sizes="180x180" />
   {{- end -}}
 {{- else -}}
   <link rel="icon shortcut" href="{{ "favicon.ico" | relURL }}" sizes="32x32" />
