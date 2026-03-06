@@ -24,9 +24,9 @@ enableRobotsTXT = true
     displayTitle = false
     displayLogo = true
     [params.navbar.logo]
-      path = "images/banner.png"
-      width = "120"
-      height = "40"
+      path = "images/deviq-logo-rounded-white.png"
+      width = "186"
+      height = "75"
       link = "/"
 
   [params.theme]

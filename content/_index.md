@@ -15,10 +15,6 @@ layout: hextra-home
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mb-6">
-{{< hextra/hero-button text="Browse Docs" link="design-patterns" >}}
-</div>
-
 {{< hextra/feature-grid cols="4" >}}
   {{< hextra/feature-card
     title="Design Patterns"

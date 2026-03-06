@@ -1,5 +1,10 @@
 /* DevIQ custom styles - overrides for the Hextra theme */
 
+/* Navbar height override to fit logo */
+.hextra-nav-container nav {
+  height: 80px;
+}
+
 /* Navbar logo text styling */
 .hextra-navbar-title {
   font-weight: 800;
