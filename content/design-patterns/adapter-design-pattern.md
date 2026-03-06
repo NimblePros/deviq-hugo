@@ -53,7 +53,7 @@ Notice that the `INotificationAdapter` abstraction does not expose any details a
 
 The Adapter pattern also enables the [Open-Closed Principle](/principles/open-closed-principle/), since new functionality can be added to the system's use of notifications without requiring existing code to be modified. Instead, new instances of the `INotificationAdapter` can be added, extending the ways in which notifications may be sent.
 
-Adapters are frequently used in [Domain-Driven Design](/domain-driven-design/ddd-overview/) as part of [Anti-Corruption Layers](/domain-driven-design/anti-corruption-layer/).
+Adapters are frequently used in [Domain-Driven Design](/domain-driven-design/) as part of [Anti-Corruption Layers](/domain-driven-design/anti-corruption-layer/).
 
 ## Intent
 

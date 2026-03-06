@@ -18,20 +18,20 @@ type: docs
 </div>
 
 <div class="hx-mb-12">
-{{< hextra/hero-button text="Start Exploring" link="/design-patterns/design-patterns-overview" >}}
+{{< hextra/hero-button text="Start Exploring" link="/design-patterns/" >}}
 </div>
 
 {{< hextra/feature-grid cols="4" >}}
   {{< hextra/feature-card
     title="Design Patterns"
     subtitle="Explore Design Patterns →"
-    link="/design-patterns/design-patterns-overview"
+    link="/design-patterns/"
     class="deviq-card-odd"
   >}}
   {{< hextra/feature-card
     title="Practices"
     subtitle="Explore Practices →"
-    link="/practices/practices-overview"
+    link="/practices/"
     class="deviq-card-even"
   >}}
   {{< hextra/feature-card
@@ -43,49 +43,49 @@ type: docs
   {{< hextra/feature-card
     title="Values"
     subtitle="Explore Values →"
-    link="/values/values-overview"
+    link="/values/"
     class="deviq-card-even"
   >}}
   {{< hextra/feature-card
     title="Antipatterns"
     subtitle="Explore Antipatterns →"
-    link="/antipatterns/antipatterns-overview"
+    link="/antipatterns/"
     class="deviq-card-odd"
   >}}
   {{< hextra/feature-card
     title="Domain Driven Design"
     subtitle="Explore Domain Driven Design →"
-    link="/domain-driven-design/ddd-overview"
+    link="/domain-driven-design/"
     class="deviq-card-even"
   >}}
   {{< hextra/feature-card
     title="Tools"
     subtitle="Explore Tools →"
-    link="/tools/tools-overview"
+    link="/tools/"
     class="deviq-card-odd"
   >}}
   {{< hextra/feature-card
     title="Terms"
     subtitle="Explore Terms →"
-    link="/terms/terms-overview"
+    link="/terms/"
     class="deviq-card-even"
   >}}
   {{< hextra/feature-card
     title="Testing"
     subtitle="Explore Testing →"
-    link="/testing/testing-overview"
+    link="/testing/"
     class="deviq-card-odd"
   >}}
   {{< hextra/feature-card
     title="Laws of Software Development"
     subtitle="Explore Laws of Software Development →"
-    link="/laws/laws-overview"
+    link="/laws/"
     class="deviq-card-even"
   >}}
   {{< hextra/feature-card
     title="Architecture"
     subtitle="Explore Architecture →"
-    link="/architecture/architecture-overview"
+    link="/architecture/"
     class="deviq-card-odd"
   >}}
 {{< /hextra/feature-grid >}}

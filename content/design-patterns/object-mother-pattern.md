@@ -35,5 +35,5 @@ An alternative to the Object Mother pattern is the [Builder pattern](/design-pat
 
 - [Builder Pattern](/design-patterns/builder-pattern/)
 - [Factory Method Pattern](/design-patterns/factory-method-pattern/)
-- [Testing - Overview](/testing/testing-overview/)
+- [Testing - Overview](/testing/)
 - [On-Demand Webinar: Exploring Design Patterns for Testing](https://mailchi.mp/nimblepros/design-patterns-testing-recording)

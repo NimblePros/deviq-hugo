@@ -60,7 +60,7 @@ sequenceDiagram
 
 ## Design Patterns in the ACL
 
-This layer is typically made up of several well-known design patterns such as [Facade](/design-patterns/design-patterns-overview/) and [Adapter](/design-patterns/adapter-design-pattern/). The patterns are used to map between foreign domain models and APIs to types and interfaces that are part of the domain model.
+This layer is typically made up of several well-known design patterns such as [Facade](/design-patterns/) and [Adapter](/design-patterns/adapter-design-pattern/). The patterns are used to map between foreign domain models and APIs to types and interfaces that are part of the domain model.
 
 ## Benefits of using an ACL
 

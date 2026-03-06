@@ -50,7 +50,7 @@ public class AddressBuilder
 
 ## See Also
 
-- [Testing - Overview](/testing/testing-overview/)
+- [Testing - Overview](/testing/)
 
 ## References
 

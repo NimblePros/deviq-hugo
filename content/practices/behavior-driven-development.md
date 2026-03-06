@@ -77,7 +77,7 @@ Feature: Online Checkout
 
 ### Automated Testing
 
-One of the key aspects of BDD is its use in [testing](/testing/testing-overview/). By using libraries to map the Gherkin to code, the behavior-driven tests can be automated. The features, user stories, and scenarios are written in a domain-specific language such as Gherkin with consistency to make it easier to automate. Automated testing ensures that the software behaves according to the defined scenarios.
+One of the key aspects of BDD is its use in [testing](/testing/). By using libraries to map the Gherkin to code, the behavior-driven tests can be automated. The features, user stories, and scenarios are written in a domain-specific language such as Gherkin with consistency to make it easier to automate. Automated testing ensures that the software behaves according to the defined scenarios.
 
 Gherkin allows support for variables within each step of the Scenario in the plain language documentation through a feature called Scenario Outlines.
 
@@ -123,4 +123,4 @@ In a nutshell, Behavior Driven Development is all about defining and automating 
 ## See Also
 
 - [Test-Driven Development](/practices/test-driven-development/)
-- [Testing - Overview](/testing/testing-overview/)
+- [Testing - Overview](/testing/)

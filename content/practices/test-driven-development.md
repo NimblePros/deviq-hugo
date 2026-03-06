@@ -19,4 +19,4 @@ Once you're happy with the code, it's time to move on to the next test. Before y
 # See Also
 
 - [Behavior-Driven Development](/practices/behavior-driven-development/)
-- [Testing - Overview](/testing/testing-overview/)
+- [Testing - Overview](/testing/)

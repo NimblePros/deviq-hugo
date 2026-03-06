@@ -3,9 +3,21 @@
 /home                               /
 /pages/about                        /
 
-/values                             /values/values-overview
+/values                             /values/
 
-/principles/principles-overview/    /principles/
+/antipatterns/antipatterns-overview/    /antipatterns/
+/architecture/architecture-overview/    /architecture/
+/code-smells/code-smells-overview/      /code-smells/
+/design-patterns/design-patterns-overview/  /design-patterns/
+/domain-driven-design/ddd-overview/     /domain-driven-design/
+/laws/laws-overview/                    /laws/
+/practices/practices-overview/          /practices/
+/principles/principles-overview/        /principles/
+/terms/terms-overview/                  /terms/
+/testing/testing-overview/              /testing/
+/tools/tools-overview/                  /tools/
+/values/values-overview/                /values/
+
 /category/patterns/                 /design-patterns/
 /builder-design-pattern/            /design-patterns/builder-pattern
 /guard-clause/                      /design-patterns/guard-clause
@@ -16,7 +28,7 @@
 /strategy-design-pattern/           /design-patterns/strategy-pattern
 /singleton/                         /design-patterns/singleton
 
-/category/practices/                /practices/practices-overview
+/category/practices/                /practices/
 /code-readability/                  /practices/code-readability
 /dependency-injection/              /practices/dependency-injection
 /dogfooding/                        /practices/dogfooding
@@ -45,14 +57,13 @@
 /tell-dont-ask/                     /principles/tell-dont-ask
 /yagni/                             /principles/yagni
 
-/category/values                    /values/values-overview
+/category/values                    /values/
 /communication/                     /values/communication
 /courage/                           /values/courage
 /simplicity/                        /values/simplicity
 
-/antipatterns/                      /antipatterns/antipatterns-overview
-/category/antipatterns/             /antipatterns/antipatterns-overview
-/tag/antipattern/                   /antipatterns/antipatterns-overview
+/category/antipatterns/             /antipatterns/
+/tag/antipattern/                   /antipatterns/
 /code-smells/                       /antipatterns/code-smells
 /duct-tape-coder/                   /antipatterns/duct-tape-coder
 /flags-over-objects/                /antipatterns/flags-over-objects
@@ -75,4 +86,3 @@
 
 /other/singleton                    /design-patterns/singleton
 /other/*                            /terms/:splat
-
