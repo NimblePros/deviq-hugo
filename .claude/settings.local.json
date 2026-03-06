@@ -7,7 +7,12 @@
       "Bash(hugo mod init:*)",
       "Bash(hugo mod get:*)",
       "Bash(hugo mod tidy:*)",
-      "Bash(hugo build:*)"
+      "Bash(hugo build:*)",
+      "Bash(for dir in content/docs/*/)",
+      "Bash(do mv \"$dir\" content/)",
+      "Bash(done)",
+      "Bash(rm content/docs/_index.md)",
+      "Bash(rmdir content/docs)"
     ]
   }
 }

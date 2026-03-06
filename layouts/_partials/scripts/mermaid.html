@@ -1,8 +1,12 @@
-{{- /* Mermaid diagrams are loaded client-side when mermaid.base is configured */ -}}
+{{- /* Mermaid diagrams are loaded client-side */ -}}
 {{- with site.Params.mermaid.base -}}
-  {{- $mermaidBase := . -}}
-  <script type="module">
-    import mermaid from '{{ $mermaidBase }}/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
+  <script src="{{ . }}/mermaid.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof mermaid !== 'undefined') {
+        mermaid.initialize({ startOnLoad: true, securityLevel: 'loose', theme: 'base' });
+        mermaid.contentLoaded();
+      }
+    });
   </script>
 {{- end -}}

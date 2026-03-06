@@ -41,11 +41,14 @@ enableRobotsTXT = true
     enable = true
     type = "flexsearch"
 
+  [params.mermaid]
+    base = "https://cdn.jsdelivr.net/npm/mermaid"
+
 [menu]
   [[menu.main]]
-    identifier = "docs"
-    name = "Docs"
-    pageRef = "/docs"
+    identifier = "NimblePros"
+    name = "NimblePros"
+    url = "https://nimblepros.com"
     weight = 1
   [[menu.main]]
     identifier = "theme-toggle"
