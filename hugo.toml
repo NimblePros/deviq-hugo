@@ -18,14 +18,15 @@ enableRobotsTXT = true
 [params]
   description = "Software development reference and learning"
 
+  favicon = "favicon.png"
+
   [params.navbar]
-    displayTitle = true
+    displayTitle = false
     displayLogo = true
     [params.navbar.logo]
-      path = "images/logo.svg"
-      dark = "images/logo-dark.svg"
-      width = "32"
-      height = "32"
+      path = "images/banner.png"
+      width = "120"
+      height = "40"
       link = "/"
 
   [params.theme]
