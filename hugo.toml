@@ -52,6 +52,12 @@ enableRobotsTXT = true
     url = "https://nimblepros.com"
     weight = 1
   [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    pageRef = "/search"
+    weight = 2
+    [menu.main.params]
+      icon = "search"
     identifier = "theme-toggle"
     weight = 100
     [menu.main.params]
