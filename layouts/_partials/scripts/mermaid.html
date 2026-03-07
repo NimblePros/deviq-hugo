@@ -1,0 +1,28 @@
+{{- /* Mermaid diagrams are loaded client-side */ -}}
+<script type="module">
+  console.log('[Mermaid] Importing mermaid module...');
+  
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.12.3/+esm'
+  
+  console.log('[Mermaid] Module imported, mermaid available');
+  console.log('[Mermaid] typeof mermaid:', typeof mermaid);
+  
+  try {
+    console.log('[Mermaid] Initializing with config...');
+    mermaid.initialize({ startOnLoad: true, securityLevel: 'loose', theme: 'base' });
+    console.log('[Mermaid] Initialization complete');
+    
+    console.log('[Mermaid] Finding mermaid diagrams...');
+    const diagrams = document.querySelectorAll('pre.mermaid');
+    console.log('[Mermaid] Found', diagrams.length, 'diagram(s)');
+    diagrams.forEach((diagram, index) => {
+      console.log(`[Mermaid] Diagram ${index}:`, diagram.textContent.substring(0, 50) + '...');
+    });
+    
+    console.log('[Mermaid] Calling contentLoaded...');
+    await mermaid.contentLoaded();
+    console.log('[Mermaid] contentLoaded finished');
+  } catch (error) {
+    console.error('[Mermaid] Error during initialization:', error);
+  }
+</script>

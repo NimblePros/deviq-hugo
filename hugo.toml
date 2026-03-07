@@ -18,23 +18,38 @@ enableRobotsTXT = true
 [params]
   description = "Software development reference and learning"
 
+  favicon = "favicon.png"
+
   [params.navbar]
-    displayTitle = true
-    displayLogo = false
+    displayTitle = false
+    displayLogo = true
+    [params.navbar.logo]
+      path = "images/deviq-logo-rounded-white.png"
+      width = "186"
+      height = "75"
+      link = "/"
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
 
   [params.footer]
     enable = true
     displayCopyright = true
+    displayPoweredBy = false
 
   [params.search]
     enable = true
     type = "flexsearch"
 
+  [params.mermaid]
+    base = "https://cdn.jsdelivr.net/npm/mermaid"
+
 [menu]
   [[menu.main]]
-    identifier = "docs"
-    name = "Docs"
-    pageRef = "/docs"
+    identifier = "NimblePros"
+    name = "NimblePros"
+    url = "https://nimblepros.com"
     weight = 1
   [[menu.main]]
     identifier = "search"
@@ -43,3 +58,8 @@ enableRobotsTXT = true
     weight = 2
     [menu.main.params]
       icon = "search"
+    identifier = "theme-toggle"
+    weight = 100
+    [menu.main.params]
+      type = "theme-toggle"
+
