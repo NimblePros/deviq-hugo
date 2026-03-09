@@ -7,6 +7,7 @@ cascade:
 date: 2024-01-14
 aliases:
   - /code-smells/code-smells-overview/
+  - /antipatterns/code-smells/
 params:
   image: /code-smells/images/code-smells.png
 ---

@@ -1,8 +1,12 @@
 ﻿---
-title: Vertical Slice Architecture
-date: 2024-06-28
-description: In Vertical Slice Architecture, we organize the application by features rather than layers.
-params:
+title: Vertical Slice Architecture
+
+date: 2024-06-28
+
+description: In Vertical Slice Architecture, we organize the application by features rather than layers.
+
+params:
+
   image: /architecture/images/vertical-slice-architecture.png
 ---
 
@@ -61,7 +65,7 @@ For legacy systems, refactoring can be risky and disruptive. Vertical Slice Arch
 
 When implementing this architecture, teams should have the following understanding:
 
-- [Code smells](/antipatterns/code-smells/) - know what antipatterns to avoid and watch out for in business logic
+- [Code smells](/code-smells/) - know what antipatterns to avoid and watch out for in business logic
 - [Refactoring](/practices/refactoring/) - know how to refactor and get away from the code smells
 
 ## References
