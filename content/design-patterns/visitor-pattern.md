@@ -22,7 +22,7 @@ The Visitor pattern makes adding new **operations** easy (add a new visitor clas
 
 ## C# Example
 
-The following example models a simple expression tree (addition and number literals) with two visitors: one that evaluates the expression to a value, and one that renders it as a string.
+The following example models a simple expression tree (addition and number literals) with two visitors: one that evaluates the expression to a value, and one that renders it as a string. Expression trees like this are also the core data structure of the [Interpreter](/design-patterns/interpreter-pattern/) pattern, where the tree itself carries the evaluation logic rather than delegating it to a visitor.
 
 ### Element Interface
 
@@ -110,7 +110,7 @@ Console.WriteLine(expression.Accept(printer));    // ((1 + 2) + 3)
 Console.WriteLine(expression.Accept(evaluator));  // 6
 ```
 
-A new operation — such as a `TypeCheckerVisitor` or an `OptimizerVisitor` — can be added by creating a new class that implements `IExpressionVisitor<T>`, with no changes to the element classes.
+A new operation — such as a `TypeCheckerVisitor` or an `OptimizerVisitor` — can be added by creating a new class that implements `IExpressionVisitor<T>`, with no changes to the element classes. When you need to control *which elements* are visited rather than *what operation* is performed, pair Visitor with the [Iterator](/design-patterns/iterator-pattern/) pattern.
 
 ## Visitor and the Parallel Inheritance Hierarchies Smell
 

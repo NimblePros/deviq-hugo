@@ -31,9 +31,9 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Event Aggregator](/design-patterns/event-aggregator-pattern/)
 - [Facade](/design-patterns/facade-pattern/)
 - [Factory Method](/design-patterns/factory-method-pattern/)
-- Flyweight
-- Interpreter
-- Iterator
+- [Flyweight](/design-patterns/flyweight-pattern/)
+- [Interpreter](/design-patterns/interpreter-pattern/)
+- [Iterator](/design-patterns/iterator-pattern/)
 - [Lazy Load](/design-patterns/lazy-load-pattern/)
 - [Mediator](/design-patterns/mediator-pattern/)
 - [Memento](/design-patterns/memento-pattern/)

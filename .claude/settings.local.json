@@ -18,7 +18,14 @@
       "Bash(go env:*)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:imfing.github.io)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(ls -la /c/dev/github-nimblepros/deviq-hugo/content/design-patterns/*.md)",
+      "Bash(go mod:*)",
+      "Bash(xargs cat:*)",
+      "Bash(git log:*)",
+      "Bash(/tmp/sidebar_order.sh:*)",
+      "WebFetch(domain:gohugo.io)",
+      "WebSearch"
     ]
   }
 }

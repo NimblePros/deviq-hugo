@@ -10,7 +10,7 @@ description: The Composite Design Pattern composes objects into tree structures 
 
 The Composite Design Pattern is a structural pattern that lets you compose objects into tree structures to represent part-whole hierarchies. It allows clients to treat individual objects (*leaves*) and compositions of objects (*composites*) uniformly through a common interface.
 
-This is useful wherever you have hierarchical data or need to operate recursively over a tree of objects. Common real-world examples include:
+This is useful wherever you have hierarchical data or need to operate recursively over a tree of objects. The [Interpreter](/design-patterns/interpreter-pattern/) pattern relies on this same structure: its abstract syntax tree is a Composite where terminal expressions are leaves and nonterminal expressions are composites. Common real-world examples include:
 
 - **File systems** — files and folders, where both can be "opened" or "deleted"
 - **UI component trees** — buttons and panels, where both can be rendered
@@ -22,7 +22,7 @@ The pattern involves three participants:
 - **Leaf** — a node with no children; performs actual work.
 - **Composite** — a node that can have children; delegates work to its children.
 
-The Composite pattern supports the [Single Responsibility Principle](/principles/single-responsibility-principle/) by keeping tree traversal logic inside the composite, and enables the [Open-Closed Principle](/principles/open-closed-principle/) because new leaf types can be added without changing the traversal code.
+The Composite pattern supports the [Single Responsibility Principle](/principles/single-responsibility-principle/) by keeping tree traversal logic inside the composite, and enables the [Open-Closed Principle](/principles/open-closed-principle/) because new leaf types can be added without changing the traversal code. To expose the elements of a composite tree for sequential access without revealing its internal structure, pair it with the [Iterator](/design-patterns/iterator-pattern/) pattern.
 
 ## Not All Object Hierarchies Are Composites
 
