@@ -14,5 +14,6 @@ params:
 These are terms that are commonly used in software development or software architecture.
 
 - [Bus Factor](/terms/bus-factor/)
+- [Cohesion](/terms/cohesion/)
 - [Kinds of Models](/terms/kinds-of-models/)
 - [Technical Debt](/terms/technical-debt/)

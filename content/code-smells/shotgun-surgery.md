@@ -74,7 +74,7 @@ Now every service depends on `TaxCalculator`. Changing the rate or the formula i
 
 - **Move Method / Move Field** — relocate scattered logic to the class that owns the relevant data or concept.
 - **Extract Class** — gather related fields and methods from multiple classes into a single new class that owns the concept.
-- **Inline Class** — if a concept is spread across too many tiny classes without cohesion, consolidate them.
+- **Inline Class** — if a concept is spread across too many tiny classes without [cohesion](/terms/cohesion/), consolidate them.
 - **Introduce a Service or Policy object** — encapsulate a cross-cutting rule (pricing, tax, access control) in a dedicated class so there is one authoritative source.
 - **Apply the [Single Responsibility Principle](/principles/single-responsibility-principle/)** — ensure each class has one reason to change, so changes to a concept require touching only one place.
 

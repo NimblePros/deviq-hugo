@@ -81,7 +81,7 @@ Building an effective modular monolith requires adherence to several principles:
 - **[Dependency Inversion](/principles/dependency-inversion-principle/)**: Modules should depend on abstractions rather than concrete implementations.
 - **[Single Responsibility](/principles/single-responsibility-principle/)**: Each module should have one reason to change.
 - **[Encapsulation](/principles/encapsulation/)**: Modules should hide their internal details and expose only what is necessary.
-- **High Cohesion**: Related functionality should be grouped within the same module.
+- **[High Cohesion](/terms/cohesion/)**: Related functionality should be grouped within the same module.
 - **[Explicit Dependencies](/principles/explicit-dependencies-principle/)**: Module dependencies should be clear and intentional.
 
 ## When to Use

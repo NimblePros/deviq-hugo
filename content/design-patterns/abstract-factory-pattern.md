@@ -1,8 +1,12 @@
 ﻿---
-title: Abstract Factory Design Pattern
-date: 2023-10-27
-description: The Abstract Factory Pattern is one of the creational design patterns that allows the creation of families of related or dependent objects without specifying their concrete classes. This pattern is particularly useful when the system needs to be independent of how its objects are created, composed, and represented.
-params:
+title: Abstract Factory Design Pattern
+
+date: 2023-10-27
+
+description: The Abstract Factory Pattern is one of the creational design patterns that allows the creation of families of related or dependent objects without specifying their concrete classes. This pattern is particularly useful when the system needs to be independent of how its objects are created, composed, and represented.
+
+params:
+
   image: /design-patterns/images/abstract-factory-design-pattern.png
 ---
 
@@ -125,7 +129,7 @@ Here's how they relate:
 
 ## Conclusion
 
-The Abstract Factory Pattern provides an efficient way to manage and create families of related products. It enables loose coupling and high cohesion, making the code more maintainable and extensible. It is a crucial pattern for large systems and libraries that aim to maintain consistency and modularity.
+The Abstract Factory Pattern provides an efficient way to manage and create families of related products. It enables loose coupling and high [cohesion](/terms/cohesion/), making the code more maintainable and extensible. It is a crucial pattern for large systems and libraries that aim to maintain consistency and modularity.
 
 ## References
 

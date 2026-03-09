@@ -1,8 +1,12 @@
 ﻿---
-title: Dependency Injection
-date: 2024-08-21
-description: Understand the benefits of Dependency Injection in software development. Learn how it helps create flexible, testable, and maintainable code by managing dependencies effectively.
-params:
+title: Dependency Injection
+
+date: 2024-08-21
+
+description: Understand the benefits of Dependency Injection in software development. Learn how it helps create flexible, testable, and maintainable code by managing dependencies effectively.
+
+params:
+
   image: /practices/images/dependency-injection.png
 ---
 
@@ -14,7 +18,7 @@ Constructor injection is the most common approach, and involves passing an insta
 
 Property injection is similar, but instead of providing the instance of the dependency via the constructor, the dependency is instead set via a property of the class.  This technique is useful in situations where construction of the class cannot be parameterized, such as in ASP.NET web forms systems.  With property injection, the calling code needs to set the dependency properties in order for the class to behave directly, and typically the only way this information is exposed is via documentation, comments, etc.  Constructor injection, on the other hand, ensures that the object can only be instantiated when all of its dependencies are provided, so it eliminates the possibility of an object being in an invalid state (having been created, but without its dependencies set).
 
-Method injection simply involves passing collaborating objects as parameters to methods.  It is most useful on public methods that have dependencies that are not used anywhere else in the class, so constructor and/or property injection would be overkill.  In practice, classes that follow the [Single Responsibility Principle](/principles/single-responsibility-principle/) should not often have methods that have very different sets of dependencies than other methods in the class, as this is generally a sign of a lack of cohesion and/or multiple responsibilities.
+Method injection simply involves passing collaborating objects as parameters to methods.  It is most useful on public methods that have dependencies that are not used anywhere else in the class, so constructor and/or property injection would be overkill.  In practice, classes that follow the [Single Responsibility Principle](/principles/single-responsibility-principle/) should not often have methods that have very different sets of dependencies than other methods in the class, as this is generally a sign of a lack of [cohesion](/terms/cohesion/) and/or multiple responsibilities.
 
 Dependency injection is related to inversion of control containers, which can be used to automatically and centrally manage which instances dependencies should be provided whenever an object needs to be created.
 

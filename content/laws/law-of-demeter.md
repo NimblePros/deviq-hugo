@@ -1,8 +1,12 @@
 ﻿---
-title: The Law of Demeter
-date: 2023-10-03
-description: The Law of Demeter (LoD) is a design guideline aimed at reducing coupling between classes in an object-oriented program. Although the Law of Demeter has a mathematical formulation, in simple terms it advises an object to only interact with its immediate friends and not with 'a friend of a friend.'
-params:
+title: The Law of Demeter
+
+date: 2023-10-03
+
+description: The Law of Demeter (LoD) is a design guideline aimed at reducing coupling between classes in an object-oriented program. Although the Law of Demeter has a mathematical formulation, in simple terms it advises an object to only interact with its immediate friends and not with 'a friend of a friend.'
+
+params:
+
   image: /laws/images/law-of-demeter.png
 ---
 
@@ -95,7 +99,7 @@ Like any guideline, the Law of Demeter is not absolute. There are situations whe
 
 ## Conclusion
 
-The Law of Demeter is an effective guideline for promoting low coupling and high cohesion in object-oriented software systems. While it's not a hard rule, abiding by it generally results in cleaner, more maintainable code.
+The Law of Demeter is an effective guideline for promoting low coupling and high [cohesion](/terms/cohesion/) in object-oriented software systems. While it's not a hard rule, abiding by it generally results in cleaner, more maintainable code.
 
 ## References
 
