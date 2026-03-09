@@ -77,7 +77,7 @@ Each piece is named after what it does; the logic follows from the names rather 
 - **Introduce Explaining Variable**: Name an intermediate result to make the computation self-documenting.
 - **Extract Method**: Pull complex logic into a method whose name describes what it computes.
 - **Replace Magic Number with Symbolic Constant**: Give unnamed literals a meaningful name.
-- **Replace Type Code with Enum or Subclass**: Replace integer status codes with expressive types.
+- **Replace Type Code with Enum or Subclass**: Replace integer status codes with expressive types. See also [Switch Statements](./switch-statements) and [Class Depends on Subclass](./class-depends-on-subclass).
 - **Decompose Conditional**: Break a complex condition into named boolean methods.
 
 ## References

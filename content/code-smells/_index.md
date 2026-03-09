@@ -41,10 +41,10 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 
 ### Object Orientation Abusers
 
-- Switch Statements
-- Temporary Field
-- Alternative Class with Different Interfaces
-- Class Depends on Subclass
+- [Switch Statements](./switch-statements)
+- [Temporary Field](./temporary-field)
+- [Alternative Class with Different Interfaces](./alternative-class-different-interfaces)
+- [Class Depends on Subclass](./class-depends-on-subclass)
 - Inappropriate Static / [Static Cling](/antipatterns/static-cling/)
 
 ### Change Preventers

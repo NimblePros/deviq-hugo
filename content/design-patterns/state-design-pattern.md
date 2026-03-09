@@ -1,6 +1,8 @@
 ﻿---
-title: State Design Pattern
-date: 2018-01-03
+title: State Design Pattern
+
+date: 2018-01-03
+
 description: The State Design Pattern is used to model changes in the status or state of an object by delegating rules for such changes to individual objects representing each possible state.
 ---
 
@@ -139,7 +141,7 @@ The State pattern is a good candidate to apply when you have an object that has 
 
 ## Advantages
 
-The State pattern minimizes conditional complexity, eliminating the need for if and switch statements in objects that have different behavior requirements unique to different state transitions. If you're able to represent the object's state using a finite state machine diagram, it's fairly easy to convert the diagram into the State design pattern's types and methods.
+The State pattern minimizes conditional complexity, eliminating the need for if and [switch statements](/code-smells/switch-statements/) in objects that have different behavior requirements unique to different state transitions. If you're able to represent the object's state using a finite state machine diagram, it's fairly easy to convert the diagram into the State design pattern's types and methods.
 
 ## Disadvantages
 
