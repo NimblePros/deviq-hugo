@@ -34,7 +34,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Flyweight
 - Interpreter
 - Iterator
-- Lazy Load
+- [Lazy Load](/design-patterns/lazy-load-pattern/)
 - [Mediator](/design-patterns/mediator-pattern/)
 - [Memento](/design-patterns/memento-pattern/)
 - Model-View-Controller (MVC)
@@ -51,14 +51,14 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Singleton](/design-patterns/singleton/) (!)
 - Service Locator (!)
 - [Specification](/design-patterns/specification-pattern/)
-- State
+- [State](/design-patterns/state-design-pattern/)
 - [Strangler Fig](/design-patterns/strangler-fig-pattern/)
 - [Strategy](/design-patterns/strategy-pattern/)
 - [Template Method](https://www.pluralsight.com/courses/c-sharp-design-patterns-template-method)
 - [Token](/design-patterns/memento-pattern/)
-- Unit of Work
+- [Unit of Work](/design-patterns/unit-of-work-pattern/)
 - [Value Object](/domain-driven-design/value-object/)
-- Visitor
+- [Visitor](/design-patterns/visitor-pattern/)
 
 ## Learn More
 

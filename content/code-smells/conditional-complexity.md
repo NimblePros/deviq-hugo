@@ -137,7 +137,7 @@ Each policy is independently testable. Adding a new customer type means adding a
 
 - **Replace Conditional with Polymorphism** — move each branch into a subclass or strategy object that implements a shared interface. The caller depends on the interface; the branching disappears.
 - **[Strategy Pattern](/design-patterns/strategy-pattern/)** — encapsulate each variant of an algorithm in its own class and inject the appropriate strategy at construction or call time.
-- **[State Pattern](/design-patterns/state-pattern/)** — when the conditionals are driven by an object's internal state, replace state flags with dedicated state objects that encapsulate the behavior for each state.
+- **[State Pattern](/design-patterns/state-design-pattern/)** — when the conditionals are driven by an object's internal state, replace state flags with dedicated state objects that encapsulate the behavior for each state.
 - **Introduce a polymorphic factory** — use a factory or dictionary lookup to map a type or key to the correct handler, eliminating `switch` statements that construct objects.
 - **Guard Clauses** — flatten nested conditionals by returning or throwing early for edge cases, keeping the happy path unindented and readable.
 - **Apply the [Open/Closed Principle](/principles/open-closed-principle/)** — design so that new cases can be added as new types without modifying existing conditional logic.

@@ -1,8 +1,12 @@
 ﻿---
-title: Repository Pattern
-date: 2024-08-19
-description: Understand the Repository design pattern and its role in software architecture. Learn how it abstracts data access, providing a clean separation between the data layer and business logic for more maintainable and testable applications.
-params:
+title: Repository Pattern
+
+date: 2024-08-19
+
+description: Understand the Repository design pattern and its role in software architecture. Learn how it abstracts data access, providing a clean separation between the data layer and business logic for more maintainable and testable applications.
+
+params:
+
   image: /design-patterns/images/repository-pattern.png
 ---
 
@@ -92,7 +96,7 @@ public class Repository<T> : IRepository<T> where T : EntityBase
 }
 ```
 
-Note that in this implementation, all operations are saved as they are performed; there is no Unit of Work being applied. There are a variety of ways in which Unit of Work behavior can be added to this implementation, the simplest of which being to add an explicit Save() method to the `IRepository<T>` method, and to only call the underlying SaveChanges() method from this method.
+Note that in this implementation, all operations are saved as they are performed; there is no [Unit of Work](/design-patterns/unit-of-work-pattern/) being applied. There are a variety of ways in which Unit of Work behavior can be added to this implementation, the simplest of which being to add an explicit Save() method to the `IRepository<T>` method, and to only call the underlying SaveChanges() method from this method.
 
 ## IQueryable?
 

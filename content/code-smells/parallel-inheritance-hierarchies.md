@@ -97,12 +97,12 @@ public class Cat : Animal
 
 Adding `Fish` now requires one class, not two, and the connection between data and behavior is explicit.
 
-When collapsing hierarchies is not appropriate — for example, when the two concerns genuinely belong in separate assemblies — the **Visitor pattern** offers a structured way to add operations across a type hierarchy without mirroring it.
+When collapsing hierarchies is not appropriate — for example, when the two concerns genuinely belong in separate assemblies — the **[Visitor pattern](/design-patterns/visitor-pattern/)** offers a structured way to add operations across a type hierarchy without mirroring it.
 
 ## Addressing Parallel Inheritance Hierarchies
 
 - **Move Method** — relocate methods from the shadow hierarchy into the primary one, so behavior lives alongside the type it describes.
 - **Move Field** — similarly consolidate related state.
-- **Use the Visitor Pattern** — when the two concerns must remain separate (e.g., domain model vs. persistence layer), the Visitor pattern decouples operations from types without requiring a mirrored hierarchy.
+- **[Use the Visitor Pattern](/design-patterns/visitor-pattern/)** — when the two concerns must remain separate (e.g., domain model vs. persistence layer), the Visitor pattern decouples operations from types without requiring a mirrored hierarchy.
 - **Favor composition over inheritance** — rather than mirroring a full hierarchy, inject behavior through interfaces or delegates. Each type carries its own behavior as a dependency rather than inheriting it from a parallel tree.
 - **Apply the [Single Responsibility Principle](/principles/single-responsibility-principle/)** — evaluate whether the shadow hierarchy represents a genuinely distinct responsibility. If so, a clean interface and composition may serve better than mirrored inheritance.

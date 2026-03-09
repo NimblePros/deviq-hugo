@@ -1,12 +1,16 @@
 ﻿---
-title: Proxy Pattern
-date: 2024-06-07
-description: The Proxy Pattern can be useful for abstracting the access to data objects, providing additional functionality such as lazy loading, access control, or caching.
-params:
+title: Proxy Pattern
+
+date: 2024-06-07
+
+description: The Proxy Pattern can be useful for abstracting the access to data objects, providing additional functionality such as lazy loading, access control, or caching.
+
+params:
+
   image: /design-patterns/images/proxy-pattern.png
 ---
 
-The Proxy pattern provides a placeholder for another object to control access to it. It can be useful for abstracting the access to data objects, providing additional functionality such as lazy loading, access control, or caching.
+The Proxy pattern provides a placeholder for another object to control access to it. It can be useful for abstracting the access to data objects, providing additional functionality such as [lazy loading](/design-patterns/lazy-load-pattern/), access control, or caching.
 
 At a high level, the pattern is typically implemented with the following:
 
