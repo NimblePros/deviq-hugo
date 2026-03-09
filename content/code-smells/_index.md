@@ -49,12 +49,12 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 
 ### Change Preventers
 
-- Divergent Change
+- [Divergent Change](./divergent-change)
 - [Shotgun Surgery](./shotgun-surgery)
-- Parallel Inheritance Hierarchies
-- Inconsistent Abstraction Levels
-- Conditional Complexity
-- Poorly Written Tests
+- [Parallel Inheritance Hierarchies](./parallel-inheritance-hierarchies)
+- [Inconsistent Abstraction Levels](./inconsistent-abstraction-levels)
+- [Conditional Complexity](./conditional-complexity)
+- [Poorly Written Tests](./poorly-written-tests)
 
 ### Dispensables
 
