@@ -58,6 +58,7 @@ enableRobotsTXT = true
     weight = 2
     [menu.main.params]
       icon = "search"
+  [[menu.main]]
     identifier = "theme-toggle"
     weight = 100
     [menu.main.params]

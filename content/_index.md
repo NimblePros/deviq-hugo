@@ -27,14 +27,14 @@ type: docs
     subtitle="Explore Design Patterns →"
     link="/design-patterns/"
     class="deviq-card-odd"
-    icon="puzzle-piece"
+    icon="puzzle"
   >}}
   {{< hextra/feature-card
     title="Practices"
     subtitle="Explore Practices →"
     link="/practices/"
     class="deviq-card-even"
-    icon="clipboard-document-check"
+    icon="clipboard-check"
   >}}
   {{< hextra/feature-card
     title="Principles"
@@ -55,7 +55,7 @@ type: docs
     subtitle="Explore Antipatterns →"
     link="/antipatterns/"
     class="deviq-card-odd"
-    icon="no-symbol"
+    icon="ban"
   >}}
   {{< hextra/feature-card
     title="Domain Driven Design"
@@ -69,7 +69,7 @@ type: docs
     subtitle="Explore Tools →"
     link="/tools/"
     class="deviq-card-odd"
-    icon="wrench-screwdriver"
+    icon="cog"
   >}}
   {{< hextra/feature-card
     title="Terms"
@@ -97,6 +97,6 @@ type: docs
     subtitle="Explore Architecture →"
     link="/architecture/"
     class="deviq-card-odd"
-    icon="building-office-2"
+    icon="office-building"
   >}}
 {{< /hextra/feature-grid >}}
