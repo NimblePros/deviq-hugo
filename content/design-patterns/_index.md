@@ -20,11 +20,11 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Abstract Factory](/design-patterns/abstract-factory-pattern/)
 - [Adapter](/design-patterns/adapter-design-pattern/)
 - [Aggregate](/domain-driven-design/aggregate-pattern/)
-- Bridge
+- [Bridge](/design-patterns/bridge-pattern/)
 - [Builder](/design-patterns/builder-pattern/)
 - [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern/)
-- Command
-- Composite
+- [Command](/design-patterns/command-pattern/)
+- [Composite](/design-patterns/composite-pattern/)
 - [Decorator](/design-patterns/decorator-pattern/)
 - [Domain Events](/design-patterns/domain-events-pattern/)
 - [Entity](/domain-driven-design/entity/)
