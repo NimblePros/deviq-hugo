@@ -109,6 +109,22 @@ public string GenerateReport(ReportData data, ReportFormat format, UserRole role
 
 When the combination of variants must be consistent (e.g., a specific format always pairs with a specific filter), an Abstract Factory can encapsulate the valid combinations without exposing an open-ended multiplication.
 
+## Complexity Metrics
+
+Combinatorial explosion manifests not just as a proliferation of classes and methods, but also as runaway complexity *within* individual functions. Methods that handle many combinations through branching logic — long chains of `if`/`else` or nested conditionals — accumulate high complexity scores that can be measured:
+
+- **Cyclomatic Complexity (CC)** counts the number of linearly independent paths through a method. A method with many branches for different format/audience combinations will score high, indicating it is hard to test and prone to bugs. Use [`nmbl cc <ProjectFileOrDirectory>`](https://nmbl.dev/docs/commands/cc-cyclomatic-complexity/) to find the highest-CC methods in a project.
+- **Cognitive Complexity** measures how difficult code is for a human to understand, penalizing nesting and breaks in linear flow more heavily than flat branching. Use [`nmbl cogc <ProjectFileOrDirectory>`](https://nmbl.dev/docs/commands/cogc-cognitive-complexity/) to surface methods that are hard to read even when their cyclomatic score appears moderate.
+
+Running both tools together gives a complete picture of where combinatorial logic is creating measurable complexity debt:
+
+```bash
+nmbl cc src/
+nmbl cogc src/
+```
+
+Methods flagged by either tool are good starting points for applying the Strategy Pattern or other decomposition refactorings described above.
+
 ## References
 
 - [Refactoring for C# Developers](https://www.pluralsight.com/courses/refactoring-csharp-developers) on Pluralsight

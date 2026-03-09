@@ -98,4 +98,5 @@ Once a canonical implementation exists, team conventions and code review practic
 ## References
 
 - [Refactoring: Improving the Design of Existing Code](https://martinfowler.com/books/refactoring.html) by Martin Fowler
+- [Inconsistency](/code-smells/inconsistency/)
 - [Don't Repeat Yourself](/principles/dont-repeat-yourself/)

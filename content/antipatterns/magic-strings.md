@@ -1,6 +1,8 @@
 ﻿---
-title: Magic Strings
-date: 2015-05-15
+title: Magic Strings
+
+date: 2015-05-15
+
 description: Magic strings are string values that are specified directly within application code that have an impact on the application's behavior.
 ---
 
@@ -43,4 +45,4 @@ public SomeType GetValue()
 }
 ```
 
-A common practice is to allow the use of magic strings the first time a value is needed, and only address the code smell created by the magic string when it is needed elsewhere in the system. In this way, [YAGNI](/principles/yagni/) can be followed and no additional abstraction is added to the system until it is required.
+A common practice is to allow the use of magic strings the first time a value is needed, and only address the [code smell](/code-smells/obscured-intent/) created by the magic string when it is needed elsewhere in the system. In this way, [YAGNI](/principles/yagni/) can be followed and no additional abstraction is added to the system until it is required.

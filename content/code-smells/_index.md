@@ -31,13 +31,13 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 
 ### Obfuscators
 
-- Regions
-- Comments
-- Poor Names
-- Vertical Separation
-- Inconsistency
-- Obscured Intent
-- Bump Road
+- [Regions](./regions)
+- [Comments](./comments)
+- [Poor Names](./poor-names)
+- [Vertical Separation](./vertical-separation)
+- [Inconsistency](./inconsistency)
+- [Obscured Intent](./obscured-intent)
+- [Bump Road](./bump-road)
 
 ### Object Orientation Abusers
 

@@ -63,7 +63,7 @@ A few good qualities for your names to have are:
 - Avoid mixing opposites - be consistent (don't use begin/end in one place, start/finish in another, etc.)
 - Avoid numbers (e.g. item1, item2, item3)
 
-Make the names of methods and classes as long as necessary to accurately describe what they do.  If the resulting name is too long, it's a good indicator (or [code smell](/code-smells/)) that the construct in question is probably trying to do too much, and should be broken up into several more cohesive parts.
+Make the names of methods and classes as long as necessary to accurately describe what they do.  If the resulting name is too long, it's a good indicator (or [code smell](/code-smells/)) that the construct in question is probably trying to do too much, and should be broken up into several more cohesive parts. See also the [Poor Names](/code-smells/poor-names/) code smell for more on how bad naming can obscure intent.
 
 ## Quotes
 
