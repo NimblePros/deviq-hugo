@@ -66,16 +66,16 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 
 ### Couplers
 
-- Feature Envy
-- Inappropriate Intimacy
-- Law of Demeter Violations
-- Indecent Exposure
-- Message Chains
-- Middle Man
-- Tramp Data
-- Artificial Coupling
-- Hidden Temporal Coupling
-- Hidden Dependencies
+- [Feature Envy](./feature-envy)
+- [Inappropriate Intimacy](./inappropriate-intimacy)
+- [Law of Demeter Violations](./law-of-demeter-violations)
+- [Indecent Exposure](./indecent-exposure)
+- [Message Chains](./message-chains)
+- [Middle Man](./middle-man)
+- [Tramp Data](./tramp-data)
+- [Artificial Coupling](./artificial-coupling)
+- [Hidden Temporal Coupling](./hidden-temporal-coupling)
+- [Hidden Dependencies](./hidden-dependencies)
 
 ### Test Smells
 

@@ -25,9 +25,9 @@ A data class cannot enforce invariants on the data it holds. Any code anywhere i
 
 Object-oriented design is founded on the idea that objects combine data and behavior. A class that does only one of those is, in a meaningful sense, not really an object — it is a record or struct pretending to be a class. The design loses the primary advantage that objects provide: the ability to hide complexity behind a well-defined interface.
 
-### Attracts Feature Envy
+### Attracts [Feature Envy](./feature-envy)
 
-Data classes predictably attract Feature Envy: other classes that are constantly reaching into the data class to read or modify its fields. This is a sign that the logic manipulating the data belongs on the data class itself.
+Data classes predictably attract [Feature Envy](./feature-envy): other classes that are constantly reaching into the data class to read or modify its fields. This is a sign that the logic manipulating the data belongs on the data class itself.
 
 ## Example
 

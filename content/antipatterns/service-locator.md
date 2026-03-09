@@ -1,6 +1,8 @@
 ﻿---
-title: Service Locator Antipattern in Software Development
-date: 2023-04-22
+title: Service Locator Antipattern in Software Development
+
+date: 2023-04-22
+
 description: The Service Locator is a design pattern (some would argue antipattern) often used in software development to manage dependencies between objects. It acts as a central registry where objects can locate and access their dependencies. However, it is considered an antipattern in certain contexts due to its negative impact on maintainability, testability, and the clarity of the code.
 ---
 
@@ -14,7 +16,7 @@ The Service Locator is a design pattern (some would argue antipattern) often use
 
 ## Problems with the Service Locator
 
-1. Hidden dependencies: The Service Locator pattern can make dependencies between objects less clear, as they are not explicitly passed through constructors or setter methods.
+1. [Hidden dependencies](/code-smells/hidden-dependencies): The Service Locator pattern can make dependencies between objects less clear, as they are not explicitly passed through constructors or setter methods.
 2. Testability issues: The use of a Service Locator can make unit testing more difficult, as it is harder to provide mock objects or isolate dependencies for testing.
 3. Inflexibility: The Service Locator pattern can make it challenging to change or replace dependencies, as they are managed centrally, rather than being passed as arguments.
 4. Because it is typically implemented using a static reference to the service locator, this pattern exhibits many of the same problems as the [static cling antipattern](/antipatterns/static-cling/).

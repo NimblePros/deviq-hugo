@@ -59,6 +59,8 @@ A test (or test suite) that runs so slowly it is not run frequently. Integration
 
 A test that passes or fails depending on the order in which tests are run, because it relies on shared mutable state (a static variable, a database table that is not cleaned up, a singleton). Each test should be fully independent.
 
+This test smell is distinct from the [Hidden Dependencies code smell](./hidden-dependencies), which refers to production classes with undeclared collaborators.
+
 ### The Contradiction
 
 A test that asserts behavior that directly contradicts the system's documented requirements or other tests in the suite. Caused by tests written against incorrect assumptions that were never caught.

@@ -101,6 +101,8 @@ Like any guideline, the Law of Demeter is not absolute. There are situations whe
 
 The Law of Demeter is an effective guideline for promoting low coupling and high [cohesion](/terms/cohesion/) in object-oriented software systems. While it's not a hard rule, abiding by it generally results in cleaner, more maintainable code.
 
+Violating the Law of Demeter is itself a recognized code smell. See [Law of Demeter Violations](/code-smells/law-of-demeter-violations) and [Message Chains](/code-smells/message-chains) in the code smells catalog.
+
 ## References
 
 - [Law of Demeter Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
