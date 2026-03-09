@@ -99,4 +99,11 @@ type: docs
     class="deviq-card-odd"
     icon="office-building"
   >}}
+  {{< hextra/feature-card
+    title="Code Smells"
+    subtitle="Explore Code Smells →"
+    link="/code-smells/"
+    class="deviq-card-even"
+    icon="exclamation-circle"
+  >}}
 {{< /hextra/feature-grid >}}

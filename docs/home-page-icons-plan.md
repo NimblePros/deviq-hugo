@@ -33,6 +33,7 @@ Icons use **Heroicons v2 outline** style — SVG-based, stroke-only, no fills. T
 | Testing | `beaker` | Lab testing (exact semantic match) |
 | Laws of Software Development | `scale` | Laws / balance / judgment |
 | Architecture | `building-office-2` | Structure / building |
+| Code Smells | `exclamation-circle` | Warning / something is wrong |
 
 ## Icon Rendering
 

@@ -20,6 +20,7 @@
     },
     "peacock.color": "#7105d3",
     "chat.tools.terminal.autoApprove": {
-        "Get-Unique": true
+        "Get-Unique": true,
+        "ForEach-Object": true
     }
 }
