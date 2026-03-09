@@ -23,7 +23,7 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 - [Primitive Obsession](./primitive-obsession-code-smell)
 - [Long Parameter List](./long-parameter-list)
 - [Data Clumps](./data-clumps)
-- Combinatorial Explosion
+- [Combinatorial Explosion](./combinatorial-explosion)
 - Oddball Solution
 - Class Doesn't Do Much
 - Required Setup/Teardown Code
@@ -49,7 +49,7 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 ### Change Preventers
 
 - Divergent Change
-- Shotgun Surgery
+- [Shotgun Surgery](./shotgun-surgery)
 - Parallel Inheritance Hierarchies
 - Inconsistent Abstraction Levels
 - Conditional Complexity

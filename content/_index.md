@@ -27,65 +27,76 @@ type: docs
     subtitle="Explore Design Patterns →"
     link="/design-patterns/"
     class="deviq-card-odd"
+    icon="puzzle-piece"
   >}}
   {{< hextra/feature-card
     title="Practices"
     subtitle="Explore Practices →"
     link="/practices/"
     class="deviq-card-even"
+    icon="clipboard-document-check"
   >}}
   {{< hextra/feature-card
     title="Principles"
     subtitle="Explore Principles →"
     link="/principles/"
     class="deviq-card-odd"
+    icon="light-bulb"
   >}}
   {{< hextra/feature-card
     title="Values"
     subtitle="Explore Values →"
     link="/values/"
     class="deviq-card-even"
+    icon="heart"
   >}}
   {{< hextra/feature-card
     title="Antipatterns"
     subtitle="Explore Antipatterns →"
     link="/antipatterns/"
     class="deviq-card-odd"
+    icon="no-symbol"
   >}}
   {{< hextra/feature-card
     title="Domain Driven Design"
     subtitle="Explore Domain Driven Design →"
     link="/domain-driven-design/"
     class="deviq-card-even"
+    icon="globe-alt"
   >}}
   {{< hextra/feature-card
     title="Tools"
     subtitle="Explore Tools →"
     link="/tools/"
     class="deviq-card-odd"
+    icon="wrench-screwdriver"
   >}}
   {{< hextra/feature-card
     title="Terms"
     subtitle="Explore Terms →"
     link="/terms/"
     class="deviq-card-even"
+    icon="book-open"
   >}}
   {{< hextra/feature-card
     title="Testing"
     subtitle="Explore Testing →"
     link="/testing/"
     class="deviq-card-odd"
+    icon="beaker"
   >}}
   {{< hextra/feature-card
     title="Laws of Software Development"
     subtitle="Explore Laws of Software Development →"
     link="/laws/"
     class="deviq-card-even"
+    icon="scale"
   >}}
   {{< hextra/feature-card
     title="Architecture"
     subtitle="Explore Architecture →"
     link="/architecture/"
     class="deviq-card-odd"
+    icon="building-office-2"
   >}}
 {{< /hextra/feature-grid >}}

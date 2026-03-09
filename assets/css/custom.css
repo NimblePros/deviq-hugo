@@ -49,6 +49,11 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
+/* Home page feature card icons */
+.deviq-card-icon svg {
+  opacity: 0.8;
+}
+
 /* Keep Mermaid diagrams readable in dark themes */
 pre.mermaid,
 .mermaid,
