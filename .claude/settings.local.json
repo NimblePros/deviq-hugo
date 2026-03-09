@@ -12,7 +12,13 @@
       "Bash(do mv \"$dir\" content/)",
       "Bash(done)",
       "Bash(rm content/docs/_index.md)",
-      "Bash(rmdir content/docs)"
+      "Bash(rmdir content/docs)",
+      "Bash(grep:*)",
+      "Bash(xargs ls:*)",
+      "Bash(go env:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:imfing.github.io)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }
