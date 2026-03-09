@@ -21,7 +21,7 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 
 - [Long Method](./long-method)
 - [Primitive Obsession](./primitive-obsession-code-smell)
-- Long Parameter List
+- [Long Parameter List](./long-parameter-list)
 - Data Clumps
 - Combinatorial Explosion
 - Oddball Solution
