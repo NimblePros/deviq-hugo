@@ -112,7 +112,7 @@ In [CQRS](/design-patterns/cqrs-pattern/), the Mediator pattern is useful for ro
 
 ### Observer Pattern
 
-The Observer pattern complements Mediator by allowing components to subscribe to events or updates from the Mediator. When an event occurs, the Mediator can notify subscribers without direct dependency chains, further enhancing decoupling.
+The Observer pattern complements Mediator by allowing components to subscribe to events or updates from the Mediator. When an event occurs, the Mediator can notify subscribers without direct dependency chains, further enhancing decoupling. For broader event broadcasting across many unrelated components, consider the [Event Aggregator](/design-patterns/event-aggregator-pattern/) pattern, which acts as a central hub routing events from multiple publishers to multiple subscribers.
 
 ### Chain of Responsibility
 

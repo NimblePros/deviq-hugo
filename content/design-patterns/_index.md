@@ -28,7 +28,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Decorator](/design-patterns/decorator-pattern/)
 - [Domain Events](/design-patterns/domain-events-pattern/)
 - [Entity](/domain-driven-design/entity/)
-- Event Aggregator
+- [Event Aggregator](/design-patterns/event-aggregator-pattern/)
 - [Facade](/design-patterns/facade-pattern/)
 - [Factory Method](/design-patterns/factory-method-pattern/)
 - Flyweight
