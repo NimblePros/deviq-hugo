@@ -1,14 +1,18 @@
 ﻿---
-title: Don't Repeat Yourself
-date: 2024-08-19
-description: Master the Don't Repeat Yourself (DRY) principle in software design. Learn how eliminating redundancy in code and processes can boost maintainability, reduce errors, and enhance productivity.
-params:
+title: Don't Repeat Yourself
+
+date: 2024-08-19
+
+description: Master the Don't Repeat Yourself (DRY) principle in software design. Learn how eliminating redundancy in code and processes can boost maintainability, reduce errors, and enhance productivity.
+
+params:
+
   image: /principles/images/DontRepeatYourself-400x400.png
 ---
 
 ![Don't Repeat Yourself](images/DontRepeatYourself-400x400.png)
 
-The Don't Repeat Yourself (DRY) principle states that duplication in logic should be eliminated via abstraction; duplication in process should be eliminated via automation. _**Duplication is Waste**_. Adding additional, unnecessary code to a codebase increases the amount of work required to extend and maintain the software in the future.  Duplicate code adds to technical debt.  Whether the duplication stems from [Copy Paste Programming](/antipatterns/copy-paste-programming/) or poor understanding of how to apply abstraction, it decreases the quality of the code.  Duplication in process is also waste if it can be automated.  Manual testing, manual build, and manual integration processes should all be eliminated whenever possible through the use of automation.
+The Don't Repeat Yourself (DRY) principle states that duplication in logic should be eliminated via abstraction; duplication in process should be eliminated via automation. _**Duplication is Waste**_. Adding additional, unnecessary code to a codebase increases the amount of work required to extend and maintain the software in the future.  [Duplicate code](/code-smells/duplicate-code/) adds to technical debt.  Whether the duplication stems from [Copy Paste Programming](/antipatterns/copy-paste-programming/) or poor understanding of how to apply abstraction, it decreases the quality of the code.  Duplication in process is also waste if it can be automated.  Manual testing, manual build, and manual integration processes should all be eliminated whenever possible through the use of automation.
 
 ## Suspect Conditionals
 

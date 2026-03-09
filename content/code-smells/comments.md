@@ -15,7 +15,7 @@ This does not apply to documentation comments (such as XML doc comments or JSDoc
 
 ### Commenting Out Code
 
-Leaving blocks of commented-out code in a codebase is a form of [Dead Code](/code-smells/) and a sign that version control is not being trusted. Commented-out code creates noise, raises questions ("Was this removed intentionally? Is it safe to delete?"), and rots over time as surrounding code evolves.
+Leaving blocks of commented-out code in a codebase is a form of [Dead Code](/code-smells/dead-code/) and a sign that version control is not being trusted. Commented-out code creates noise, raises questions ("Was this removed intentionally? Is it safe to delete?"), and rots over time as surrounding code evolves.
 
 ### Explaining What the Code Does
 

@@ -58,11 +58,11 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 
 ### Dispensables
 
-- Lazy Class
-- Data Class
-- Duplicate Code
-- Dead Code
-- Speculative Generality
+- [Lazy Class](./class-doesnt-do-much)
+- [Data Class](./data-class)
+- [Duplicate Code](./duplicate-code)
+- [Dead Code](./dead-code)
+- [Speculative Generality](./speculative-generality)
 
 ### Couplers
 

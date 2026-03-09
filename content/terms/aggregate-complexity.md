@@ -56,9 +56,9 @@ All three are complementary. Per-method metrics identify where to refactor next;
 
 Reducing aggregate complexity requires actually removing conditional logic, not just redistributing it:
 
-- **Eliminate unnecessary branches** — dead code paths, always-true conditions, and redundant checks add complexity without value.
+- **Eliminate unnecessary branches** — [dead code](/code-smells/dead-code/) paths, always-true conditions, and redundant checks add complexity without value.
 - **Simplify algorithms** — replace complex logic with simpler data structures, lookups, or well-understood patterns.
-- **Delete dead code** — unused methods, commented-out blocks, and obsolete feature flags all contribute to aggregate complexity without providing any benefit.
+- **Delete [dead code](/code-smells/dead-code/)** — unused methods, commented-out blocks, and obsolete feature flags all contribute to aggregate complexity without providing any benefit.
 - **Apply polymorphism** — convert type-switching conditionals into polymorphic dispatch, reducing the branch count in the methods that contained them.
 - **Refactor incrementally** — track aggregate complexity in CI and treat an increase as a signal, not just per-method threshold violations.
 
