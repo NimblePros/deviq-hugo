@@ -19,7 +19,7 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 
 ### Bloaters
 
-- Long Method
+- [Long Method](./long-method)
 - [Primitive Obsession](./primitive-obsession-code-smell)
 - Long Parameter List
 - Data Clumps

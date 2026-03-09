@@ -19,5 +19,6 @@ Much like how a house needs a solid foundation in order to stay strong, an appli
 - [Event-Driven Architecture](/architecture/event-driven-architecture/)
 - [Layered Architecture](/architecture/layered-architecture/)
 - [Laws of Software Architecture](/laws/laws-software-architecture/)
+- [Modular Monolith Architecture](/laws/modular-monolith/)
 - [N-Tier Architecture](/architecture/n-tier-architecture/)
 - [Vertical Slice Architecture](/architecture/vertical-slice-architecture/)
