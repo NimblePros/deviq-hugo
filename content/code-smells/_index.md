@@ -24,9 +24,9 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 - [Long Parameter List](./long-parameter-list)
 - [Data Clumps](./data-clumps)
 - [Combinatorial Explosion](./combinatorial-explosion)
-- Oddball Solution
-- Class Doesn't Do Much
-- Required Setup/Teardown Code
+- [Oddball Solution](./oddball-solution)
+- [Class Doesn't Do Much](./class-doesnt-do-much)
+- [Required Setup/Teardown Code](./required-setup-teardown)
 
 ### Obfuscators
 
