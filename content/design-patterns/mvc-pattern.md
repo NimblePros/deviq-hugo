@@ -91,7 +91,7 @@ This is sometimes called the **MVC + ViewModel** approach. It is so common — e
 
 MVC is one of a family of closely related patterns. All three separate model from presentation, but they differ in *how* the three parts communicate and where logic lives.
 
-### Model-View-Presenter (MVP)
+### [Model-View-Presenter (MVP)](/design-patterns/mvp-pattern/)
 
 MVP replaces the controller with a **Presenter** that has a direct, two-way relationship with the View via an interface:
 
@@ -101,9 +101,9 @@ MVP replaces the controller with a **Presenter** that has a direct, two-way rela
 | Testability | Controller is testable; view is harder | Presenter is fully testable via the view interface |
 | Coupling | Controller does not hold a reference to a specific view instance | Presenter holds a reference to the view interface |
 
-MVP is common in WinForms, Android (pre-Architecture Components), and other frameworks where the view is a concrete object the presenter can poke directly. The Presenter can fully test the presentation logic because all view interaction goes through an interface.
+MVP is common in WinForms, Android (pre-Architecture Components), and other frameworks where the view is a concrete object the presenter can poke directly. The Presenter can fully test the presentation logic because all view interaction goes through an interface. See the [MVP pattern article](/design-patterns/mvp-pattern/) for a full treatment including Passive View vs. Supervising Controller variants.
 
-### Model-View-ViewModel (MVVM)
+### [Model-View-ViewModel (MVVM)](/design-patterns/mvvm-pattern/)
 
 MVVM replaces the controller with a **ViewModel** that exposes observable properties and commands. The View *data-binds* to the ViewModel; no imperative code in the ViewModel needs to know the View exists.
 
@@ -113,7 +113,7 @@ MVVM replaces the controller with a **ViewModel** that exposes observable proper
 | ViewModel role | Optional presentation-shaping DTO | Core participant; exposes commands and observable state |
 | Typical platforms | Web (server-rendered), REST APIs | WPF, WinUI, MAUI, Blazor, Angular, Vue |
 
-MVVM is the dominant pattern on data-binding-rich platforms. The ViewModel knows nothing about the View; the View observes the ViewModel through the platform's binding engine.
+MVVM is the dominant pattern on data-binding-rich platforms. The ViewModel knows nothing about the View; the View observes the ViewModel through the platform's binding engine. See the [MVVM pattern article](/design-patterns/mvvm-pattern/) for a full treatment including commands and testability.
 
 ### Summary
 
@@ -124,7 +124,7 @@ MVVM is the dominant pattern on data-binding-rich platforms. The ViewModel knows
 | Testability of UI logic | Medium | High (via view interface mocks) | High (ViewModel has no UI deps) |
 | Best suited for | Server-rendered web, REST | Traditional desktop/mobile | Data-binding platforms |
 
-In practice the lines blur — many real-world ASP.NET Core applications use MVC structure with ViewModels almost to the point of MVVM on the front end, and Razor Pages in ASP.NET Core is closer to MVP than MVC.
+In practice the lines blur — many real-world ASP.NET Core applications use MVC structure with ViewModels almost to the point of [MVVM](/design-patterns/mvvm-pattern/) on the front end, and Razor Pages in ASP.NET Core is closer to [MVP](/design-patterns/mvp-pattern/) than MVC.
 
 ## Intent
 

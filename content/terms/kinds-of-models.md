@@ -1,8 +1,12 @@
 ﻿---
-title: Kinds of Models
-date: 2016-08-15
-description: In a Model-View-Controller (MVC) application, the Model is responsible for the application's state and non-UI specific behavior.
-params:
+title: Kinds of Models
+
+date: 2016-08-15
+
+description: In a Model-View-Controller (MVC) application, the Model is responsible for the application's state and non-UI specific behavior.
+
+params:
+
   image: /terms/images/kinds-of-models.png
 ---
 
@@ -14,7 +18,7 @@ Many developers choose to encapsulate complex business logic within a _domain mo
 
 ## View Model
 
-Many developers are familiar with the concept of a ViewModel, especially those who have used application frameworks that use the Model-View-ViewModel pattern. In an MVC web application, a ViewModel is a type that includes just the data a View requires for display (and perhaps sending back to the server). ViewModel types can also simplify model binding in [ASP.NET MVC](http://docs.asp.net). ViewModel types are generally just data containers; any logic they may have should be specific to helping the View render data. There may be many similar ViewModel types, each tailored to the needs of a particular View.
+Many developers are familiar with the concept of a ViewModel, especially those who have used application frameworks that use the [Model-View-ViewModel](/design-patterns/mvvm-pattern/) pattern. In an MVC web application, a ViewModel is a type that includes just the data a View requires for display (and perhaps sending back to the server). ViewModel types can also simplify model binding in [ASP.NET MVC](http://docs.asp.net). ViewModel types are generally just data containers; any logic they may have should be specific to helping the View render data. There may be many similar ViewModel types, each tailored to the needs of a particular View.
 
 ## Binding Model
 
