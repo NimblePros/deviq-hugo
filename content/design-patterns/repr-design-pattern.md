@@ -1,9 +1,10 @@
-﻿---
+---
 title: REPR Design Pattern
 
 date: 2021-07-21
 
 description: "The REPR Design Pattern defines web API endpoints as having three components: a Request, an Endpoint, and a Response. It simplifies the frequently-used MVC pattern and is more focused on API development."
+weight: 300
 ---
 
 The **REPR Design Pattern** defines web API endpoints as having three components: a Request, an Endpoint, and a Response. It simplifies the frequently-used [MVC pattern](/design-patterns/mvc-pattern/) and is more focused on API development.

@@ -4,6 +4,7 @@ title: Flyweight Design Pattern
 date: 2026-03-09
 
 description: The Flyweight Design Pattern uses sharing to efficiently support large numbers of fine-grained objects. Learn how to implement the Flyweight pattern in C# to reduce memory usage when working with many similar objects.
+weight: 140
 ---
 
 ## What is the Flyweight Design Pattern?

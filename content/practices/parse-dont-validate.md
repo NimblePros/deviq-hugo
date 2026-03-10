@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parse, Don't Validate
 
 date: 2024-07-11
@@ -8,6 +8,7 @@ description: In many software applications, validation is used to determine whet
 params:
 
   image: /practices/images/parse-dont-validate.png
+weight: 190
 ---
 
 ![Parse, Don't Validate](images/parse-dont-validate.png)

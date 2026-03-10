@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Cognitive complexity is a code metric that measures how difficult a piece of code is to understand, penalizing structural patterns that increase mental effort rather than simply counting decision points.
 
+weight: 30
 ---
 
 Cognitive complexity is a code metric developed by G. Ann Campbell at SonarSource (published 2018) that attempts to measure how hard a piece of code is for a human to understand, rather than how structurally complex it is. Where [cyclomatic complexity](/terms/cyclomatic-complexity/) counts independent execution paths, cognitive complexity penalizes the patterns that actually make code hard to read — primarily nesting and flow-breaking constructs.

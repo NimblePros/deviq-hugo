@@ -1,9 +1,10 @@
-﻿---
+---
 title: Mushroom Management
 date: 2024-08-20
 description: Explore the consequences of Mushroom Management, where developers are kept in the dark and fed misinformation. Understand the importance of transparency and communication for effective project management."
 params:
   image: /antipatterns/images/mushroom-management-400x400.jpg
+weight: 260
 ---
 
 ![Mushroom_Management_Feb_2014](images/mushroom-management-400x400.jpg)

@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Vertical Separation code smell occurs when related code elements are spread far apart vertically within a file, forcing readers to scroll extensively to understand how code fits together.
 
+weight: 390
 ---
 
 The Vertical Separation code smell occurs when related pieces of code — a variable and its use, a method and its callers, or a helper and the logic it supports — are placed far apart from each other within a file. Reading and understanding code requires a reader to hold context in their head. When code that belongs together is separated by dozens or hundreds of lines, that context must either be memorized or rebuilt by scrolling back and forth, significantly increasing cognitive load.

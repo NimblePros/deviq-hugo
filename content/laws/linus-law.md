@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Linus's Law: Understanding the Wisdom of Collective Code Review"
 date: 2023-09-28
 description: Linus's Law posits that 'given enough eyeballs, all bugs are shallow.' Discover how this philosophy shapes open-source development, increases software quality, and enhances cybersecurity. Learn why many believe Linus's Law is the cornerstone of collaborative software engineering.
 params:
   image: /laws/images/linus-law.png
+weight: 150
 ---
 
 Linus's Law is a principle often cited in the world of software development, particularly within the open-source community. Coined by Eric S. Raymond in his seminal book ["The Cathedral and the Bazaar,"](https://amzn.to/3tdjwR1) the law is named after [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), the founder of the Linux kernel. Simply put, Linus's Law states: "Given enough eyeballs, all bugs are shallow."

@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Poorly Written Tests is a code smell where the test suite fails to provide reliable feedback — tests are brittle, hard to understand, or actively misleading about the state of the software.
 
+weight: 300
 ---
 
 Poorly Written Tests is a code smell where the automated test suite exists but fails in its fundamental purpose: to give developers fast, accurate, trustworthy feedback about the software's behavior. Tests that are hard to understand, tightly coupled to implementation details, too broad, or chronically ignored erode confidence rather than building it. A bad test suite can be worse than no tests at all — it creates a false sense of security while hiding real problems.

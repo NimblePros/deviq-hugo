@@ -4,6 +4,7 @@ title: Composite Design Pattern
 date: 2026-03-09
 
 description: The Composite Design Pattern composes objects into tree structures to represent part-whole hierarchies, letting clients treat individual objects and compositions of objects uniformly. Learn how to implement the Composite pattern in C#.
+weight: 70
 ---
 
 ## What is the Composite Design Pattern?

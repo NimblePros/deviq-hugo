@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Long Method code smell refers to methods or functions that have grown too large, taking on too many responsibilities and becoming difficult to read, test, and maintain.
 
+weight: 220
 ---
 
 The Long Method code smell refers to methods or functions that have grown too large, taking on too many responsibilities. Long methods are difficult to read at a glance, hard to name expressively, and challenging to reuse or test in isolation. They often arise incrementally as developers add logic to an existing method rather than extracting new, well-named methods.

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Mediator Pattern
 date: 2024-10-10
 description: Learn how the Mediator design pattern simplifies complex interactions by centralizing communication between components. Ideal for systems needing loose coupling, this pattern enhances modularity, scalability, and maintainability, making it a go-to for complex applications.
 params:
   image: /design-patterns/images/mediator-pattern.png
+weight: 190
 ---
 
 The Mediator pattern is a design pattern that facilitates communication between different components in a system without them needing to know about each other directly. Instead of components interacting with each other directly, they communicate through a central mediator, which manages the interactions and orchestration. This helps reduce dependencies, promote loose coupling, and make the system more modular and flexible. Commonly used in complex applications where many objects interact with one another—such as in user interfaces, messaging systems, or eCommerce applications—the Mediator pattern centralizes communication logic, making components easier to manage, extend, and test. This pattern is especially useful in large-scale systems, where reducing direct dependencies is essential for maintainability and scalability.

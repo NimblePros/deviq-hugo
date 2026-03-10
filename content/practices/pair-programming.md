@@ -1,9 +1,10 @@
-﻿---
+---
 title: Pair Programming
 date: 2024-08-21
 description: Uncover the benefits of Pair Programming, where two developers work together at one workstation. Learn how this practice improves code quality, enhances learning, and boosts team collaboration.
 params:
   image: /practices/images/pair-programming.png
+weight: 180
 ---
 
 Pair Programming refers to the practice of having two people engaged together on a single programming task.  It's an XP practice, and is employed by many agile (and non-agile) software development teams.  Even in traditional environments where pair programming is not the norm, it is still the go-to practice used whenever someone is faced with a difficult or frustrating bug, problem, or design decision.  Any time one programmer calls another over to have a look at something they're working on, they're practicing pair programming.

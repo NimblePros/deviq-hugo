@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Feature Envy is a code smell where a method in one class is more interested in the data or behavior of another class than in its own, suggesting the method belongs in the other class.
 
+weight: 140
 ---
 
 Feature Envy is a code smell where a method seems more interested in another class than in the class it belongs to. The method constantly reaches into another object to access its data, call its helpers, or perform calculations that are really about that other object's domain. The name is apt: the method envies the features of a neighbor.

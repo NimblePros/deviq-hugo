@@ -1,9 +1,10 @@
-﻿---
+---
 title: The Testing Pyramid
 date: 2024-08-30
 description: A guide to the testing pyramid, explaining the optimal distribution of unit, integration, and end-to-end tests in your software project.
 params:
   image: /testing/images/testing-pyramid.png
+weight: 60
 ---
 
 The testing pyramid is a framework that guides the distribution of different types of tests in a software development project. It emphasizes having more low-level tests (like unit tests) and fewer high-level tests (like end-to-end tests) to create a stable, efficient testing process.

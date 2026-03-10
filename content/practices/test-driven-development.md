@@ -1,4 +1,4 @@
-﻿---
+---
 title: Test Driven Development
 
 date: 2024-06-28
@@ -8,6 +8,7 @@ description: Test Driven Development, or TDD, also known as Test Driven Design, 
 params:
 
   image: /practices/images/test-driven-development.png
+weight: 270
 ---
 
 Test Driven Development, or TDD, also known as Test Driven Design, is a process for writing code using tests to define and then confirm the software's behavior. It is characterized by a set of steps known as "Red - Green - Refactor" which are followed in very short cycles to incrementally build up working software.

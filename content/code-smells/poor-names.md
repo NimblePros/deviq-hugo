@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Poor Names code smell occurs when identifiers — variables, methods, classes, and parameters — are named in ways that obscure their purpose, making code harder to read and understand.
 
+weight: 290
 ---
 
 The Poor Names code smell occurs when the identifiers in code — variables, methods, classes, parameters, and properties — are named in ways that obscure what they represent or what they do. Names are the primary way code communicates intent; a poor name forces the reader to work harder to understand the code, or worse, leads them to a wrong understanding. Good naming is one of the highest-leverage practices in software development, and its absence is a pervasive source of confusion and bugs.

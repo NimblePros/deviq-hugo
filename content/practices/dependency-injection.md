@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dependency Injection
 
 date: 2024-08-21
@@ -8,6 +8,7 @@ description: Understand the benefits of Dependency Injection in software develop
 params:
 
   image: /practices/images/dependency-injection.png
+weight: 110
 ---
 
 ![3173827605_427626c6af](images/3173827605_427626c6af-300x148.jpg)

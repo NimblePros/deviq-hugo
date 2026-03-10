@@ -1,9 +1,10 @@
-﻿---
+---
 title: Memento Pattern
 date: 2023-10-04
 description: Like save points in a video game, commits in source control, and checkpoints in a Jupyter Notebook, the Memento Pattern allows you to capture the internal state of an object to be restored later.
 params:
   image: /design-patterns/images/memento-pattern.png
+weight: 200
 ---
 
 The Memento pattern - also known as the Token pattern - is used to externalize an object's internal state for restoration later, without violating [encapsulation](/principles/encapsulation/). This pattern is part of the patterns covered in _Design Patterns_ by the Gang of Four. It is a behavioral pattern, as it allows you to add undo and replay behaviors to an object.

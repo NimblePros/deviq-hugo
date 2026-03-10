@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Duplicate Code is the presence of identical or near-identical code in more than one location, requiring changes to be made in multiple places when the logic needs to evolve.
 
+weight: 130
 ---
 
 Duplicate code is the presence of identical or structurally similar code in more than one location. It is widely considered the most fundamental of code smells. Every instance of duplication means that a future change to that logic must be found, understood, and applied in multiple places. If any instance is missed, the system becomes inconsistent. If the logic is wrong, the bug is wrong in multiple places simultaneously.

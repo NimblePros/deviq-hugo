@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: Parallel Inheritance Hierarchies is a code smell where every time you add a subclass to one class hierarchy, you are forced to add a corresponding subclass to a separate, mirrored hierarchy.
 
+weight: 280
 ---
 
 Parallel Inheritance Hierarchies is a special case of [Shotgun Surgery](./shotgun-surgery). The smell arises when you have two class hierarchies that must grow in lockstep: every new subclass in one hierarchy requires a matching subclass in the other. The duplication is structural rather than literal — the classes are different, but the hierarchy shape must always be mirrored.

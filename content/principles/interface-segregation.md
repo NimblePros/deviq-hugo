@@ -1,9 +1,10 @@
-﻿---
+---
 title: Interface Segregation Principle
 date: 2024-04-02
 description: The Interface Segregation Principle (ISP) states that clients should not be forced to depend on methods that they do not use.
 params:
   image: /principles/images/interface-segregation-400x400.jpg
+weight: 90
 ---
 
 ![InterfaceSegregation](images/interface-segregation-400x400.jpg)

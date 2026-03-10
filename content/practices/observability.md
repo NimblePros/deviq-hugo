@@ -1,9 +1,10 @@
-﻿---
+---
 title: Observability
 date: 2024-06-07
 description: Observability is a practice that uses logs, metrics, and traces to monitor and understand system behavior.
 params:
   image: /practices/images/observability.png
+weight: 160
 ---
 
 Observability is a practice within the realm of software engineering and DevOps that involves a systematic approach to understanding how well a system’s internal states can be inferred from its external outputs. This practice includes collecting, correlating, and analyzing telemetry data from logs, metrics, and traces to monitor and understand system behavior.

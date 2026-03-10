@@ -1,9 +1,10 @@
-﻿---
+---
 title: Walking Through a Minefield
 date: 2024-08-20
 description: Discover the perils of releasing unfinished software, likened to Walking through a Minefield. Understand why thorough testing is essential to avoid exposing users to bugs and instabilities
 params:
   image: /antipatterns/images/walking-in-a-minefield-400x400.jpg
+weight: 350
 ---
 
 ![Walking_In_a_Minefield_Aug_2014](images/walking-in-a-minefield-400x400.jpg)

@@ -2,6 +2,7 @@
 title: N-Tier Architecture
 date: 2026-03-01
 description: N-Tier Architecture organizes applications into multiple layers—commonly UI, Business Logic, and Data Access—each with distinct responsibilities, and can be deployed across separate physical tiers.
+weight: 50
 ---
 
 N-Tier Architecture is a well-established approach to organizing software applications into a set of logical layers (tiers), each responsible for a specific concern. It is an example of, and near synonym for, [Layered Architecture](/architecture/layered-architecture/). The "N" in N-Tier refers to the variable number of layers—most commonly three, but sometimes more.

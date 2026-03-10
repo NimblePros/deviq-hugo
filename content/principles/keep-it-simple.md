@@ -1,9 +1,10 @@
-﻿---
+---
 title: Keep It Simple
 date: 2024-08-19
 description: Discover the power of simplicity with the KISS principle in software design. Learn some ways to keep it simple and have fewer defects.
 params:
   image: /principles/images/keep-it-simple-400x400.jpg
+weight: 110
 ---
 
 ![Keep-It-Simple-Jan-2013](images/keep-it-simple-400x400.jpg)

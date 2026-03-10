@@ -1,9 +1,10 @@
-﻿---
+---
 title: Event-Driven Architecture
 date: 2024-08-29
 description: Discover the power of Event-Driven Architecture (EDA) in building scalable, real-time systems. Boost your knowledge on designing responsive and decoupled software architectures.
 params:
   image: /architecture/images/event-driven-architecture.png
+weight: 20
 ---
 
 Event-Driven Architecture (EDA) is a software architecture pattern where the flow of the program is determined by events—discrete changes in state. 

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Communication
 date: 2024-08-19
 description: Effective communication is key to successful software projects. Learn how the Communication value in Extreme Programming fosters collaboration, clarity, and team alignment for better project outcomes.
 params:
   image: /values/images/communication.png
+weight: 10
 ---
 
 Communication is a key value in Extreme Programming. Software projects require a great deal of communication. If you're writing an application just for your own use, then the communication channels are all extremely fast, making for very tight feedback loops. However, when you're writing software for stakeholders that will eventually publish the software, which will eventually be used by other people, who must report their experience to a separate group of support staff, [feedback](/values/feedback/) cycles can suffer.

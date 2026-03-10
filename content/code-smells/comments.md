@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Comments code smell occurs when comments are used to explain unclear or poorly written code rather than improving the code itself to make it self-explanatory.
 
+weight: 70
 ---
 
 The Comments code smell does not mean that all comments are bad — it means that comments are being used as a substitute for clear code. When a comment is needed to explain *what* code does or *why* it works the way it does, that is often a signal that the code itself is not expressive enough. Well-written code typically does not require comments to explain its mechanics; the names of methods, variables, and types carry that meaning.

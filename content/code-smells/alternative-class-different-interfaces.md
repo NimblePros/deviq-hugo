@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Alternative Class with Different Interfaces code smell occurs when two or more classes do the same thing but expose different method names or signatures, preventing them from being used interchangeably.
 
+weight: 10
 ---
 
 The Alternative Class with Different Interfaces code smell occurs when two or more classes perform the same or very similar roles but expose their functionality through different method names, parameter orders, or signatures. Because their interfaces differ, calling code cannot treat them interchangeably — even though conceptually they are alternatives for the same purpose.

@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Speculative Generality is the code smell of building abstractions, hooks, or flexibility into code for hypothetical future requirements that may never materialize.
 
+weight: 350
 ---
 
 Speculative Generality is the code smell of building abstractions, hooks, or flexibility into code for hypothetical future requirements that may never materialize. It is the technical expression of "just in case": an extra parameter added to support a use case that is not yet needed, an interface created for a single implementation in case a second one is added someday, a configuration option introduced to allow behavior that is never actually varied. The code is more complex than the current problem requires, and that complexity serves no one today.

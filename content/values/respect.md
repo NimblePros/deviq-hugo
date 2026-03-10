@@ -1,9 +1,10 @@
-﻿---
+---
 title: Respect
 date: 2024-08-19
 description: Respect is at the core of successful teams. Explore how the Respect value in Extreme Programming promotes a positive work environment, where every team member's ideas and contributions are valued.
 params:
   image: /values/images/respect.png
+weight: 40
 ---
 
 Respect is one of the [values of Extreme Programming](http://www.extremeprogramming.org/values.html):

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Liskov Substitution Principle
 date: 2024-04-02
 description: The Liskov Substitution Principle (LSP) states that subtypes must be substitutable for their base types.
 params:
   image: /principles/images/liskov-substitution-400x400.jpg
+weight: 120
 ---
 
 ![LiskovSubstitution](images/liskov-substitution-400x400.jpg)

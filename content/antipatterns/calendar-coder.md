@@ -1,9 +1,10 @@
-﻿---
+---
 title: Calendar Coder
 date: 2024-08-20
 description: Discover the Calendar Coder antipattern, a practice similar to cargo cult programming. Learn how mimicking coding practices without understanding the context can lead to ineffective software solutions.
 params:
   image: /antipatterns/images/calendar-coder-400x400.jpg
+weight: 80
 ---
 
 ![CalendarCoder](images/calendar-coder-400x400.jpg)

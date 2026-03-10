@@ -1,9 +1,10 @@
-﻿---
+---
 title: Factory Method Pattern
 date: 2024-04-02
 description: The Factory Method pattern is an object creation pattern from the Design Patterns book. It defines an interface or abstract class for creating an object but leaves the specifics to the implementations.
 params:
   image: /design-patterns/images/factory-method-pattern.png
+weight: 130
 ---
 
 The Factory Method pattern is an object creation pattern from the [Design Patterns book, by the so-called Gang of Four (GoF)](http://amzn.to/1GYRo2O). It enables us to define an interface or abstract class for creating an object, leaving the specific details to the implementations. The Factory Method pattern allows for loose coupling and enhanced flexibility with regards to creating objects in code. It also allows you to encapsulate the potential complexity of object creation.

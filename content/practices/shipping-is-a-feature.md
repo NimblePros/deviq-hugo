@@ -1,9 +1,10 @@
-﻿---
+---
 title: Shipping Is A Feature
 date: 2024-08-21
 description: Learn why 'Shipping is a Feature' is a crucial mindset in software development. Understand the importance of delivering working software and how timely releases drive user satisfaction and business value.
 params:
   image: /practices/images/ShippingIsAFeature-400x400.jpg
+weight: 240
 ---
 
 ![ShippingIsAFeature](images/ShippingIsAFeature-400x400.jpg)

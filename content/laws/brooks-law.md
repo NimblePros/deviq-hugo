@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Brooks's Law: Understanding Its Implications in Software Development"
 date: 2023-04-21
 description: Adding manpower to a late software project makes it later.
 params:
   image: /laws/images/brooks-law.png
+weight: 40
 ---
 
 *“Adding manpower to a late software project makes it later.”* - Fred Brooks

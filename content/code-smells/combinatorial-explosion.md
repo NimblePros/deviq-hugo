@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Combinatorial Explosion code smell occurs when a small number of variations in behavior leads to a disproportionately large number of methods, classes, or code paths — growing multiplicatively rather than additively.
 
+weight: 60
 ---
 
 The Combinatorial Explosion code smell occurs when adding new variations to a design causes the number of methods, classes, or code paths to multiply rather than grow linearly. Each new axis of variation — a new format, a new filter, a new rule — requires duplicating existing code for every existing combination, rapidly producing an unmanageable codebase.

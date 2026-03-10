@@ -1,9 +1,10 @@
-﻿---
+---
 title: Smoke and Mirrors
 date: 2024-08-20
 description: Understand the Smoke and Mirrors antipattern, where demos show a facade of functionality that doesn’t exist yet. Learn why honesty and realistic expectations are crucial in software development.
 params:
   image: /antipatterns/images/smoke-and-mirrors-400x400.jpg
+weight: 320
 ---
 
 ![Smoke And Mirrors](images/smoke-and-mirrors-400x400.jpg)

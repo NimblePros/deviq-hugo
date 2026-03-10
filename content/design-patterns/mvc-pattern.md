@@ -4,6 +4,7 @@ title: Model-View-Controller (MVC) Design Pattern
 date: 2026-03-09
 
 description: The Model-View-Controller (MVC) pattern separates an application into three components — Model, View, and Controller — to decouple business logic from presentation. Learn how MVC works, how it compares to MVP and MVVM, and why ViewModels often appear inside MVC applications.
+weight: 210
 ---
 
 ## What is the MVC Pattern?

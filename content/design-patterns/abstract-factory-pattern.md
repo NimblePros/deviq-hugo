@@ -1,4 +1,4 @@
-﻿---
+---
 title: Abstract Factory Design Pattern
 
 date: 2023-10-27
@@ -8,6 +8,7 @@ description: The Abstract Factory Pattern is one of the creational design patter
 params:
 
   image: /design-patterns/images/abstract-factory-design-pattern.png
+weight: 10
 ---
 
 ## What is the Abstract Factory Pattern?

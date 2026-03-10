@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Indecent Exposure is a code smell where a class reveals internal implementation details that should be hidden, breaking encapsulation and increasing coupling to its internals.
 
+weight: 200
 ---
 
 Indecent Exposure is a code smell where a class reveals more of its internal implementation than it should — through public or internal fields, public setters on properties that should be controlled, or methods that exist only to support a specific caller rather than represent a genuine part of the class's interface. The class is showing what should be hidden.

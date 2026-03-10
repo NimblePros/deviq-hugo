@@ -1,9 +1,10 @@
-﻿---
+---
 title: Simplicity
 date: 2024-08-19
 description: Discover the value of Simplicity in Extreme Programming. Learn how focusing on simple solutions and avoiding unnecessary complexity can enhance efficiency and improve software development outcomes.
 params:
   image: /values/images/simplicity.png
+weight: 50
 ---
 
 ![Zen Simplicity](images/iStock_000014302733Small-300x224.jpg)

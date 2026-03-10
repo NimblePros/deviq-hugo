@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Hidden Dependencies is a code smell where a class's required collaborators are not visible in its public interface, making the class's behavior unpredictable from the outside and difficult to test in isolation.
 
+weight: 150
 ---
 
 Hidden Dependencies is a code smell where the things a class depends on to do its work are not visible through its public interface. Instead of being declared in a constructor or method signature — where callers can see and supply them — dependencies are obtained silently: by reaching into a service locator, calling a static method, accessing a global variable, or constructing collaborators internally. The class has needs it does not declare.

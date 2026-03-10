@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Oddball Solution code smell occurs when a problem is solved in multiple different ways throughout a codebase, so that no single, consistent approach is used.
 
+weight: 270
 ---
 
 The Oddball Solution code smell occurs when a problem that has a single, good solution is solved in multiple different ways across a codebase. Rather than a consistent approach, you find a variety of ad-hoc implementations — some using a helper method, some inlining the logic, some using a library, and some copy-pasted from elsewhere. Each individual solution may work in isolation, but the inconsistency makes the code harder to understand, harder to change, and harder to reason about.

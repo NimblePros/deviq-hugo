@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Aggregate complexity is a code metric introduced by Steve Smith (Ardalis) in 2018 that measures the total complexity of a software application by aggregating the complexity scores of all its methods, providing a system-wide view of complexity health.
 
+weight: 10
 ---
 
 Aggregate complexity is a code metric introduced by Steve Smith (Ardalis) in 2018 that measures the overall complexity of a software application by aggregating the individual complexity scores — typically [cyclomatic complexity](/terms/cyclomatic-complexity/) or [cognitive complexity](/terms/cognitive-complexity/) — of every method in the codebase. Rather than flagging individual hotspot methods, aggregate complexity gives a single number representing the total complexity burden carried by the entire application.

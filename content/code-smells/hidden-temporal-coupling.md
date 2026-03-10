@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Hidden Temporal Coupling is a code smell where methods must be called in a specific order, but nothing in the code makes that constraint visible or enforced, making incorrect usage easy and failures hard to diagnose.
 
+weight: 160
 ---
 
 Hidden Temporal Coupling is a code smell where methods on an object must be called in a particular sequence to produce correct behavior, but the code provides no mechanism to detect or prevent incorrect ordering. The temporal dependency — the fact that one method must precede another — is hidden. Callers can call the methods in any order, and the error may not surface immediately, making the resulting bugs difficult to trace.

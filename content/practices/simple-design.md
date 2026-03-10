@@ -1,9 +1,10 @@
-﻿---
+---
 title: Simple Design
 date: 2024-08-21
 description: Discover the power of Simple Design in software development. Learn how focusing on simplicity helps create flexible, understandable, and maintainable solutions that meet immediate needs without over-engineering.
 params:
   image: /practices/images/simple-design.png
+weight: 250
 ---
 
 [Kent Beck](http://en.wikipedia.org/wiki/Kent_Beck) created four rules of Simple Design. These are sometimes referred to as The Four Commandments or the [XP Simplicity Rules](http://c2.com/cgi/wiki?XpSimplicityRules). The rules, in priority order, are that code should:

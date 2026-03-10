@@ -1,9 +1,10 @@
-﻿---
+---
 title: YOLO Software Architecture
 date: 2024-08-23
 description: YOLO Architecture describes a development style characterized by minimal planning, lack of organization, and an absence of clear architectural principles.
 params:
   image: /practices/images/yolo-architecture.png
+weight: 330
 ---
 
 ![YOLO Architecture](images/yolo-architecture.png)

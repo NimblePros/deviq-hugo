@@ -1,9 +1,10 @@
-﻿---
+---
 title: Update the Plan
 date: 2015-11-07
 description: When you miss a deadline or milestone, don't just blindly shift the planned deadline back by a day.
 params:
   image: /practices/images/UpdateThePlan-400x400.png
+weight: 290
 ---
 
 ![Update The Plan](images/UpdateThePlan-400x400.png)

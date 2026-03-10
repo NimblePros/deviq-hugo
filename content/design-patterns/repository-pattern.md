@@ -1,4 +1,4 @@
-﻿---
+---
 title: Repository Pattern
 
 date: 2024-08-19
@@ -8,6 +8,7 @@ description: Understand the Repository design pattern and its role in software a
 params:
 
   image: /design-patterns/images/repository-pattern.png
+weight: 290
 ---
 
 **Last Updated: August 2024**

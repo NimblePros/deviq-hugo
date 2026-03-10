@@ -1,9 +1,10 @@
-﻿---
+---
 title: Dogfooding
 date: 2024-08-21
 description: Learn about Dogfooding, the practice of using your own products. Discover how this approach helps identify issues early, improves product quality, and builds empathy with end-users.
 params:
   image: /practices/images/Dogfooding-400x400.jpg
+weight: 130
 ---
 
 ![Dogfooding-Aug-2013](images/Dogfooding-400x400.jpg)

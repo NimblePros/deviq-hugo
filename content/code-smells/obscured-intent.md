@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Obscured Intent code smell occurs when code is written in a way that hides what it is doing or why, requiring significant effort to decipher its purpose.
 
+weight: 260
 ---
 
 The Obscured Intent code smell occurs when code is written in a way that makes its purpose difficult to discern. The mechanics of the code may be technically correct, but the reader cannot quickly understand *what* it is trying to accomplish or *why* it is written the way it is. Intent should be immediately apparent from reading code; when it is not, every reader must invest extra effort to reconstruct the original author's meaning — and they may get it wrong.

@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Inconsistency code smell occurs when similar problems are solved in different ways, or when naming, structure, and conventions vary across a codebase without reason.
 
+weight: 180
 ---
 
 The Inconsistency code smell occurs when similar problems are solved in different ways, when the same concept is named differently in different places, or when coding conventions vary across a codebase without a clear reason. Consistency is a form of communication: when a codebase follows consistent patterns, readers can apply what they learn in one place to understand another. When patterns vary arbitrarily, every part of the codebase requires fresh interpretation.

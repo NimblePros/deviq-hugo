@@ -1,9 +1,10 @@
-﻿---
+---
 title: Primitive Obsession Code Smell
 date: 2024-01-14
 description: Primitive Obsession describes code in which the design relies too heavily on primitive types, rather than solution-specific abstractions. It often results in more verbose code with more duplication of logic, since logic cannot be embedded with the primitive types used.
 params:
   image: /code-smells/images/primitive-obsession.png
+weight: 310
 ---
 
 ![primitive obsession](./images/primitive-obsession.png)

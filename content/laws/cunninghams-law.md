@@ -1,9 +1,10 @@
-﻿---
+---
 title: Cunningham's Law
 date: 2022-04-01
 description: The best way to get the right answer on the Internet is not to ask a question; it's to post the wrong answer.
 params:
   image: /laws/images/cunninghams-law.png
+weight: 60
 ---
 
 Cunningham's Law (coined by and named for Ward Cunningham) states: "The best way to get the right answer on the Internet is not to ask a question; it's to post the wrong answer."

@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Goodhart's Law: When Measures Become Targets"
 date: 2024-02-28
 description: Explore the pivotal insights of Goodhart's Law and its impact on business, economics, and personal goals. Understand how metrics can lead us astray when they're used as targets, and discover strategies to mitigate these effects for more effective decision-making and goal-setting.
 params:
   image: /laws/images/goodharts-law.png
+weight: 80
 ---
 
 In the dynamic landscape of business, economics, and personal achievement, metrics and measurements play a crucial role in setting goals and assessing progress. However, an often-overlooked phenomenon can subtly undermine these efforts, leading to unintended consequences. This phenomenon is encapsulated in **Goodhart's Law**, a principle originating from the world of economics but with far-reaching implications beyond. 

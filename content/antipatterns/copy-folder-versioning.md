@@ -1,9 +1,10 @@
-﻿---
+---
 title: Copy Folder Versioning
 date: 2015-01-26
 description: Copy Folder Versioning is a software development anti-pattern in which source code is updated by simply making copies of the folder in which the code currently resides.
 params:
   image: /antipatterns/images/copy-folder-versioning-400x400.jpg
+weight: 90
 ---
 
 ![Copy Folder Versioning](images/copy-folder-versioning-400x400.jpg)

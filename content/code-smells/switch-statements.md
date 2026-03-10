@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Switch Statements code smell occurs when switch or if-else chains are used to vary behavior based on an object's type or state, rather than leveraging polymorphism.
 
+weight: 360
 ---
 
 The Switch Statements code smell occurs when `switch` statements (or equivalent `if-else` chains) are used to branch on an object's type, kind, or status to determine which behavior to execute. While a single switch is not inherently problematic, the smell arises when the same type-based dispatch is duplicated in multiple places across the codebase — or when adding a new type requires hunting down every switch and modifying it.

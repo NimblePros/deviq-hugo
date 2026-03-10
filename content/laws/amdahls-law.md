@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Understanding Amdahl's Law: Unlocking the Secrets of Parallel Computing"
 date: 2023-09-26
 description: Amdahl's Law is a foundational principle that shapes our understanding of parallel computing and its limitations. This article unravels the concept, mathematical equation, and real-world implications of Amdahl's Law. Learn how to maximize the efficiency of your computing systems and make informed decisions when scaling hardware resources.
 params:
   image: /laws/images/amdahls-law.png
+weight: 20
 ---
 
 Amdahl's Law is one of the pillars in the realm of computer science, specifically in the area of parallel computing. Named after Gene Amdahl, an American computer architect and high-tech entrepreneur, this law provides insights into the potential speedup that can be achieved when using multiple processors. The law sets a theoretical limit on how far you can go with parallelization.

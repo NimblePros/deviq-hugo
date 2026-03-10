@@ -1,9 +1,10 @@
-﻿---
+---
 title: Strategic Design in DDD
 date: 2024-04-02
 description: Strategic design is essential for establishing a solid foundation for your domain model in DDD.
 params:
   image: /domain-driven-design/images/strategic-design.png
+weight: 120
 ---
 
 <!-- 

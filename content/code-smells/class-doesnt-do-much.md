@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Class Doesn't Do Much code smell, also called a Lazy Class, describes a class that exists in the codebase but contributes so little behavior or responsibility that it does not justify its own existence.
 
+weight: 50
 ---
 
 The Class Doesn't Do Much code smell — also known as a **Lazy Class** — describes a class that exists in the codebase but contributes so little behavior or responsibility that it does not justify its own existence. These classes often hold a single field, wrap a single method call, or contain only trivial pass-through logic. They add indirection without adding value, and they fragment the design without clarifying it.

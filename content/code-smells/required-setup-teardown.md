@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Required Setup/Teardown code smell occurs when callers must remember to execute mandatory setup or cleanup code before and after using a class, rather than having that lifecycle managed automatically.
 
+weight: 330
 ---
 
 The Required Setup/Teardown code smell occurs when callers must manually execute mandatory setup or cleanup code before and after using a particular class or method. Instead of the class managing its own lifecycle, the responsibility is pushed onto the caller. The result is that correct usage depends on convention and memory rather than structure, making it easy to introduce bugs by simply forgetting a step.

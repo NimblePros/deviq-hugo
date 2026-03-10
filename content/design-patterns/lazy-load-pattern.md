@@ -4,6 +4,7 @@ title: Lazy Load Pattern
 date: 2026-03-09
 
 description: The Lazy Load Pattern defers the initialization of an object or resource until it is actually needed, avoiding unnecessary work and improving application startup performance.
+weight: 180
 ---
 
 ## What is the Lazy Load Pattern?

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Descriptive Error Messages
 date: 2015-11-07
 description: When something unexpected or exceptional happens in a software application, usually an error message is displayed to the user and/or logged somewhere for a developer to investigate.
 params:
   image: /practices/images/DescriptiveErrorMessages-400x400.png
+weight: 120
 ---
 
 ![Descriptive Error Messages](images/DescriptiveErrorMessages-400x400.png)

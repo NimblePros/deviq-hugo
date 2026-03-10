@@ -2,6 +2,7 @@
 title: Layered Architecture
 date: 2026-03-01
 description: Layered Architecture organizes software into distinct layers, each with specific responsibilities, where each layer only communicates with adjacent layers.
+weight: 30
 ---
 
 Layered Architecture (also known as n-tier architecture) is one of the most common architectural patterns in software development. It organizes an application into a set of layers, where each layer has a specific role and responsibility. Layers communicate only with adjacent layers, creating a clear separation of concerns.

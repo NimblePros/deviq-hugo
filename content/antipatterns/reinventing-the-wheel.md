@@ -1,9 +1,10 @@
-﻿---
+---
 title: Reinventing the Wheel
 date: 2024-08-20
 description: Discover why Reinventing the Wheel is often counterproductive. Learn how leveraging existing solutions can save time and effort, allowing developers to focus on unique, value-adding features.
 params:
   image: /antipatterns/images/reinvent-the-wheel-400x400.jpg
+weight: 290
 ---
 
 ![ReinventingTheWheel](images/reinvent-the-wheel-400x400.jpg)

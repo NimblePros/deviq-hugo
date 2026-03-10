@@ -1,9 +1,10 @@
-﻿---
+---
 title: Read the Manual
 date: 2024-08-21
 description: Explore the importance of the 'Read the Manual' approach. Discover how understanding documentation thoroughly can prevent errors, save time, and improve the effective use of tools and libraries.
 params:
   image: /practices/images/Read-the-Manual-400x400.jpg
+weight: 200
 ---
 
 ![Read-The-Manual-Mar-2013](images/Read-the-Manual-400x400.jpg)

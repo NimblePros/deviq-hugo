@@ -1,9 +1,10 @@
-﻿---
+---
 title: Builder Design Pattern
 date: 2024-04-02
 description: The Builder design pattern is a creational pattern, similar to the Factory pattern (Factory Method, Abstract Factory).
 params:
   image: /design-patterns/images/builder-pattern.png
+weight: 40
 ---
 
 The Builder design pattern is a creational pattern, similar to the [Factory pattern](/design-patterns/factory-method-pattern/) (Factory Method, Abstract Factory). Unlike the Factory pattern, which typically only offers one method for creating an object, the Builder pattern offers multiple methods that can be used to gradually define the characteristics of the type to be created. This provides a more flexible interface than a single method with a large number of parameters or a complex parameter object.

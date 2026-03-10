@@ -1,9 +1,10 @@
-﻿---
+---
 title: Death by Planning
 date: 2024-08-20
 description: Explore the Death by Planning antipattern, where overemphasis on planning leads to stalled progress and missed deadlines. Learn how to balance planning and execution for successful project management.
 params:
   image: /antipatterns/images/death-by-planning-400x400.jpg
+weight: 110
 ---
 
 ![Death_By_Planning_May_2014](images/death-by-planning-400x400.jpg)

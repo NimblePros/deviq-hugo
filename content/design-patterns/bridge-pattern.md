@@ -4,6 +4,7 @@ title: Bridge Design Pattern
 date: 2026-03-09
 
 description: The Bridge Design Pattern decouples an abstraction from its implementation, allowing both to vary independently. Learn how to use the Bridge pattern in C# to improve flexibility and extensibility in your software design.
+weight: 30
 ---
 
 ## What is the Bridge Design Pattern?

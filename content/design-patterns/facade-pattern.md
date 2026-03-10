@@ -1,9 +1,10 @@
-﻿---
+---
 title: Facade Pattern
 date: 2023-06-11
 description: The Facade Pattern was described in the Gang of Four's Design Patterns book. This pattern allows for a simpler interface to access a subsystem of a complex system.
 params:
   image: /design-patterns/images/facade-pattern.png
+weight: 120
 ---
 
 The Facade Pattern is used when you want a simpler interface for a subsystem of a complex system. The complex system typically contains a code smell known as [the big ball of mud](/antipatterns/big-ball-of-mud/) that typically evolves from [the blob](/antipatterns/blob/). By using a facade, you create an interface that only shows the necessary endpoints for a subset of a system rather than the entire complex system.

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Moore's Law
 date: 2024-11-04
 description: Moore's Law posits that the number of transistors on a microchip doubles approximately every two years, effectively doubling processing power while reducing relative costs.
 params:
   image: /laws/images/moores-law.png
+weight: 160
 ---
 
 ![moore's law](./images/moores-law.png)

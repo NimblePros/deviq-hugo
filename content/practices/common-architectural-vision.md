@@ -1,9 +1,10 @@
-﻿---
+---
 title: Common Architectural Vision
 date: 2024-04-02
 description: Well-designed software must have a single, well-defined architecture. Virtually all software, regardless of how well-designed one might find it, starts out with a single architecture.
 params:
   image: /practices/images/CommonArchitecturalVision-400x400.png
+weight: 80
 ---
 
 ![Common Architectural Vision](images/CommonArchitecturalVision-400x400.png)

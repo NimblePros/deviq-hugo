@@ -1,9 +1,10 @@
-﻿---
+---
 title: Death March
 date: 2024-08-20
 description: Understand the Death March antipattern, where projects are doomed from the start yet push teams to work excessive hours. Learn how to recognize and avoid this destructive project management trap.
 params:
   image: /antipatterns/images/death-march-400x400.jpg
+weight: 120
 ---
 
 ![DeathMarch](images/death-march-400x400.jpg)
