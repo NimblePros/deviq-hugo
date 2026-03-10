@@ -15,7 +15,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 
 ## Alphabetical List of Design Patterns
 
-**("!" indicates some that are often considered antipatterns)**
+**(⚠️ indicates patterns that are often considered antipatterns)**
 
 - [Abstract Factory](/design-patterns/abstract-factory-pattern/)
 - [Adapter](/design-patterns/adapter-design-pattern/)
@@ -48,8 +48,8 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Repository](/design-patterns/repository-pattern/) (and [CachedRepository](http://ardalis.com/introducing-the-cachedrepository-pattern))
 - [REPR](/design-patterns/repr-design-pattern/)
 - [Rules Engine](/design-patterns/rules-engine-pattern/)
-- [Singleton](/design-patterns/singleton/) (!)
-- Service Locator (!)
+- [Singleton](/design-patterns/singleton/) ⚠️
+- [Service Locator](/design-patterns/service-locator-pattern/) ⚠️
 - [Specification](/design-patterns/specification-pattern/)
 - [State](/design-patterns/state-design-pattern/)
 - [Strangler Fig](/design-patterns/strangler-fig-pattern/)

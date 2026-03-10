@@ -95,7 +95,7 @@ Look for:
 
 ## Common Sources
 
-- The [Service Locator antipattern](/antipatterns/service-locator/) — dependencies are pulled from a central registry inside the class.
+- The [Service Locator pattern](/design-patterns/service-locator-pattern/) — dependencies are pulled from a central registry inside the class.
 - [Static Cling](/antipatterns/static-cling/) — a class calls static methods on another class instead of depending on an interface.
 - Ambient context objects — thread-local or process-local global state used to pass context implicitly through the call stack.
 
@@ -125,4 +125,4 @@ That observation applies to infrastructure concerns too — not just collaborato
 
 - Steve "Ardalis" Smith, [Insidious Dependencies](https://ardalis.com/insidious-dependencies/) (2008)
 
-See also: [Explicit Dependencies Principle](/principles/explicit-dependencies-principle/), [Service Locator antipattern](/antipatterns/service-locator/).
+See also: [Explicit Dependencies Principle](/principles/explicit-dependencies-principle/), [Service Locator pattern](/design-patterns/service-locator-pattern/).
