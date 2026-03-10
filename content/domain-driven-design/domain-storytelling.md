@@ -1,9 +1,10 @@
-﻿---
+---
 title: Domain Storytelling
 date: 2024-04-02
 description: Domain Storytelling allows domain experts to tell the stories, capture the workflows, and illustrate those stories.
 params:
   image: /domain-driven-design/images/domain-storytelling.png
+weight: 70
 ---
 
 Communication is important in DDD, especially in developing [ubiquitous language](./ubiquitous-language). It allows domain experts to tell the stories, capture the workflows, and illustrate those stories.

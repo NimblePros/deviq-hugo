@@ -1,9 +1,10 @@
-﻿---
+---
 title: Hollywood Principle
 date: 2024-08-19
 description: Explore the Hollywood Principle in software design. Don't call us, we'll call you. Understand how this approach promotes loose coupling and more flexible, scalable software architectures.
 params:
   image: /principles/images/Dont-Call-Us-400x400.jpg
+weight: 80
 ---
 
 ![Dont-Call-Us-Well-Call-You-Jun-2013](images/Dont-Call-Us-400x400.jpg)

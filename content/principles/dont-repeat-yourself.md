@@ -1,4 +1,4 @@
-﻿---
+---
 title: Don't Repeat Yourself
 
 date: 2024-08-19
@@ -8,6 +8,7 @@ description: Master the Don't Repeat Yourself (DRY) principle in software design
 params:
 
   image: /principles/images/DontRepeatYourself-400x400.png
+weight: 40
 ---
 
 ![Don't Repeat Yourself](images/DontRepeatYourself-400x400.png)

@@ -1,9 +1,10 @@
-﻿---
+---
 title: One Thing To Rule Them All
 date: 2024-08-20
 description: Dive into the One Thing to Rule Them All antipattern, where a single tool or system is used to handle multiple tasks. Discover the risks of this approach and how to avoid overloading your systems.
 params:
   image: /antipatterns/images/one-ring-300x225.jpg
+weight: 280
 ---
 
 ![one-ring](images/one-ring-300x225.jpg)

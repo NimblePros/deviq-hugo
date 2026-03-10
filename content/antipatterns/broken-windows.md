@@ -1,9 +1,10 @@
-﻿---
+---
 title: Broken Windows
 date: 2015-11-17
 description: Small problems, left uncorrected, signal a lack of care about the state of things.
 params:
   image: /antipatterns/images/broken-windows-400x400.png
+weight: 70
 ---
 
 ![BrokenWindows](images/broken-windows-400x400.png)

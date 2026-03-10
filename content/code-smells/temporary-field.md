@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Temporary Field code smell occurs when an object has instance fields that are only set and used in certain circumstances, leaving them uninitialized or meaningless the rest of the time.
 
+weight: 370
 ---
 
 The Temporary Field code smell occurs when a class has instance fields that are only populated and meaningful in some circumstances — typically within a single method or a specific execution path — and are otherwise null, zero, or irrelevant. The field exists on the class not because it represents a stable property of the object, but because it was added as a convenient way to pass data between methods without changing signatures.

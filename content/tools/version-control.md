@@ -1,9 +1,10 @@
-﻿---
+---
 title: Version Control
 date: 2024-08-19
 description: Version control systems are essential for tracking changes, collaborating seamlessly, and maintaining the integrity of your codebase across teams and time.
 params:
   image: /tools/images/version-control.png
+weight: 20
 ---
 
 Version or source control is one of the most fundamental tools available for software development.  Even if the only editor you have is a simple text editor and your only compiler is a command line tool, a proper revision control system can offer huge benefits.  Historically, most version control systems maintained a single repository that all team members would check code out from and commit changes back to.  Some of these systems implemented a locking mechanism that would attempt to ensure that no two team members had checked out a file for modification at the same time, while others allowed for multiple concurrent changes but required changes to be merged when checked in if conflicts were found. Distributed version control systems (DVCS) have taken over in popularity, with centralized version control systems (CVCS) falling out of popularity.  With a DVCS, every team member has a complete repository with all history, and all checkins are done locally first, and then periodically merged up into one or more central reference repositories.

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Shiny Toy
 date: 2024-08-20
 description: Explore the Shiny Toy antipattern, where developers chase the latest trends and tools without evaluating their real-world benefits. Learn how to make technology choices based on needs, not hype.
 params:
   image: /antipatterns/images/shiny-toy-400x400.jpg
+weight: 310
 ---
 
 ![Shiny_Toy_Jan_2014](images/shiny-toy-400x400.jpg)

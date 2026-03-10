@@ -1,9 +1,10 @@
-﻿---
+---
 title: Red, Green, Refactor
 date: 2024-07-11
 description: Red, Green, Refactor is a practice used during Test-Driven Development. It reflects the state of a new test failing, making that test pass, and then considering whether the existing solution can be improved through refactoring.
 params:
   image: /practices/images/red-green-refactor.png
+weight: 210
 ---
 
 ![Red Green Refactor](images/red-green-refactor.png)

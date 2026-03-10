@@ -4,6 +4,7 @@ title: Model-View-ViewModel (MVVM) Design Pattern
 date: 2026-03-09
 
 description: The Model-View-ViewModel (MVVM) pattern separates UI state and behavior into a ViewModel that the View data-binds to automatically, removing the need for imperative UI update code. Learn how MVVM works in C# with WPF/MAUI examples, and how it compares to MVC and MVP.
+weight: 230
 ---
 
 ## What is the MVVM Pattern?

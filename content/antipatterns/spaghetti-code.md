@@ -1,9 +1,10 @@
-﻿---
+---
 title: Spaghetti Code
 date: 2024-08-20
 description: Uncover the tangled mess of Spaghetti Code, where poor structure and lack of organization make the code hard to follow and maintain. Learn techniques to write clean, well-organized code.
 params:
   image: /antipatterns/images/spaghetti-code-400x400.jpg
+weight: 330
 ---
 
 ![SpaghettiCode](images/spaghetti-code-400x400.jpg)

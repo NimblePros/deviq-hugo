@@ -4,6 +4,7 @@ title: Service Locator Pattern
 date: 2026-03-09
 
 description: The Service Locator pattern provides a central registry from which objects can retrieve their dependencies at runtime. While it solves some dependency management problems, it is widely considered an antipattern due to serious impacts on testability, maintainability, and code clarity.
+weight: 320
 ---
 
 ## What is the Service Locator Pattern?

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Frankencode
 date: 2024-08-20
 description: Discover the dangers of Frankencode, where disparate code pieces are haphazardly stitched together to create a fragile and unpredictable system. Learn how to avoid this design horror and build robust, maintainable software.
 params:
   image: /antipatterns/images/frankencode-400x400.jpg
+weight: 190
 ---
 
 ![Frankencode_Oct_2014](images/frankencode-400x400.jpg)

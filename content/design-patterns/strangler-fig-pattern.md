@@ -1,9 +1,10 @@
-﻿---
+---
 title: Strangler Fig Design Pattern
 date: 2023-06-06
 description: The Strangler Fig pattern allows a legacy system to be gradually migrated by replacing pieces of functionality with new applications.
 params:
   image: /design-patterns/images/strangler-fig-design-pattern.png
+weight: 360
 ---
 
 Whether you are refactoring from a monolith to microservices or migrating from one technology to another - such as ASP.NET WebForms to Blazor, the change can be a large undertaking. The Strangler Fig pattern enables you to take these migrations at a slower pace, migrating from one system to another system on a module basis rather than in its entirety.

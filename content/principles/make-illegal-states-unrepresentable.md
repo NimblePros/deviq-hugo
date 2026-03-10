@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Make Illegal States Unrepresentable is a design principle that uses the type system to ensure invalid combinations of data cannot be constructed, eliminating whole classes of runtime errors at compile time.
 
+weight: 130
 ---
 
 Make Illegal States Unrepresentable is a design principle that guides you to model your domain such that invalid or nonsensical states are impossible to express in code. Rather than relying on runtime checks, validation methods, or documentation to prevent invalid states, the goal is to use the type system itself as the enforcement mechanism. If the compiler rejects invalid states, they cannot occur at runtime.

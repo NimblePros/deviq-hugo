@@ -1,9 +1,10 @@
-﻿---
+---
 title: Anti-Corruption Layer
 date: 2024-04-02
 description: Anti-Corruption Layers (ACLs) are used in domain-driven design (DDD) to allow for interactions with other contexts without adversely impacting the design of the core domain model.
 params:
   image: /domain-driven-design/images/anti-corruption-layer.png
+weight: 30
 ---
 
 An Anti-Corruption Layer (ACL) is a set of defensive patterns placed between the domain model and other bounded contexts or third party dependencies. The intent of this layer is to prevent the intrusion of foreign concepts and models into the domain model. 

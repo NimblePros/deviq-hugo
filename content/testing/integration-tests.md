@@ -1,9 +1,10 @@
-﻿---
+---
 title: Integration Tests
 date: 2024-08-30
 description: Understand the importance of integration tests in verifying that different modules of your application work together seamlessly.
 params:
   image: /testing/images/integration-tests.png
+weight: 50
 ---
 
 Integration tests evaluate the interaction between different modules or services within an application. These tests check that components work together correctly when integrated into a larger system. Integration tests are critical for microservices architectures and systems with multiple interacting components, where ensuring correct communication between parts is essential.

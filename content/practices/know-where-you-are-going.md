@@ -1,9 +1,10 @@
-﻿---
+---
 title: Know Where You Are Going
 date: 2024-08-21
 description: Explore the principle of 'Know Where You Are Going' in software projects. Understand how setting clear goals and having a vision ensures alignment and guides the development process effectively.
 params:
   image: /practices/images/Know-Where-Youre-Going-400x400.jpg
+weight: 140
 ---
 
 ![Know-Where-Youre-Going-Nov-2013](images/Know-Where-Youre-Going-400x400.jpg)

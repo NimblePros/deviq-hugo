@@ -1,7 +1,8 @@
-﻿---
+---
 title: Static Cling
 date: 2024-06-28
 description: Static Cling is a code smell used to describe the undesirable coupling introduced by accessing static (global) functionality, either as variables or methods.
+weight: 340
 ---
 
 Static Cling is a code smell used to describe the undesirable coupling introduced by accessing static (global) functionality, either as variables or methods. This coupling can make it difficult to test or modify the behavior of software systems. Consider the following example:

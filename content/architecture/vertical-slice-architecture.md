@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vertical Slice Architecture
 
 date: 2024-06-28
@@ -8,6 +8,7 @@ description: In Vertical Slice Architecture, we organize the application by feat
 params:
 
   image: /architecture/images/vertical-slice-architecture.png
+weight: 60
 ---
 
 In Vertical Slice Architecture, we organize the application by features rather than layers. Each feature is encapsulated in its own "slice," containing all the necessary components from the presentation layer down to the data access layer.

@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: Cohesion refers to how closely related and focused the responsibilities of a single class, module, or function are. High cohesion is desirable and signals that a unit of code has a clear, singular purpose.
 
+weight: 40
 ---
 
 Cohesion refers to how closely related the contents of a class, module, or function are to one another. A highly cohesive class has methods and fields that all contribute to a single, well-defined purpose. A class with low cohesion has methods and fields that serve unrelated purposes, making it harder to name, understand, test, and change.

@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Parse, Don't Validate is a design principle that encourages converting unstructured or unverified input into a structured type that makes illegal states unrepresentable, rather than repeatedly validating raw data at every point of use.
 
+weight: 160
 ---
 
 Parse, Don't Validate is a principle that shifts the responsibility for correctness from scattered validation checks to type construction. Instead of accepting raw input and then checking it every time you use it, you parse the raw input once — at the boundary — and produce a typed value that is guaranteed to be valid by construction. After the parse succeeds, no further validation is needed because the type itself cannot represent an invalid state.

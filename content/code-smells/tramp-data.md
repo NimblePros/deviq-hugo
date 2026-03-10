@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Tramp Data is a code smell where data is passed through a chain of methods solely to reach a distant consumer, indicating that the design does not reflect where the data actually belongs.
 
+weight: 380
 ---
 
 Tramp Data is a code smell where a piece of data travels through several method calls as a parameter, but intermediate methods neither use nor care about it — they only pass it along to the next method in the chain. The data is a tramp: it keeps moving from place to place without ever finding a home.

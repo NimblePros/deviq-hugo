@@ -1,9 +1,10 @@
-﻿---
+---
 title: Ubiquitous Language
 date: 2024-04-02
 description: All stakeholders on a software application, from users to product managers to developers, should share the same terminology when discussing the elements of the application.
 params:
   image: /domain-driven-design/images/ubiquitous-language.png
+weight: 150
 ---
 
 All stakeholders on a software application, from users to product managers to developers, should share the same terminology when discussing the elements of the application. Use of a _ubiquitous language_ reduces the risk of miscommunication and the need to translate between technical abstractions and real world elements.

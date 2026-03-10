@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Frozen Caveman: A Software Development Antipattern"
 date: 2023-04-26
 description: Frozen Caveman is a software development antipattern characterized by the unwillingness or inability of a development team to adopt new technologies, methodologies, or practices.
 params:
   image: /antipatterns/images/frozen-caveman.png
+weight: 200
 ---
 
 ![Frozen Caveman](images/frozen-caveman.png)

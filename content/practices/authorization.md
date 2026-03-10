@@ -1,9 +1,10 @@
-﻿---
+---
 title: Authorization
 date: 2023-12-27
 description: Authorization is the concept of checking whether a user has the proper privileges to access something.
 params:
   image: /practices/images/authorization.png
+weight: 30
 ---
 
 "Do you have the permission to do what you are trying to do?" This is the main concept of **authorization** - ensuring that an entity has permissions to perform an action.

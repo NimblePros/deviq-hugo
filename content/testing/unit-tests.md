@@ -1,9 +1,10 @@
-﻿---
+---
 title: Unit Tests
 date: 2024-08-30
 description: Dive into the world of unit tests, the fastest and most granular way to ensure your code functions correctly at the smallest level.
 params:
   image: /testing/images/unit-tests.png
+weight: 70
 ---
 
 Unit tests are the smallest, fastest, and most granular type of test. They focus on individual components or functions, ensuring they behave as expected in isolation from the rest of the system. Unit tests are ideal for validating business logic, utility functions, and other small, isolated parts of the application.

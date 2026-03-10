@@ -4,6 +4,7 @@ title: Command Design Pattern
 date: 2026-03-09
 
 description: The Command Design Pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations. Learn how to implement the Command pattern in C#.
+weight: 60
 ---
 
 ## What is the Command Design Pattern?

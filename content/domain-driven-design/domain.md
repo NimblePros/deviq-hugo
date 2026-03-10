@@ -1,9 +1,10 @@
-﻿---
+---
 title: Domains in DDD
 date: 2024-04-02
 description: In Domain-Driven Design (DDD), a domain represents the specific knowledge, activities, and concerns related to a particular business or application context.
 params:
   image: /domain-driven-design/images/domain.png
+weight: 80
 ---
 
 In Domain-Driven Design (DDD), a domain represents the specific knowledge, activities, and concerns related to a particular business or application context. It encompasses all the concepts, rules, and processes that are relevant to the business and are often too complex to be modeled as a single unit. For example, the overall domain for an eCommerce system might be "online retail".

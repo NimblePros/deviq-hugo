@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: The Data Class code smell describes a class that holds data but contains no meaningful behavior, acting only as a passive data container.
 
+weight: 90
 ---
 
 A Data Class is a class that holds data — fields or properties — but contains no meaningful behavior of its own. It exists only to carry values from one part of the code to another, while all the logic that operates on those values lives elsewhere. Data classes are characterized by long lists of getters and setters, no encapsulation, and no operations that enforce business rules or invariants.

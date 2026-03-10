@@ -4,6 +4,7 @@ title: Prototype Design Pattern
 date: 2026-03-09
 
 description: The Prototype Design Pattern creates new objects by copying an existing instance rather than constructing from scratch. Learn when to use it and how to implement deep and shallow cloning in C#.
+weight: 270
 ---
 
 ## What is the Prototype Design Pattern?

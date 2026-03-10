@@ -5,6 +5,7 @@ description: A Modular Monolith is a software architecture that combines the sim
 params:
 
   image: /architecture/images/modular-monolith.png
+weight: 40
 ---
 
 A Modular Monolith is an architectural approach that structures a monolithic application into loosely coupled, highly cohesive modules. Each module encapsulates a specific business capability and has well-defined boundaries, yet the entire application remains a single deployable unit.

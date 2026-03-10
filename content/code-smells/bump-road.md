@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Bump Road code smell occurs when code is unnecessarily difficult to work with due to accumulated friction — inconsistent patterns, unexpected side effects, and structural choices that make every change harder than it should be.
 
+weight: 30
 ---
 
 The Bump Road code smell describes code that is difficult to work with in practice — not because of a single obvious flaw, but because of accumulated friction that makes every step harder than it should be. Like driving on a road full of bumps, progress is possible but uncomfortable, slow, and error-prone. Each individual bump may be small, but together they impose a significant tax on every developer who works with the code.

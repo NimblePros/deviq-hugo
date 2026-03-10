@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Regions code smell occurs when code is hidden behind collapsible region directives rather than being organized through proper structure, small classes, and well-named methods.
 
+weight: 320
 ---
 
 The Regions code smell occurs when developers use collapsible region directives — such as `#region` in C# or equivalent constructs in other languages — to organize or hide code within a file. Rather than addressing the underlying problem (a type or method that has grown too large), regions paper over it with a cosmetic folding mechanism. When you find yourself reaching for a region, it is almost always a sign that the code needs to be refactored rather than hidden.

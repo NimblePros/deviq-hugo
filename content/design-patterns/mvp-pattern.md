@@ -4,6 +4,7 @@ title: Model-View-Presenter (MVP) Design Pattern
 date: 2026-03-09
 
 description: The Model-View-Presenter (MVP) pattern separates UI logic from the view by introducing a Presenter that communicates with the View through an interface, making presentation logic fully unit-testable. Learn how MVP works, its two variants, and how it compares to MVC and MVVM.
+weight: 220
 ---
 
 ## What is the MVP Pattern?

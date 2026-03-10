@@ -1,4 +1,4 @@
-﻿---
+---
 title: Flags Over Objects
 
 date: 2024-06-28
@@ -8,6 +8,7 @@ description: The Flags Over Objects anti-pattern occurs when behavior is written
 params:
 
   image: /antipatterns/images/flags-over-objects-400x400.jpg
+weight: 170
 ---
 
 ![Flags_Over_Objects_July_2014](images/flags-over-objects-400x400.jpg)

@@ -1,7 +1,8 @@
-﻿---
+---
 title: Singleton
 date: 2016-06-18
 description: The Singleton design pattern is used to ensure an application never contains more than a single instance of a given type.
+weight: 330
 ---
 
 The Singleton design pattern is used to ensure an application never contains more than a single instance of a given type. It is often considered to be an [antipattern](/antipatterns/), since the pattern's implementation places the responsibility of enforcing the single instance behavior on the type itself. This violates the [Single Responsibility Principle](/principles/single-responsibility-principle/) and references to the type's static Instance property often result in tight coupling (see [Static Cling](/antipatterns/static-cling/)).

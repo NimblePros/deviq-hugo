@@ -1,9 +1,10 @@
-﻿---
+---
 title: Single Point of Enforcement
 date: 2024-10-08
 description: We enforce business rules through a Single Point of Enforcement, ensuring that all operations related to order processing go through a gatekeeper function that validates inputs and applies consistent logic.
 params:
   image: /practices/images/single-point-of-enforcement.png
+weight: 260
 ---
 
 ![Single Point of Enforcement](./images/single-point-of-enforcement.png)

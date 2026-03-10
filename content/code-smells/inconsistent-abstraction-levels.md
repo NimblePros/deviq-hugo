@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: Inconsistent Abstraction Levels is a code smell where a function or class mixes high-level policy with low-level implementation detail, making the code harder to read, test, and change.
 
+weight: 190
 ---
 
 Inconsistent Abstraction Levels occurs when a single function or class operates at multiple levels of abstraction simultaneously. High-level steps — what the system is doing — are interleaved with low-level details — how a single step is carried out. A reader must mentally context-switch between the "what" and the "how" within the same block, which obscures intent and makes the code harder to change safely.

@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: Divergent Change is a code smell where a single class is routinely modified for multiple unrelated reasons, indicating that the class has too many responsibilities.
 
+weight: 120
 ---
 
 Divergent Change occurs when a single class is the target of many different kinds of changes, each driven by a different reason. If you find yourself thinking, "I change this class whenever the database schema changes, and I also change it whenever business rules change, and I also change it whenever the UI format changes," that class is suffering from Divergent Change. One class is changing in many different directions.

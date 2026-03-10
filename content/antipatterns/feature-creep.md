@@ -1,9 +1,10 @@
-﻿---
+---
 title: Feature Creep
 date: 2024-08-20
 description: Uncover the risks of Feature Creep, where continuous addition of features leads to bloated and unwieldy software. Learn strategies to manage scope and maintain a focused, user-centric product.
 params:
   image: /antipatterns/images/feature-creep-400x400.jpg
+weight: 160
 ---
 
 ![FeatureCreep](images/feature-creep-400x400.jpg)

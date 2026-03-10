@@ -1,9 +1,10 @@
-﻿---
+---
 title: Pain Driven Development
 date: 2015-02-17
 description: Pain Driven Development is waiting to apply principles, patterns, and practices to your code until there is some pain caused by the current approach.
 params:
   image: /practices/images/CodePainScale-500x307.png
+weight: 170
 ---
 
 ![Pain](images/Pain.png)

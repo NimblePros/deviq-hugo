@@ -1,9 +1,10 @@
-﻿---
+---
 title: Rubber Duck Debugging
 date: 2015-11-17
 description: Sometimes the process of describing a problem, even to an inanimate object, can reveal the solution.
 params:
   image: /practices/images/RubberDuckDebugging-400x400.png
+weight: 230
 ---
 
 ![Rubber Duck Debugging](images/RubberDuckDebugging-400x400.png)

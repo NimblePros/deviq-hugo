@@ -1,9 +1,10 @@
-﻿---
+---
 title: Domain Model in DDD
 date: 2024-04-02
 description: A domain model in DDD is a conceptual representation of the core concepts, entities, and relationships within a specific domain.
 params:
   image: /domain-driven-design/images/domain-model.png
+weight: 60
 ---
 
 A **domain model** in DDD is a conceptual representation of the core concepts, entities, and relationships within a specific domain. It serves as a shared understanding between domain experts and developers, facilitating communication and collaboration. The domain model is a living document and should continuously evolve as your understanding of the domain grows.

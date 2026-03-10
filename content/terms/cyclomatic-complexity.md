@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Cyclomatic complexity is a quantitative measure of the number of linearly independent paths through a piece of code, used as an indicator of testability and maintainability.
 
+weight: 50
 ---
 
 Cyclomatic complexity is a software metric introduced by Thomas J. McCabe in 1976 that counts the number of linearly independent paths through a method or function. It provides an objective, numerical measure of how complex a piece of code is from a control-flow perspective.

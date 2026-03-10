@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Law of Demeter Violations occur when code navigates deeply through object graphs to access distant collaborators, creating tight coupling to intermediate structures that may change.
 
+weight: 210
 ---
 
 Law of Demeter Violations occur when code accesses objects from distant parts of an object graph rather than limiting interactions to immediate collaborators. The [Law of Demeter](/laws/law-of-demeter/) — also called the Principle of Least Knowledge — states that a method should only talk to its immediate neighbors: the object it is called on, its own fields, objects received as parameters, and objects it creates itself. Any access that chains through another object's return value to reach a third party is a violation.

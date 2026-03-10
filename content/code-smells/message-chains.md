@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Message Chains is a code smell where code navigates a long sequence of object references to reach a distant collaborator, coupling the caller to every object in the chain.
 
+weight: 240
 ---
 
 Message Chains is a code smell where code sends a message to an object and then immediately sends another message to the result, forming a chain: `a.GetB().GetC().DoSomething()`. Each step in the chain retrieves an object from within the previous one, forcing the caller to navigate the entire internal structure of a collaborator's object graph.

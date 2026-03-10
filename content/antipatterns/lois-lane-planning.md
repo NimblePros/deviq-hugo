@@ -1,9 +1,10 @@
-﻿---
+---
 title: Lois Lane Planning
 date: 2022-10-07
 description: When management or sales overcommits to deliver features of a product with the knowledge that even though the features aren't ready, developers will rise to the occasion to ensure they will be.
 params:
   image: /antipatterns/images/lois-lane-planning-610x510.jpg
+weight: 240
 ---
 
 ![Lois Lane Planning](./images/lois-lane-planning-610x510.jpg)

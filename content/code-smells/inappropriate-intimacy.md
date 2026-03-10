@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Inappropriate Intimacy is a code smell where two classes know too much about each other's internal implementation details, creating excessive coupling and mutual dependency.
 
+weight: 170
 ---
 
 Inappropriate Intimacy is a code smell where two classes are excessively familiar with each other's internals. One (or both) classes digs into the private fields, internal methods, or implementation details of the other. They are inappropriately intimate: rather than respecting each other's public interfaces, they reach past those boundaries to touch internal state directly.

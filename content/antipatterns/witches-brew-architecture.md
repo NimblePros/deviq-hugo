@@ -1,7 +1,8 @@
-﻿---
+---
 title: "Witches' Brew Architecture: A Software Antipattern"
 date: 2024-08-23
 description: Witches' Brew Architecture is a software antipattern characterized by a chaotic and poorly structured codebase that combines multiple technologies, design patterns, and coding styles in a haphazard and inconsistent manner.
+weight: 370
 ---
 
 ## Introduction

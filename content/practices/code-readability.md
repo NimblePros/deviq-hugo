@@ -4,6 +4,7 @@ date: 2024-08-21
 description: Discover the importance of Code Readability in software development. Learn how writing clear, understandable code enhances collaboration, reduces bugs, and makes maintenance easier for everyone on the team.
 params:
   image: /practices/images/Code-Readability-Dec-2013-400x400.jpg
+weight: 50
 ---
 
 ![Code-Readability-Dec-2013](images/Code-Readability-Dec-2013-400x400.jpg)

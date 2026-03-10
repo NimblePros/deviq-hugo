@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Class Depends on Subclass code smell occurs when a base class contains references to, or knowledge of, one or more of its own subclasses — inverting the expected dependency direction in an inheritance hierarchy.
 
+weight: 40
 ---
 
 The Class Depends on Subclass code smell occurs when a base class has direct knowledge of its subclasses — referencing them by name, using `typeof` checks, casting to them, or modeling behavior based on their existence. This inverts the intended relationship of inheritance: base classes should define contracts that subclasses fulfill, not be aware of who fulfills them. When the base knows about its children, the hierarchy can no longer be extended without modifying the base, and the [Liskov Substitution Principle](/principles/liskov-substitution-principle/) is undermined.

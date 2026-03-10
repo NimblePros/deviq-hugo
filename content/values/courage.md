@@ -1,9 +1,10 @@
-﻿---
+---
 title: Courage
 date: 2024-08-19
 description: Embrace the value of Courage in Extreme Programming. Discover how taking bold decisions, addressing challenges directly, and welcoming changes can lead to better, more adaptable software solutions.
 params:
   image: /values/images/courage.png
+weight: 20
 ---
 
 Courage is one of the [Values of Extreme Programming](http://www.extremeprogramming.org/values.html).  To wit:

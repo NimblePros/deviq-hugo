@@ -1,9 +1,10 @@
-﻿---
+---
 title: Subdomains in DDD
 date: 2024-04-02
 description: In Domain-Driven Design (DDD), a subdomain represents a smaller, well-defined area of knowledge or responsibility within a larger domain.
 params:
   image: /domain-driven-design/images/subdomain.png
+weight: 130
 ---
 
 In Domain-Driven Design (DDD), a subdomain represents a smaller, well-defined area of knowledge or responsibility within a larger [domain](./domain). It can be further decomposed into even smaller subdomains if necessary, and should be cohesive with clear boundaries from other subdomains.

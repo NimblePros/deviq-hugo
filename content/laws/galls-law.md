@@ -1,9 +1,10 @@
-﻿---
+---
 title: Gall's Law for Software Developers
 date: 2024-04-02
 description: Gall's Law is an observation about the nature and evolution of complex systems. It's a principle that resonates deeply within the world of software development and system architecture.
 params:
   image: /laws/images/galls-law.png
+weight: 70
 ---
 
 Gall's Law is an observation about the nature and evolution of complex systems. It's a principle that resonates deeply within the world of software development and system architecture. John Gall, in his book "Systemantics: How Systems Really Work and How They Fail", posits this principle, which has since been referenced in many discussions on system design and software development.

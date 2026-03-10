@@ -1,9 +1,10 @@
-﻿---
+---
 title: Copy Paste Programming
 date: 2024-08-20
 description: Learn about the pitfalls of Copy-Paste Programming. While convenient, this approach can lead to duplicated code, inconsistencies, and maintenance challenges. Explore better practices for code reuse and efficiency.
 params:
   image: /antipatterns/images/copy-paste-programming-400x400.jpg
+weight: 100
 ---
 
 ![CopyPasteProgramming](images/copy-paste-programming-400x400.jpg)

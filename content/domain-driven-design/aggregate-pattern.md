@@ -1,9 +1,10 @@
-﻿---
+---
 title: Aggregate Pattern
 date: 2024-04-02
 description: Aggregates are a design pattern that play a big role in domain-driven development.
 params:
   image: /domain-driven-design/images/aggregate-pattern.png
+weight: 10
 ---
 
 Aggregates are a design pattern that play a big role in domain-driven development. In many systems, the relationships between [entities](./entity) can become so interwoven that attempting to eager-load an entity and all of its related entities from persistence results in attempting to download the entire database. A common approach to mitigate this issue is to turn on lazy-loading, but this is frequently more of a band-aid than an elegant solution, and brings with it its own problems.

@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Long Parameter List code smell occurs when a method or function requires too many parameters, making it difficult to call correctly, understand at a glance, and maintain over time.
 
+weight: 230
 ---
 
 The Long Parameter List code smell occurs when a method or function requires too many parameters. While there is no hard rule on the maximum number of parameters, methods with four or more parameters are worth scrutinizing, and those with many more are almost certainly doing too much or missing an abstraction. Long parameter lists are hard to read, easy to call incorrectly, and often signal that related data should be grouped into a dedicated type.

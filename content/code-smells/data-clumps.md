@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: The Data Clumps code smell occurs when the same group of data items repeatedly appears together across multiple classes or method signatures, signaling that the group deserves its own type.
 
+weight: 100
 ---
 
 The Data Clumps code smell occurs when the same group of data items repeatedly appears together — in field declarations, method parameters, or local variables — across multiple places in a codebase. If you find yourself always passing `street`, `city`, `state`, and `zip` together, or always seeing `startDate` and `endDate` side by side, those values are clumping because they belong together. The fix is to introduce a type that names and owns the concept they collectively represent.

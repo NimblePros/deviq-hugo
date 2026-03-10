@@ -1,9 +1,10 @@
-﻿---
+---
 title: EventStorming
 date: 2024-04-02
 description: EventStorming is a powerful and collaborative workshop-based technique that enables teams to gain a deeper understanding of complex business domains, leading to more effective software development.
 params:
   image: /domain-driven-design/images/eventstorming.png
+weight: 100
 ---
 
 EventStorming is a powerful and collaborative workshop-based technique that enables teams to gain a deeper understanding of complex business domains, leading to more effective software development. The participants in this workshop are representatives across the business such as stakeholders, IT professionals, developers, domain experts, business analysts, designers, and anyone else relevant to the domain.

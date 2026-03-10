@@ -4,6 +4,7 @@ title: Iterator Design Pattern
 date: 2026-03-09
 
 description: The Iterator Design Pattern provides a way to access elements of a collection sequentially without exposing its underlying representation. Learn how the Iterator pattern works in C# through IEnumerable, IEnumerator, and yield return.
+weight: 170
 ---
 
 ## What is the Iterator Design Pattern?

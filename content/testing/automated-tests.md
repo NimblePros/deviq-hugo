@@ -1,9 +1,10 @@
-﻿---
+---
 title: Automated Tests
 date: 2024-08-30
 description: Discover the benefits and challenges of automated testing, a crucial practice for maintaining code quality and efficiency in software development.
 params:
   image: /testing/images/automated-tests.png
+weight: 20
 ---
 
 Automated tests are scripts or programs that automatically verify the functionality of software, reducing the need for manual testing. They can be run frequently to catch issues early in the development process, ensuring that code changes don't introduce new bugs. Automated tests are ideal for regression testing, continuous integration, and large-scale applications where repeated manual testing is impractical.

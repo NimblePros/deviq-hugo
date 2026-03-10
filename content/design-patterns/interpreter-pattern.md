@@ -4,6 +4,7 @@ title: Interpreter Design Pattern
 date: 2026-03-09
 
 description: The Interpreter Design Pattern defines a grammar for a language and provides an interpreter to process sentences in that language. Learn how to implement the Interpreter pattern in C# using abstract syntax trees.
+weight: 160
 ---
 
 ## What is the Interpreter Design Pattern?

@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Artificial Coupling is a code smell where unrelated concepts are coupled together through shared state, a common base class, or co-location, when no real relationship exists between them.
 
+weight: 20
 ---
 
 Artificial Coupling is a code smell where two or more unrelated concepts are forced into a relationship they do not naturally have. The coupling is artificial — not derived from the problem domain, but from a convenience decision or structural shortcut. Common forms include placing unrelated methods in the same class, deriving from a base class to gain access to a few shared utilities, or using shared mutable state to pass data between unrelated operations.

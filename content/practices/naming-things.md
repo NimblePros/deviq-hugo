@@ -1,4 +1,4 @@
-﻿---
+---
 title: Naming Things
 
 date: 2024-08-21
@@ -8,6 +8,7 @@ description: Discover why 'Naming Things' is considered one of the hardest probl
 params:
 
   image: /practices/images/Naming-Things-400x400.jpg
+weight: 150
 ---
 
 ![Naming-Things-Sep-2013](images/Naming-Things-400x400.jpg)

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Murphy's Law
 date: 2021-02-19
 description: Anything that can go wrong...
 params:
   image: /laws/images/murphys-law.png
+weight: 170
 ---
 
 ![murphy's law](./images/murphys-law.png)

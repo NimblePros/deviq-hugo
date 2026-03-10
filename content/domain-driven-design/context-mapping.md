@@ -1,9 +1,10 @@
-﻿---
+---
 title: Context Mapping
 date: 2023-12-08
 description: Context Mapping enables seeing how bounded contexts integrate with each other.
 params:
   image: /domain-driven-design/images/context-mapping.png
+weight: 50
 ---
 
 Context Mapping enables seeing how [bounded contexts](./bounded-context) integrate with each other. Context maps show the relationships between bounded contexts and may also indicate relations of teams maintaining those bounded contexts.

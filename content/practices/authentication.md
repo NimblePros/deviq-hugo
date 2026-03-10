@@ -1,9 +1,10 @@
-﻿---
+---
 title: Authentication
 date: 2023-12-27
 description: Authentication is the concept of checking that the user is who they claim they are.
 params:
   image: /practices/images/authentication.png
+weight: 20
 ---
 
 "Are you who you claim to be?" This is the main concept of **authentication** - ensuring that a user, system, or entity is truly who they claim to be.

@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: The Dead Code code smell refers to code that is never executed, never reached, or no longer serves any purpose in the running application.
 
+weight: 110
 ---
 
 Dead code is code that is never executed, never reached, or no longer serves any purpose in the running application. It may be a method that is never called, a variable that is assigned but never read, a branch that can never be taken, or an entire class that has been replaced but not removed. Dead code accumulates silently over time as features change, requirements shift, and code is refactored without cleaning up what remains.

@@ -1,9 +1,10 @@
-﻿---
+---
 title: Wirth's Law
 date: 2024-11-04
 description: Wirth's Law, proposed by computer scientist Niklaus Wirth, states that 'software is getting slower more rapidly than hardware becomes faster.'
 params:
   image: /laws/images/wirths-law.png
+weight: 190
 ---
 
 ![wirth's law](./images/wirths-law.png)

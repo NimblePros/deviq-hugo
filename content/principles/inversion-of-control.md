@@ -1,9 +1,10 @@
-﻿---
+---
 title: Inversion of Control
 date: 2023-12-26
 description: Inversion of Control (IoC or IOC) describes a system that follows the Hollywood Principle.
 params:
   image: /principles/images/inversion-of-control.png
+weight: 100
 ---
 
 Inversion of Control (IoC or IOC) describes a system that follows the [Hollywood Principle](/principles/hollywood-principle/). That is, flow of control within the application is not controlled by the application itself, but rather by the underlying framework. Typically in such an architecture, the application is written such that it ties into the application framework by handling framework events or plugging in to framework extension points.

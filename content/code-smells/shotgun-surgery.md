@@ -5,6 +5,7 @@ date: 2026-03-08
 
 description: Shotgun Surgery is a code smell where making a single logical change requires modifying many different classes or files simultaneously, spreading a single concern across the codebase in a fragile and error-prone way.
 
+weight: 340
 ---
 
 Shotgun Surgery is a code smell where a single logical change — fixing a business rule, updating a data format, changing a configuration value — forces you to make small edits scattered across many different classes or files at the same time. The name evokes the buckshot pattern: one trigger pull, holes everywhere.

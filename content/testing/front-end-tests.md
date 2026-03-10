@@ -1,9 +1,10 @@
-﻿---
+---
 title: Front-End Tests
 date: 2024-08-30
 description: Learn how front-end tests ensure your application’s user interface performs as expected, providing a seamless user experience across all devices.
 params:
   image: /testing/images/front-end-tests.png
+weight: 30
 ---
 
 Front-end tests focus on the user interface (UI) and user experience (UX) aspects of an application. These tests ensure that the front-end of an application behaves as expected from the user's perspective. Front-end tests are essential for ensuring that visual components render correctly across different devices and browsers, and that user interactions perform as intended.

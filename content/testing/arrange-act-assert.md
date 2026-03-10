@@ -1,9 +1,10 @@
-﻿---
+---
 title: Arrange-Act-Assert
 date: 2023-12-18
 description: Arrange-Act-Assert is a pattern for setting up tests.
 params:
   image: /testing/images/arrange-act-assert.png
+weight: 10
 ---
 
 The Arrange-Act-Assert (AAA) pattern is a simple yet powerful way to structure your test cases, particularly in unit testing. It provides a clear and concise format for testing code, making your tests easier to read, understand, and maintain. The code structure looks like this:

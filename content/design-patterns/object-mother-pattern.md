@@ -1,9 +1,10 @@
-﻿---
+---
 title: Object Mother Pattern
 date: 2024-04-02
 description: The Object Mother pattern is used for creating example objects in testing.
 params:
   image: /design-patterns/images/object-mother-pattern.png
+weight: 250
 ---
 
 The Object Mother pattern was [described by Martin Fowler](https://martinfowler.com/bliki/ObjectMother.html) as a catchy name for a factory that returns standard fixtures that can be used across multiple tests. The name itself was coined on a Thoughtworks project.

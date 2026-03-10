@@ -4,6 +4,7 @@ date: 2026-03-09
 description: Learn how the Event Aggregator design pattern decouples event publishers from subscribers by routing events through a central hub. Discover its benefits, drawbacks, use cases, and C# implementation.
 params:
   image: /design-patterns/images/event-aggregator-pattern.png
+weight: 110
 ---
 
 The Event Aggregator pattern provides a central hub that collects events from multiple sources and routes them to interested subscribers. Rather than having publishers hold direct references to their subscribers (as in the [Observer](/design-patterns/observer-pattern/) pattern), both sides depend only on the aggregator. This eliminates the need for publishers and subscribers to know anything about each other, resulting in a highly decoupled, extensible event-driven system.

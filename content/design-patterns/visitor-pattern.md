@@ -4,6 +4,7 @@ title: Visitor Design Pattern
 date: 2026-03-09
 
 description: The Visitor Design Pattern lets you define a new operation on elements of an object structure without changing the classes of those elements. Learn how to implement the Visitor pattern in C# with practical examples.
+weight: 390
 ---
 
 ## What is the Visitor Design Pattern?

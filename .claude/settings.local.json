@@ -25,7 +25,9 @@
       "Bash(git log:*)",
       "Bash(/tmp/sidebar_order.sh:*)",
       "WebFetch(domain:gohugo.io)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(gh issue:*)",
+      "Bash(dotnet:*)"
     ]
   }
 }

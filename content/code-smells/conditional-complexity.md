@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Conditional Complexity is a code smell where business logic is buried in a tangle of nested or duplicated if/else and switch statements that are difficult to read, test, and extend.
 
+weight: 80
 ---
 
 Conditional Complexity is a code smell where the logic of a program is controlled by a growing web of `if/else` chains, nested conditionals, or duplicated `switch` statements. While a single conditional is rarely a problem, complex conditional logic tends to spread — the same type-check or flag appears in multiple methods, branches nest three or four levels deep, and adding a new case means touching several different places in the codebase.

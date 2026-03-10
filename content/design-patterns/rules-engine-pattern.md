@@ -1,9 +1,10 @@
-﻿---
+---
 title: Rules Engine Pattern
 date: 2023-11-17
 description: The Rules Engine pattern allows complex business rules to be defined, managed, and applied outside of the main application code.
 params:
   image: /design-patterns/images/rules-engine-pattern.png
+weight: 310
 ---
 
 The Rules Engine Pattern is classified as a behavioral design pattern, as noted in the _Design Patterns_ book by the Gang of Four. This pattern is a design pattern that allows developers to define and manage complex business rules outside of the main application code. It encapsulates the logic for evaluating these rules and applying them to data, making it easier to modify and maintain the rules without affecting the underlying code.

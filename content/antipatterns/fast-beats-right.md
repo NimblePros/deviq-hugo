@@ -1,9 +1,10 @@
-﻿---
+---
 title: Fast Beats Right
 date: 2024-08-20
 description: Get into the Fast Beats Right antipattern, where speed is prioritized over quality. Learn why rushing development can lead to long-term issues and how to strike a balance between speed and precision.
 params:
   image: /antipatterns/images/fast-beats-right-400x400.jpg
+weight: 150
 ---
 
 ![Fast_Beats_Right_Dec_2014](images/fast-beats-right-400x400.jpg)

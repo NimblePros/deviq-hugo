@@ -1,9 +1,10 @@
-﻿---
+---
 title: Golden Hammer
 date: 2024-08-20
 description: Uncover the pitfalls of the Golden Hammer antipattern, where developers use their favorite tool or technology for every problem. Understand why relying too heavily on one solution can limit creativity and effectiveness.
 params:
   image: /antipatterns/images/golden-hammer2014-400x400.jpg
+weight: 210
 ---
 
 ![Golden_Hammer_April_2014](images/golden-hammer2014-400x400.jpg)

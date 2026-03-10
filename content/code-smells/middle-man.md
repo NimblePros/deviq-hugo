@@ -5,6 +5,7 @@ date: 2026-03-09
 
 description: Middle Man is a code smell where a class does little work of its own and mostly delegates to another class, making it an unnecessary layer of indirection.
 
+weight: 250
 ---
 
 Middle Man is a code smell where a class has become a pass-through layer that adds no value of its own. Most of its methods do nothing but forward calls to another class or object. It is a middleman in the literal sense: an intermediary who takes messages and passes them along without contributing anything.

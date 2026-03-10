@@ -1,4 +1,4 @@
-﻿---
+---
 title: Single Responsibility Principle
 
 date: 2024-04-02
@@ -8,6 +8,7 @@ description: The Single Responsibility Principle (SRP) states that a class shoul
 params:
 
   image: /principles/images/single-responsibility-400x400.jpg
+weight: 200
 ---
 
 ![SingleResponsibility](images/single-responsibility-400x400.jpg)

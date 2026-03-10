@@ -4,6 +4,7 @@ title: Unit of Work Pattern
 date: 2026-03-09
 
 description: The Unit of Work Pattern maintains a list of objects affected by a business transaction and coordinates the writing out of changes as a single atomic operation. Learn how to implement it in C# with Entity Framework Core.
+weight: 380
 ---
 
 ## What is the Unit of Work Pattern?
