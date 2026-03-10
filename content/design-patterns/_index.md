@@ -37,7 +37,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Lazy Load](/design-patterns/lazy-load-pattern/)
 - [Mediator](/design-patterns/mediator-pattern/)
 - [Memento](/design-patterns/memento-pattern/)
-- Model-View-Controller (MVC)
+- [Model-View-Controller (MVC)](/design-patterns/mvc-pattern/)
 - Model-View-Presenter (MVP)
 - Model-View-ViewModel (MVVM)
 - [Null Object](/design-patterns/null-object-pattern/)

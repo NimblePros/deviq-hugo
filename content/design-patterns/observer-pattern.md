@@ -1,8 +1,12 @@
 ﻿---
-title: Observer Pattern
-date: 2024-10-10
-description: Explore the Observer pattern, a key design pattern that enables loose coupling and dynamic communication between objects in software development. Learn about its benefits, drawbacks, use cases, and implementation.
-params:
+title: Observer Pattern
+
+date: 2024-10-10
+
+description: Explore the Observer pattern, a key design pattern that enables loose coupling and dynamic communication between objects in software development. Learn about its benefits, drawbacks, use cases, and implementation.
+
+params:
+
   image: /design-patterns/images/observer-pattern.png
 ---
 
@@ -56,7 +60,7 @@ In the eCommerce example of the Observer pattern that we discussed, the observer
 These are some common use cases for the observer pattern:
 
 - **Event Handling Systems**: GUI frameworks often use the Observer pattern to handle user interactions.
-- **Data Binding**: In applications where data models need to be synchronized with views (like in MVC architectures).
+- **Data Binding**: In applications where data models need to be synchronized with views (like in [MVC](/design-patterns/mvc-pattern/) architectures).
 - **Real-Time Notifications**: Systems where multiple components need to be notified of state changes, such as chat applications or stock tickers.
 - **Publish-Subscribe Systems**: Messaging systems where publishers send messages to multiple subscribers. The [Event Aggregator](/design-patterns/event-aggregator-pattern/) pattern extends this idea by providing a central hub that fully decouples publishers from subscribers.
 
