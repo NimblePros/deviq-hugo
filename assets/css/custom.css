@@ -54,6 +54,42 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8;
 }
 
+/* NimblePros promo banner */
+.nimblepros-promo-banner {
+  display: block;
+  background-color: #1a56a5;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+}
+
+.nimblepros-promo-banner:hover {
+  background-color: #154898;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nimblepros-promo-inner {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: center;
+  font-size: 0.875rem;
+}
+
+.nimblepros-promo-icon {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.nimblepros-promo-arrow {
+  font-size: 1.1em;
+}
+
 /* Keep Mermaid diagrams readable in dark themes */
 pre.mermaid,
 .mermaid,
