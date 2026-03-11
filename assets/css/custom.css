@@ -80,10 +80,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nimblepros-promo-icon {
-  height: 1em;
+  height: 2em;
   width: auto;
   vertical-align: middle;
   display: inline-block;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
 }
 
 .nimblepros-promo-arrow {
