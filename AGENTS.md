@@ -45,7 +45,8 @@ Tests are executable specifications and provide precise feedback for AI-generate
 **Run tests after implementing features:**
 
 ```bash
-# test script goes here
+# test script goes here - check for bad images and links, too
+hugo serve -D
 ```
 
 **Why tests matter for AI development:**
@@ -89,7 +90,7 @@ This project uses Claude Code's multi-agent support. Available agents are in `.c
 
 | Agent | Description |
 |---|---|
-| `gatsby-to-hugo-migrator` | Specialized for migrating content, converting frontmatter, creating shortcodes, mapping Gatsby plugins to Hugo equivalents, and adapting scripts from `scripts/reference/` |
+| `technical-doc-writer` | Skilled at creating new articles in markdown format  |
 
 ### Invoking an Agent
 
@@ -98,3 +99,7 @@ Ask Claude to use a specific agent by name:
 > "Use the gatsby-to-hugo-migrator to analyze what content is in `_reference/src/docs` and plan the migration"
 
 Or Claude will automatically select the appropriate agent based on the task context.
+
+### Tools
+
+- Assume the 'gh' CLI is installed and authenticated. Use it if you need to access github issues.
