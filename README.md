@@ -6,9 +6,69 @@
 
 **Before opening a pull request, be sure to read [this Pull Request Etiquette blog post](https://blog.nimblepros.com/blogs/pull-request-etiquette/).**
 
-## Creating Pages
+## Prerequisites
 
-TODO: Add new page instructions.
+- [Hugo extended](https://gohugo.io/installation/) installed globally.
+- On Windows (Chocolatey):
+
+```powershell
+choco upgrade hugo-extended
+```
+
+## Build and Run Locally
+
+From the repository root:
+
+1. Start the local dev server (includes draft content):
+
+```bash
+hugo server -D
+```
+
+2. Open the local site (default): `http://localhost:1313/`
+3. Build a production version:
+
+```bash
+hugo build
+```
+
+4. Optional: lint markdown content files:
+
+```bash
+markdownlint content/
+```
+
+## Add a New Article
+
+1. Choose the correct section folder under `content/` (for example: `antipatterns`, `principles`, `practices`, `testing`).
+2. Create a new page using a kebab-case slug:
+
+```bash
+hugo new content/<section>/<slug>.md
+```
+
+Example:
+
+```bash
+hugo new content/principles/example-principle.md
+```
+
+3. Update frontmatter. Most pages include at least:
+
+```yaml
+---
+title: Example Principle
+date: 2026-03-14
+description: One or two concise sentences summarizing the article.
+params:
+	image: /principles/images/example-principle.png
+weight: 10
+---
+```
+
+4. Add the article body content, links, and references.
+5. Run `hugo server -D` and verify the page renders and appears in the expected section.
+6. When the article is ready to publish, ensure `draft` is removed or set to `false`.
 
 ### Creating a Featured Image
 
