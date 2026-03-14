@@ -15,6 +15,11 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 
 Some design patterns tend to cause more problems than they solve, and are thus commonly referred to as [antipatterns](/antipatterns/).
 
+See also:
+
+ - [Architecture Patterns](/architecture/#architecture-patterns)
+ - [Testing Patterns](/testing/#design-patterns)
+
 ## Alphabetical List of Design Patterns
 
 **(⚠️ indicates patterns that are often considered antipatterns)**
