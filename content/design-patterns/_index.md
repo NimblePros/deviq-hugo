@@ -18,6 +18,7 @@ Some design patterns tend to cause more problems than they solve, and are thus c
 See also:
 
  - [Architecture Patterns](/architecture/#architecture-patterns)
+ - [Domain-Driven Design Patterns](/domain-driven-design/#ddd-design-patterns)
  - [Testing Patterns](/testing/#design-patterns)
 
 ## Alphabetical List of Design Patterns
