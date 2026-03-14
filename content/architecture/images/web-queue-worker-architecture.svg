@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Web-Queue-Worker Architecture</title>
+  <desc id="desc">Diagram-style illustration of client requests flowing to a web tier, into a queue, and through worker nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f7ff"/>
+      <stop offset="100%" stop-color="#dff1ff"/>
+    </linearGradient>
+    <style>
+      .box { fill: #ffffff; stroke: #1f3b57; stroke-width: 3; rx: 14; ry: 14; }
+      .queue { fill: #e7f5ff; stroke: #0a6ea8; stroke-width: 3; rx: 14; ry: 14; }
+      .label { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 28px; font-weight: 700; fill: #12324a; }
+      .sub { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 18px; font-weight: 500; fill: #27506f; }
+      .title { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 46px; font-weight: 800; fill: #0f2e46; }
+      .arrow { stroke: #0a6ea8; stroke-width: 6; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="9" refX="10" refY="4.5" orient="auto">
+      <polygon points="0 0, 12 4.5, 0 9" fill="#0a6ea8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="70" y="90" class="title">Web-Queue-Worker Architecture</text>
+
+  <rect x="80" y="210" width="220" height="140" class="box"/>
+  <text x="190" y="275" text-anchor="middle" class="label">Client</text>
+  <text x="190" y="310" text-anchor="middle" class="sub">Request Source</text>
+
+  <rect x="390" y="180" width="260" height="200" class="box"/>
+  <text x="520" y="255" text-anchor="middle" class="label">Web App</text>
+  <text x="520" y="290" text-anchor="middle" class="sub">Validate + Enqueue</text>
+
+  <rect x="740" y="210" width="220" height="140" class="queue"/>
+  <text x="850" y="275" text-anchor="middle" class="label">Queue</text>
+  <text x="850" y="310" text-anchor="middle" class="sub">Durable Work Items</text>
+
+  <rect x="980" y="120" width="170" height="110" class="box"/>
+  <text x="1065" y="175" text-anchor="middle" class="label">Worker A</text>
+
+  <rect x="980" y="260" width="170" height="110" class="box"/>
+  <text x="1065" y="315" text-anchor="middle" class="label">Worker B</text>
+
+  <rect x="980" y="400" width="170" height="110" class="box"/>
+  <text x="1065" y="455" text-anchor="middle" class="label">Worker C</text>
+
+  <path d="M300 280 L390 280" class="arrow"/>
+  <path d="M650 280 L740 280" class="arrow"/>
+  <path d="M960 260 L980 175" class="arrow"/>
+  <path d="M960 280 L980 315" class="arrow"/>
+  <path d="M960 300 L980 455" class="arrow"/>
+
+  <text x="520" y="560" text-anchor="middle" class="sub">Fast response in web tier, scalable async processing in worker tier</text>
+</svg>
