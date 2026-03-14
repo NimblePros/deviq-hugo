@@ -27,7 +27,8 @@
       "WebFetch(domain:gohugo.io)",
       "WebSearch",
       "Bash(gh issue:*)",
-      "Bash(dotnet:*)"
+      "Bash(dotnet:*)",
+      "Bash(gh pr:*)"
     ]
   }
 }
