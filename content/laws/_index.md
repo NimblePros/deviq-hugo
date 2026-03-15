@@ -28,6 +28,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Goodhart's Law](/laws/goodharts-law/)
 - [Hebb's Law](/laws/hebbs-law/)
 - [Hofstadter's Law](/laws/hofstadters-law/)
+- Keep It Simple, Stupid (KISS)
 - [Kerckhoff's Principle](/laws/kerckhoffs-principle/)
 - Knuth's Optimization Principle
 - Law of Large Numbers
@@ -47,5 +48,6 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Software Architecture, Laws of](/laws/laws-software-architecture/)
 - [Software Estimates, 5 Laws of](https://ardalis.com/the-5-laws-of-software-estimates/)
 - Sturgeon's Law
+- [Tesler's Law (Law of Conservation of Complexity)](/laws/teslers-law/)
 - Vogels' Law
 - [Wirth's Law](/laws/wirths-law/)
