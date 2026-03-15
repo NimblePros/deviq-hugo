@@ -47,5 +47,6 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Software Architecture, Laws of](/laws/laws-software-architecture/)
 - [Software Estimates, 5 Laws of](https://ardalis.com/the-5-laws-of-software-estimates/)
 - Sturgeon's Law
+- [Tesler's Law (Law of Conservation of Complexity)](/laws/teslers-law/)
 - Vogels' Law
 - [Wirth's Law](/laws/wirths-law/)
