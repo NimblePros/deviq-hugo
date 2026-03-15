@@ -117,8 +117,6 @@ Tesler's Law intersects with several other principles in software design:
 
 ## References
 
-1. Tesler, Larry. [Computers Ltd: What They Really Can't Do](https://en.wikipedia.org/wiki/Larry_Tesler) — Oxford University Press, 2000.
-2. Cooper, Alan. [The Inmates Are Running the Asylum](https://amzn.to/3OoUEsh) — Sams Publishing, 1999. (Popularized Tesler's Law for UX audiences.)
-3. Brooks, Frederick P. ["No Silver Bullet — Essence and Accident in Software Engineering."](http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html) IEEE Computer, April 1987.
-4. [Larry Tesler — Wikipedia](https://en.wikipedia.org/wiki/Larry_Tesler)
-5. [Law of Conservation of Complexity — Interaction Design Foundation](https://www.interaction-design.org/literature/topics/teslers-law)
+1. Cooper, Alan. [The Inmates Are Running the Asylum](https://amzn.to/4lvVqIg) — Sams Publishing, 1999. (Popularized Tesler's Law for UX audiences.)
+2. Brooks, Frederick P. ["No Silver Bullet — Essence and Accident in Software Engineering."](https://en.wikipedia.org/wiki/No_Silver_Bullet) IEEE Computer, April 1987.
+3. [Larry Tesler — Wikipedia](https://en.wikipedia.org/wiki/Larry_Tesler)
