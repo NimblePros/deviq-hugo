@@ -32,6 +32,7 @@ Consistently following good principles is important to good code. This means app
 - [Open-Closed](/principles/open-closed-principle/)
 - [Parse, Don't Validate](/principles/parse-dont-validate/)
 - [Persistence Ignorance](/principles/persistence-ignorance/)
+- [Progressive Disclosure](/principles/progressive-disclosure/)
 - [Separation of Concerns](/principles/separation-of-concerns/)
 - [Single Responsibility](/principles/single-responsibility-principle/)
 - [SOLID](/principles/solid/)

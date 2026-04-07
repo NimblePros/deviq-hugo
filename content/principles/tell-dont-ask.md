@@ -4,7 +4,7 @@ date: 2015-03-03
 description: The Tell, Don't Ask (TDA) principle suggests that it is better to issue an object a command to perform some operation or logic, rather than to query its state and then take some action as a result.
 params:
   image: /principles/images/tell-dont-ask.png
-weight: 230
+weight: 240
 ---
 
 The Tell, Don't Ask (TDA) principle suggests that it is better to issue an object a command to perform some operation or logic, rather than to query its state and then take some action as a result.
