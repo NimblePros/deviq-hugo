@@ -25,10 +25,10 @@
 {{- with $.Params.images -}}
   {{- range first 6 . }}
     {{- with $.Resources.GetMatch . }}
-      <!-- If the string matches a page resource, use that -->
+      {{/* If the string matches a page resource, use that */}}
       <meta property="og:image" content="{{ .Permalink }}">
     {{- else }}
-      <!-- Otherwise treat it as a site/global path -->
+      {{/* Otherwise treat it as a site/global path */}}
       {{- $image := . -}}
       {{- if hasPrefix $image "/" -}}
         {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
@@ -38,7 +38,7 @@
   {{- end }}
 {{- else -}}
   {{- with $.Params.image -}}
-    <!-- Support singular params.image used site-wide -->
+    {{/* Support singular params.image used site-wide */}}
     {{- $image := . -}}
     {{- if hasPrefix $image "/" -}}
       {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
