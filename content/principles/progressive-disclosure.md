@@ -3,12 +3,10 @@ title: "Progressive Disclosure"
 date: 2026-04-07T10:29:40-04:00
 description: "Progressive Disclosure is a design principle that involves revealing information or complexity gradually, rather than all at once. It applies to software architecture, UX design, AI systems, presentations, and more."
 params:
-  image: /principles/images/progressive-disclosure-400x400.jpg
+  image: /principles/images/progressive-disclosure.png
 weight: 190
 draft: false
 ---
-
-<!-- TODO: Create image file at static/principles/images/progressive-disclosure-400x400.jpg -->
 
 Progressive Disclosure is the principle of revealing complexity gradually rather than all at once. Information, features, or details are introduced incrementally — as they become needed or as the audience is ready to receive them. The principle originates in UX design but applies broadly to software architecture, technical communication, AI systems, and more.
 

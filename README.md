@@ -25,20 +25,24 @@ From the repository root:
 hugo server -D
 ```
 
-2. Open the local site (default): `http://localhost:1313/`
-3. Build a production version:
+1. Open the local site (default): `http://localhost:1313/`
+2. Build a production version:
 
 ```bash
 hugo build
 ```
 
-4. Optional: lint markdown content files:
+1. Optional: lint markdown content files:
 
 ```bash
 markdownlint content/
 ```
 
 ## Add a New Article
+
+Run `./scripts/create-article.ps1`.
+
+Or:
 
 1. Choose the correct section folder under `content/` (for example: `antipatterns`, `principles`, `practices`, `testing`).
 2. Create a new page using a kebab-case slug:
@@ -53,7 +57,7 @@ Example:
 hugo new content/principles/example-principle.md
 ```
 
-3. Update frontmatter. Most pages include at least:
+1. Update frontmatter. Most pages include at least:
 
 ```yaml
 ---
@@ -61,14 +65,14 @@ title: Example Principle
 date: 2026-03-14
 description: One or two concise sentences summarizing the article.
 params:
-	image: /principles/images/example-principle.png
+ image: /principles/images/example-principle.png
 weight: 10
 ---
 ```
 
-4. Add the article body content, links, and references.
-5. Run `hugo server -D` and verify the page renders and appears in the expected section.
-6. When the article is ready to publish, ensure `draft` is removed or set to `false`.
+1. Add the article body content, links, and references.
+2. Run `hugo server -D` and verify the page renders and appears in the expected section.
+3. When the article is ready to publish, ensure `draft` is removed or set to `false`.
 
 ### Creating a Featured Image
 
