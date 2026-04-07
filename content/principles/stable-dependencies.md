@@ -4,7 +4,7 @@ date: 2015-11-17
 description: The Stable Dependencies Principle states that "The dependencies between software packages should be in the direction of the stability of the packages. That is, a given package should depend only on more stable packages."
 params:
   image: /principles/images/stable-dependencies-400x400.jpg
-weight: 220
+weight: 230
 ---
 
 ![Stable Dependencies Principle](images/stable-dependencies-400x400.png)

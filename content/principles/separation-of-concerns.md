@@ -4,7 +4,7 @@ date: 2024-08-23
 description: Learn about the Separation of Concerns (SoC) principle in software design. Discover how breaking down software into distinct sections with specific responsibilities enhances modularity and maintainability.
 params:
   image: /principles/images/separation-of-concerns-400x400.jpg
-weight: 190
+weight: 200
 ---
 
 ![Separation-of-Concerns-Feb-2013](images/separation-of-concerns-400x400.jpg)

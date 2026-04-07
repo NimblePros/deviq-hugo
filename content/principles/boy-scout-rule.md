@@ -1,8 +1,8 @@
 ---
-title: Boy Scout Rule
-date: 2024-06-28
-description: The Boy Scout Rule can be summarized as leave your code better than you found it.
-params:
+title: Boy Scout Rule
+date: 2024-06-28
+description: The Boy Scout Rule can be summarized as leave your code better than you found it.
+params:
   image: /principles/images/BoyScoutRule-400x400.png
 weight: 20
 ---

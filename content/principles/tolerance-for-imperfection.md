@@ -4,7 +4,7 @@ date: 2023-04-22
 description: Don't let perfect be the enemy of good. Software architecture is rarely perfect, but must be designed to support future optionality in the face of unknown future constraints and requirements.
 params:
   image: /principles/images/tolerance-for-imperfection.png
-weight: 240
+weight: 250
 ---
 
 The Tolerance for Imperfection principle acknowledges that no software architecture is perfect and that architects must balance competing concerns and make trade-offs. It emphasizes the need to prioritize requirements and constraints, focusing on addressing the most critical aspects of the system while accepting that some imperfections are inevitable. As the popular quote attributed to Voltaire goes, "Perfect is the enemy of good." Remember, the [first law of software architecture](/laws/laws-software-architecture/), "Everything is a tradeoff."
