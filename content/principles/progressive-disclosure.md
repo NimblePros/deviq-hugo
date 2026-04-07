@@ -8,6 +8,8 @@ weight: 190
 draft: false
 ---
 
+![Progressive Disclosure](images/progressive-disclosure.png)
+
 Progressive Disclosure is the principle of revealing complexity gradually rather than all at once. Information, features, or details are introduced incrementally — as they become needed or as the audience is ready to receive them. The principle originates in UX design but applies broadly to software architecture, technical communication, AI systems, and more.
 
 ## Why It Matters
@@ -28,6 +30,8 @@ The [C4 Model](https://c4model.com/) for software architecture directly embodies
 4. **Code** — the classes, interfaces, and relationships within a component.
 
 No single diagram attempts to show everything. A business stakeholder needs only the Context diagram; a developer implementing a specific feature may drill down to the Component or Code level. Detail is revealed when it becomes relevant to the audience.
+
+Mark Seemann also discusses similar ideas in his book, [Code That Fits In Your Head](https://amzn.to/48hSU2O).
 
 ### Scope Hierarchy
 
@@ -93,3 +97,4 @@ Geographic information systems (GIS) and high-resolution image viewers apply Pro
 - [Cognitive Load](https://en.wikipedia.org/wiki/Cognitive_load) — Wikipedia
 - [IIIF: International Image Interoperability Framework](https://iiif.io/)
 - [Deliver Better PowerPoint Presentations - YouTube](https://www.youtube.com/watch?v=TGRbN91gooo)
+- [Code That Fits in Your Head](https://amzn.to/48hSU2O) — Mark Seemann
