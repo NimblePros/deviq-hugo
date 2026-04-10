@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: {{ width }}px;
+      height: {{ height }}px;
+      {% if bg != "" %}
+      background-color: #1476BD;
+      background-image: url('{{ bg }}');
+      background-size: cover;
+      background-position: center;
+      {% else %}
+      background: linear-gradient(145deg, #1476BD 0%, #24ACE3 60%, #1476BD 100%);
+      {% endif %}
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      color: white;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Dark vignette scrim — ensures text readability over any background */
+    .scrim {
+      position: absolute;
+      inset: 0;
+      {% if bg != "" %}
+      background:
+        radial-gradient(ellipse at center, rgba(36,172,227,0.15) 0%, rgba(20,118,189,0.72) 100%),
+        linear-gradient(to bottom, rgba(20,118,189,0.60) 0%, rgba(36,172,227,0.20) 45%, rgba(20,118,189,0.70) 100%);
+      {% else %}
+      background: transparent;
+      {% endif %}
+    }
+
+    /* Centered title area */
+    .content {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10% 12%;
+    }
+
+    h1 {
+      font-size: clamp(36px, 5.8vw, 80px);
+      font-weight: 800;
+      line-height: 1.18;
+      text-align: center;
+      text-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.95),
+        0 4px 24px rgba(0, 0, 0, 0.75);
+      letter-spacing: -0.5px;
+      word-break: break-word;
+    }
+
+    /* Watermark — always on top, never filtered */
+    .watermark {
+      position: absolute;
+      bottom: 28px;
+      right: 32px;
+      width: clamp(56px, 6.5vw, 90px);
+      height: clamp(56px, 6.5vw, 90px);
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.7));
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="scrim"></div>
+
+  <div class="content">
+    <h1>{{ title }}</h1>
+  </div>
+
+  <img class="watermark" src="deviq-icon-300x300.png" alt="" />
+</body>
+</html>
