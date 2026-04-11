@@ -76,6 +76,16 @@ weight: 10
 
 ### Creating a Featured Image
 
+We are experimenting with ImgForge, a tool Ardalis built:
+
+The following script will run the latest version using a random background image from Unsplash. Run it multiple times if you don't like the image, or replace `random` with the image filename you'd like to use.
+
+The template HTML file (which adds the DevIQ watermark) is in `.imgforge/template.html`.
+
+```bash
+dnx -y imgforge -- generate --title "Test Title" --bg random --template .imgforge --format blog
+```
+
 We have a process for creating a featured image using Canva:
 
 1. The DevIQ template is [read-only on Canva](https://www.canva.com/design/DAGTShSdi3E/tMJgAOTI5eXEZ2-2qvTyDQ/edit). Make a copy of the file in Canva by going to **File** > **Make a copy**.
