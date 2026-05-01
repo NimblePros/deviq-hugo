@@ -64,7 +64,6 @@
 
 /category/antipatterns/             /antipatterns/
 /tag/antipattern/                   /antipatterns/
-/code-smells/                       /antipatterns/code-smells
 /duct-tape-coder/                   /antipatterns/duct-tape-coder
 /flags-over-objects/                /antipatterns/flags-over-objects
 /iceberg-class/                     /antipatterns/iceberg-class
