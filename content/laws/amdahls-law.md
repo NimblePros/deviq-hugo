@@ -7,6 +7,8 @@ params:
 weight: 20
 ---
 
+![understanding amdahl's law](./images/amdahls-law.png)
+
 Amdahl's Law is one of the pillars in the realm of computer science, specifically in the area of parallel computing. Named after Gene Amdahl, an American computer architect and high-tech entrepreneur, this law provides insights into the potential speedup that can be achieved when using multiple processors. The law sets a theoretical limit on how far you can go with parallelization.
 
 ## What is Amdahl's Law

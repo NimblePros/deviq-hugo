@@ -7,6 +7,8 @@ params:
 weight: 40
 ---
 
+![brooks's law](./images/brooks-law.png)
+
 *“Adding manpower to a late software project makes it later.”* - Fred Brooks
 
 In this quick guide, we'll explore Brooks's Law, a principle formulated by computer scientist Fred Brooks that has had a significant impact on software development and project management.

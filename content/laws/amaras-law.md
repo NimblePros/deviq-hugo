@@ -7,6 +7,8 @@ params:
 weight: 10
 ---
 
+![amara's law](./images/amaras-law.png)
+
 *“We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”* - Roy Amara
 
 This article gives an overview of Amara's Law, exploring its history and implications for technological predictions. Let's dive right in!

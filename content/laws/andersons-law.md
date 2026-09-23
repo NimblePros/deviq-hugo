@@ -7,6 +7,8 @@ params:
 weight: 30
 ---
 
+![anderson's law](./images/andersons-law.png)
+
 ## Introduction
 
 Anderson's Law posits, "I have yet to see any problem, however complicated, which, when you looked at it in the right way, did not become still more complicated." This insightful aphorism perfectly encapsulates many scenarios in software development. Whether you're dissecting an intricate bug, pondering architectural choices, or grappling with the ever-evolving demands of stakeholders, problems in software development often become more complicated upon closer inspection.
