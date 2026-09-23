@@ -7,6 +7,8 @@ params:
 weight: 155
 ---
 
+![mcluhan's law](./images/mcluhans-law.png)
+
 *"We shape our tools and thereafter they shape us."* — commonly attributed to Marshall McLuhan
 
 McLuhan's Law captures a feedback loop familiar to every software developer: the languages, frameworks, and platforms teams adopt to solve problems end up quietly reshaping how those teams think about problems in the first place. A tool chosen for convenience today becomes the lens through which tomorrow's decisions are made.
