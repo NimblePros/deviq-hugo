@@ -7,6 +7,8 @@ params:
 weight: 110
 ---
 
+![tesler's law](./images/teslers-law.png)
+
 *"Every application has an inherent amount of irreducible complexity. The only question is who will have to deal with it — the user, the developer, or the system."* — Larry Tesler
 
 Tesler's Law, also known as the **Law of Conservation of Complexity**, is a principle from human–computer interaction (HCI) that captures a fundamental constraint on software design: complexity is conserved, not eliminated. You can move complexity from one place to another, but you cannot make it disappear.

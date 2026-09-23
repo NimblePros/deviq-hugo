@@ -7,6 +7,8 @@ params:
 weight: 150
 ---
 
+![linus's law](./images/linus-law.png)
+
 Linus's Law is a principle often cited in the world of software development, particularly within the open-source community. Coined by Eric S. Raymond in his seminal book ["The Cathedral and the Bazaar,"](https://amzn.to/3tdjwR1) the law is named after [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), the founder of the Linux kernel. Simply put, Linus's Law states: "Given enough eyeballs, all bugs are shallow."
 
 ## What Does It Mean?

@@ -7,6 +7,8 @@ params:
 weight: 140
 ---
 
+![laws of software architecture](./images/laws-of-software-architecture.png)
+
 Software architecture is a very broad topic, but even so there are some fundamental laws that all architects should understand.
 
 ## First Law of Software Architecture

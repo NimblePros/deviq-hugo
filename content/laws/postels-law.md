@@ -2,6 +2,8 @@
 title: Postel's Law
 date: 2022-12-16
 description: Be liberal in what you accept; be conservative in what you send.
+params:
+  image: /laws/images/postels-law.png
 weight: 180
 ---
 

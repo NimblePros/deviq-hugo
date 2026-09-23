@@ -7,6 +7,8 @@ params:
 weight: 50
 ---
 
+![conway's law](./images/conways-law.png)
+
 *"Organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations."* - Melvin Conway
 
 In this quick guide, we'll explore Conway's Law, an adage formulated by computer scientist Melvin Conway that highlights the relationship between software architecture and organizational structure.

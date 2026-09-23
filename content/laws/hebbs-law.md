@@ -7,6 +7,8 @@ params:
 weight: 90
 ---
 
+![hebb's law](./images/hebbs-law.png)
+
 Hebb's Law, often summarized by the phrase "cells that fire together, wire together," is a fundamental principle in neuroscience and psychology that explains how neural pathways are strengthened through repeated activity. This concept, introduced by Donald Hebb in his 1949 book "The Organization of Behavior," has become a cornerstone of our understanding of brain plasticity, learning, and memory. In this article, we'll explore the intricacies of Hebb's Law, its implications for cognitive development, and its relevance in modern neuroscientific research.
 
 ## Understanding Hebb's Law

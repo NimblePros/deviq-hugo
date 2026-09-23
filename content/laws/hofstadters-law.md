@@ -7,6 +7,8 @@ params:
 weight: 100
 ---
 
+![hofstadter's law](./images/hofstadters-law.png)
+
 Hofstadter's Law is a principle that touches on the human tendency to underestimate the time required to complete complex tasks, especially in the realms of software development and project management. This article explores the depths of Hofstadter's Law, its implications in software development, and strategies to mitigate its effects for more accurate project planning and execution.
 
 ## Understanding Hofstadter's Law

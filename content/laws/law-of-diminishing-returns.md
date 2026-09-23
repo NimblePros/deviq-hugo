@@ -7,6 +7,8 @@ params:
 weight: 130
 ---
 
+![the law of diminishing returns](./images/law-of-diminishing-returns.png)
+
 ## Introduction
 
 The Law of Diminishing Returns is an important concept in economics that states that as more of a single factor of production is added to a production process, while other factors are held constant, the marginal increase in output will eventually decrease. This principle has implications not only in economics but also in various other fields, including software development. In this article, we will discuss the origins, applications, and implications of the Law of Diminishing Returns, with a specific focus on its relevance to software development activities such as refactoring and performance tuning.
