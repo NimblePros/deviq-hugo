@@ -95,3 +95,24 @@ We have a process for creating a featured image using Canva:
 5. Right-click on the image and select **Replace background**.
 6. Download the image and save it in the respective `images` folder.
 7. Update the frontmatter for the new page with the correct file name.
+
+### Displaying the Featured Image
+
+The `params.image` frontmatter entry only feeds the `og:image` meta tag used by social media previews — it does **not** render anything on the page itself. Articles must also reference the image in the body so readers actually see it.
+
+Place the image on its own line immediately after the frontmatter, before the first paragraph or pull-quote, using a path relative to the content file:
+
+```markdown
+---
+title: Example Law
+params:
+  image: /laws/images/example-law.png
+weight: 10
+---
+
+![example law](./images/example-law.png)
+
+Opening paragraph...
+```
+
+This is the required convention for all articles in `content/laws/`. Both references are needed: the absolute path in frontmatter for `og:image`, and the relative path in the body for the rendered page.

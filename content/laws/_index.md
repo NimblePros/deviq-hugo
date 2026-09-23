@@ -33,6 +33,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - Knuth's Optimization Principle
 - Law of Large Numbers
 - [Linus's Law](/laws/linus-law/)
+- [McLuhan's Law](/laws/mcluhans-law/)
 - [Moore's Law](/laws/moores-law/)
 - [Murphy's Law](/laws/murphys-law/)
 - Ninety-Ninety Rule
