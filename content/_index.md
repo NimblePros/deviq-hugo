@@ -79,10 +79,17 @@ type: docs
     icon="book-open"
   >}}
   {{< hextra/feature-card
+    title="Metrics"
+    subtitle="Explore Metrics →"
+    link="/metrics/"
+    class="deviq-card-odd"
+    icon="chart-bar"
+  >}}
+  {{< hextra/feature-card
     title="Testing"
     subtitle="Explore Testing →"
     link="/testing/"
-    class="deviq-card-odd"
+    class="deviq-card-even"
     icon="beaker"
   >}}
   {{< hextra/feature-card
