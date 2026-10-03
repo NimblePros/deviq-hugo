@@ -41,6 +41,18 @@ Consistently following good principles is important to good code. This means app
 - [Tolerance for Imperfection](/principles/tolerance-for-imperfection/)
 - [YAGNI](/principles/yagni/)
 
+### Lean Software Development
+
+Lean Software Development adapts the principles of lean manufacturing to software. It was popularized by Mary and Tom Poppendieck in their book [Lean Software Development: An Agile Toolkit](https://amzn.to/40GF3fU).
+
+- [Eliminate Waste](/principles/eliminate-waste/)
+- [Build in Quality](/principles/build-in-quality/)
+- [Amplify Learning](/principles/amplify-learning/)
+- [Delay Commitment (Last Responsible Moment)](/principles/delay-commitment/)
+- [Deliver Fast](/principles/deliver-fast/)
+- [Respect People](/principles/respect-people/)
+- [Optimize the Whole](/principles/optimize-the-whole/)
+
 ## Learn More
 
 - [Email Course: SOLID Principles](https://mailchi.mp/nimblepros/solid-email-course)
