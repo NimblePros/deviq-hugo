@@ -14,8 +14,8 @@ Conditional Complexity is closely related to [Switch Statements](./switch-statem
 
 Two metrics are commonly used to measure Conditional Complexity objectively:
 
-- **[Cyclomatic Complexity](/terms/cyclomatic-complexity/)** — counts the number of independent execution paths through a method. Each `if`, `else if`, `case`, `&&`, `||`, and loop adds one to the score. It is a strong predictor of testing effort: a method with a cyclomatic complexity of 10 needs at least 10 test cases for full branch coverage.
-- **[Cognitive Complexity](/terms/cognitive-complexity/)** — measures how hard the code is to *understand*. It penalizes nesting more heavily than flat branching, reflecting the human experience of reading code. A long but flat `switch` statement scores low; deeply nested `if` chains score high even with fewer total branches.
+- **[Cyclomatic Complexity](/metrics/cyclomatic-complexity/)** — counts the number of independent execution paths through a method. Each `if`, `else if`, `case`, `&&`, `||`, and loop adds one to the score. It is a strong predictor of testing effort: a method with a cyclomatic complexity of 10 needs at least 10 test cases for full branch coverage.
+- **[Cognitive Complexity](/metrics/cognitive-complexity/)** — measures how hard the code is to *understand*. It penalizes nesting more heavily than flat branching, reflecting the human experience of reading code. A long but flat `switch` statement scores low; deeply nested `if` chains score high even with fewer total branches.
 
 Using both metrics together helps identify methods that are both hard to test and hard to read.
 
@@ -145,8 +145,8 @@ Each policy is independently testable. Adding a new customer type means adding a
 
 ## References
 
-- [Cyclomatic Complexity](/terms/cyclomatic-complexity/)
-- [Cognitive Complexity](/terms/cognitive-complexity/)
+- [Cyclomatic Complexity](/metrics/cyclomatic-complexity/)
+- [Cognitive Complexity](/metrics/cognitive-complexity/)
 - [nmbls `cc` — Cyclomatic Complexity command](https://nmbl.dev/docs/commands/cc-cyclomatic-complexity/)
 - [nmbls `cogc` — Cognitive Complexity command](https://nmbl.dev/docs/commands/cogc-cognitive-complexity/)
 - [Switch Statements Code Smell](./switch-statements)

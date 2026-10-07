@@ -14,7 +14,7 @@ Progressive Disclosure is the principle of revealing complexity gradually rather
 
 ## Why It Matters
 
-Human working memory is limited. When a user or reader is confronted with too much information at once, cognitive overload sets in, making it harder to process, retain, or act on any of it. Progressive Disclosure manages [cognitive complexity](/terms/cognitive-complexity/) by structuring information in layers, allowing each layer to be absorbed before the next is introduced. AI models famously have limited working memories - context windows - as well, so the principle is equally if not more applicable for AI agents.
+Human working memory is limited. When a user or reader is confronted with too much information at once, cognitive overload sets in, making it harder to process, retain, or act on any of it. Progressive Disclosure manages [cognitive complexity](/metrics/cognitive-complexity/) by structuring information in layers, allowing each layer to be absorbed before the next is introduced. AI models famously have limited working memories - context windows - as well, so the principle is equally if not more applicable for AI agents.
 
 This aligns with the [Principle of Least Astonishment](/principles/principle-of-least-astonishment/): systems that reveal complexity incrementally tend to match user expectations more closely than systems that expose everything upfront.
 
@@ -87,7 +87,7 @@ Geographic information systems (GIS) and high-resolution image viewers apply Pro
 - [Single Responsibility Principle](/principles/single-responsibility-principle/)
 - [Separation of Concerns](/principles/separation-of-concerns/)
 - [Keep It Simple](/principles/keep-it-simple/)
-- [Cognitive Complexity](/terms/cognitive-complexity/)
+- [Cognitive Complexity](/metrics/cognitive-complexity/)
 - [Inconsistent Abstraction Levels](/code-smells/inconsistent-abstraction-levels/)
 
 ## References
