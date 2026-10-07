@@ -1,13 +1,13 @@
 ---
-title: Data Transfer Object (DTO)
+title: Data Transfer Object (DTO) Pattern
 date: 2026-10-07
 description: A Data Transfer Object (DTO) is a simple object that carries data between processes or layers of an application. It has no behavior, and it keeps your domain model decoupled from the shape of your data on the wire.
 params:
-  image: /terms/images/data-transfer-object.png
-weight: 50
+  image: /design-patterns/images/data-transfer-object-pattern.png
+weight: 85
 ---
 
-![Data Transfer Object (DTO)](./images/data-transfer-object.png)
+![Data Transfer Object (DTO)](./images/data-transfer-object-pattern.png)
 
 A _Data Transfer Object_ (DTO) is an object whose only job is to carry data from one place to another, such as between a server and a client, or between layers of an application. A DTO is about data, not behavior: it holds values and nothing else, with no business rules, no validation logic, and no instance methods.
 

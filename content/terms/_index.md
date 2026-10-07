@@ -15,6 +15,5 @@ These are terms that are commonly used in software development or software archi
 
 - [Bus Factor](/terms/bus-factor/)
 - [Cohesion](/terms/cohesion/)
-- [Data Transfer Object (DTO)](/terms/data-transfer-object/)
 - [Kinds of Models](/terms/kinds-of-models/)
 - [Technical Debt](/terms/technical-debt/)
