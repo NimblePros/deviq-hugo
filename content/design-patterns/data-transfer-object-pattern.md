@@ -46,7 +46,7 @@ Every box ending in Request, Command, Query, Event, Response, or ViewModel is a 
 
 ## DTOs Have No Behavior
 
-By definition, a DTO contains only data. If a type contains logic, it is not a DTO. That logic belongs in the domain model or in services.
+By definition, a DTO contains only data. If a type contains logic, it is not a DTO. That logic belongs in the [domain model](/domain-driven-design/domain-model/) or in services.
 
 There is a practical reason as well. A DTO usually exists as a serialized string (JSON, XML) that crosses a process boundary, and only data values transfer, never behavior. The receiver is free to deserialize that data into any type it likes, even a dynamic one. If a property setter enforces that only valid values are accepted, data from an external source that does not follow those constraints can break deserialization. The same is true of a type without a constructor the serializer can use.
 
