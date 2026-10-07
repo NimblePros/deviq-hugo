@@ -88,15 +88,34 @@ This project uses Claude Code's multi-agent support. Available agents are in `.c
 
 ### Available Agents
 
-| Agent | Description |
-|---|---|
-| `technical-doc-writer` | Skilled at creating new articles in markdown format  |
+| Agent                  | Description                                                    |
+| ---------------------- | -------------------------------------------------------------- |
+| `technical-doc-writer` | Creates new articles in Markdown                               |
+| `release-manager`      | Verifies work against requirements and standards, opens the PR |
+
+Both agents preload the `deviq-article` skill (`.claude/skills/deviq-article/SKILL.md`) via their
+front matter, so they share the same article conventions.
+
+### Article Workflow
+
+When asked to create or update a DevIQ article (or work a content GitHub issue), the main
+session orchestrates; subagents cannot spawn other subagents.
+
+1. **Draft** — delegate to `technical-doc-writer`. Pass the issue number or topic, target
+   section, and any source material. Have it complete the skill's workflow through verification,
+   but **stop before committing or opening a PR**.
+2. **Review** — delegate to `release-manager`. Have it check the article against the issue's
+   requirements and the `deviq-article` conventions (front matter, weight, image, links,
+   `hugo build`, markdownlint), and report findings rather than silently rewriting content.
+3. **Fix** — send findings back to `technical-doc-writer` (continue the same agent so it keeps
+   context) and repeat review until clean.
+4. **Ship** — have `release-manager` commit and open the PR per the skill's Pull Requests section.
 
 ### Invoking an Agent
 
 Ask Claude to use a specific agent by name:
 
-> "Use the gatsby-to-hugo-migrator to analyze what content is in `_reference/src/docs` and plan the migration"
+> "Use the technical-doc-writer to draft an article for issue #123"
 
 Or Claude will automatically select the appropriate agent based on the task context.
 

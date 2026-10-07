@@ -16,7 +16,8 @@ This is a Hugo 0.156.0 site. Articles are Markdown files under `content/<section
 5. Generate the featured image (see Featured Images — both references are required).
 6. Add the article to the section's `_index.md` list.
 7. Verify (see Verification). Do not skip this.
-8. Commit and open a PR (see Pull Requests).
+8. Commit and open a PR (see Pull Requests) — or, if you are drafting as a subagent in the Article
+   Workflow (see `AGENTS.md`), stop here and hand off for review.
 
 ## Front Matter
 
@@ -39,10 +40,10 @@ weight: <integer>
 
 **Two references are required, and they are not the same path.**
 
-| Where | Path form | What it does |
-| --- | --- | --- |
-| Front matter `params.image` | absolute: `/laws/images/foo.png` | Feeds the `og:image` meta tag for social previews. **Renders nothing on the page.** |
-| Body, first line after front matter | relative: `./images/foo.png` | What readers actually see. |
+| Where                               | Path form                        | What it does                                                                        |
+| ----------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------- |
+| Front matter `params.image`         | absolute: `/laws/images/foo.png` | Feeds the `og:image` meta tag for social previews. **Renders nothing on the page.** |
+| Body, first line after front matter | relative: `./images/foo.png`     | What readers actually see.                                                          |
 
 ```markdown
 ---
@@ -150,6 +151,7 @@ For single-file edits, the Edit tool is fine.
   ```
 
   This repo is public, so raw URLs render.
+
 - Keep PRs scoped. A new article and a repo-wide retrofit belong in separate PRs off `main`.
 
 ## Related
