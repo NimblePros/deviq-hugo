@@ -33,6 +33,7 @@ See also:
 - [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern/)
 - [Command](/design-patterns/command-pattern/)
 - [Composite](/design-patterns/composite-pattern/)
+- [Data Transfer Object (DTO)](/design-patterns/data-transfer-object-pattern/)
 - [Decorator](/design-patterns/decorator-pattern/)
 - [Domain Events](/design-patterns/domain-events-pattern/)
 - [Entity](/domain-driven-design/entity/)
