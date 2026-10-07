@@ -25,6 +25,7 @@ Antipatterns are simply [design patterns](/design-patterns/) that in many cases 
 - [Copy Paste Programming](copy-paste-programming)
 - [Death by Planning](death-by-planning)
 - [Death March](death-march)
+- [Distributed Monolith](/architecture/distributed-monolith/)
 - [Duct Tape Coder](duct-tape-coder)
 - [Fast Beats Right](fast-beats-right)
 - [Feature Creep](feature-creep)
