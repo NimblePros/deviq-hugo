@@ -68,12 +68,12 @@ The filename does not have to match the slug. Derive the path from the article's
 Run it via `dnx` so you get the current version. **The globally installed `imgforge` is stale and silently ignores `--bg random`, producing a flat blue background.** `dnx` is not on the Bash PATH — use the PowerShell tool:
 
 ```powershell
-dnx -y imgforge -- generate --title "Article Title" --bg random --template .imgforge --format blog --out content/<section>/images/<slug>.png
+dnx -y imgforge -- generate --title "Article Title" --bg random --template .tools/imgforge --format blog --out content/<section>/images/<slug>.png
 ```
 
-Then **look at the generated PNG** with the Read tool before committing it. `--bg random` pulls an arbitrary Unsplash photo; re-run until it is appropriate. Check the background is not accidentally topical in an unfortunate way.
+Then **look at the generated PNG** with the Read tool before committing it. `--bg random` pulls an arbitrary [picsum.photos](https://picsum.photos) image; re-run until it is appropriate. Check the background is not accidentally topical in an unfortunate way.
 
-`.imgforge/template.html` supplies the DevIQ watermark. `--format blog` is 1200x630.
+`.tools/imgforge/template.html` supplies the DevIQ watermark, alongside the `deviq-icon-300x300.png` it references. `--template` paths are relative to the current directory — run from the repo root. ImgForge 0.2.0 also finds `.tools/imgforge/template.html` with `--template` omitted, searching the current directory then each parent up to the repository root. `--format blog` is 1200x630.
 
 ## Body
 
