@@ -34,10 +34,12 @@ featured image.
 
 ## Assumptions
 
-1. Docs will keep passing `--template .tools/imgforge` **explicitly** rather than relying on
-   implicit discovery. Explicit is unambiguous, works from any cwd, and is immune to the
-   `.git`-is-a-file case in git worktrees (this repo is frequently worked in worktrees).
-   The implicit-discovery behavior is mentioned in docs as a convenience.
+1. Docs will keep passing `--template .tools/imgforge` **explicitly** as the primary
+   example, with implicit discovery documented alongside it as a convenience. Explicit is
+   self-documenting: a reader of the command can see where the DevIQ template lives without
+   knowing ImgForge's lookup rules. (Implicit discovery is *not* fragile — ImgForge's
+   `FindRepositoryRoot` tests both `Directory.Exists` and `File.Exists` for `.git`, so it
+   works correctly in git worktrees too, verified from a subdirectory of this worktree.)
 2. The legacy `.imgforge/` folder is **deleted**, not kept as a duplicate — ImgForge still
    supports it, so nothing breaks, and leaving two copies invites drift.
 3. No `.tools/` README or manifest is required by the tools-dir spec for this change; only
@@ -91,19 +93,50 @@ coverage to; inventing one is out of scope for this issue.
 
 ## Phase 4 — Independent review
 
-- [ ] Dispatch a **separate review agent** (fresh context) over the full diff against the
+- [x] Dispatch a **separate review agent** (fresh context) over the full diff against the
       issue's acceptance criteria. It must check: completeness (no lingering `.imgforge`
       references), correctness of the documented commands, accuracy of claims about ImgForge
       0.2.0 behavior, security, performance, and accessibility of any changed content.
-- [ ] Address all significant findings; record any deliberately-skipped finding and why.
-- [ ] Re-run Phase 3 verification if the review produced changes.
+- [x] Address all significant findings; record any deliberately-skipped finding and why.
+- [x] Re-run Phase 3 verification if the review produced changes.
 
 ### Review findings
 
-_To be filled in after the review agent runs._
+A separate review agent (fresh context) reviewed the full diff and independently verified
+the claims by reading `TemplatePathResolver.cs` / `TemplateRenderer.cs` / `GenerateCommand.cs`
+at upstream tag `v0.2.0` and by running ImgForge three ways against the moved config.
+
+**No significant findings** — no bugs, no missed requirements, no security, performance, or
+accessibility issues. Confirmed independently: no legacy `.imgforge` references remain,
+`.tools/` is not git-ignored, `--template` is genuinely optional in 0.2.0, the lookup order
+and parent-walk are as documented, `--bg random` really does use picsum.photos (so the
+Unsplash wording was wrong before this change), the relative watermark `src` resolves via an
+injected `<base href>` tag, and `hugo build` is clean.
+
+Minor findings and their disposition:
+
+1. **Assumption 1's rationale was factually wrong** — it claimed explicit `--template` was
+   needed because implicit discovery breaks when `.git` is a file (git worktrees). It does
+   not break; `FindRepositoryRoot` checks `File.Exists` as well as `Directory.Exists`.
+   **Addressed** — assumption rewritten with the real reason (self-documenting commands).
+   The wrong claim never reached user-facing docs; `README.md` and `SKILL.md` describe the
+   lookup accurately.
+2. **Plan file committed with phases 4-5 unchecked**, and `.claude/plans/` would have been
+   the first tracked plan directory in the repo, competing with the existing `.agents/plans/`.
+   **Addressed** — plan moved to `.agents/plans/` to match the convention already in the
+   repo, and phases 4-5 completed before the PR was opened.
+3. **`MD049/emphasis-style`** — the only non-MD013 markdownlint hit in the change.
+   **Addressed.**
+4. **The stale-global-tool warning in `SKILL.md` was out of date** and offered no remedy.
+   **Addressed** — it now notes that pre-0.2.0 builds also do not know about
+   `.tools/imgforge/`, and points at `dotnet tool update -g ImgForge`.
+5. **Upstream `ImgForge` README lists `--template` as "Required: Yes"**, contradicting its
+   own Custom Templates section and this repo's new guidance. **Not addressed here** — it is
+   a defect in another repository (`ardalis/ImgForge`), out of scope for this issue. Noted
+   in the PR description so the maintainer can decide whether to file it upstream.
 
 ## Phase 5 — Pull request
 
-- [ ] Commit with a conventional message.
-- [ ] Push the branch and open a PR targeting `main` with `Fixes #88`.
-- [ ] Link the PR to this thread via `link_pull_request`.
+- [x] Commit with a conventional message.
+- [x] Push the branch and open a PR targeting `main` with `Fixes #88`.
+- [x] Link the PR to this thread via `link_pull_request`.

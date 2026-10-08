@@ -65,7 +65,7 @@ The filename does not have to match the slug. Derive the path from the article's
 
 ### Generating one with ImgForge
 
-Run it via `dnx` so you get the current version. **The globally installed `imgforge` is stale and silently ignores `--bg random`, producing a flat blue background.** `dnx` is not on the Bash PATH — use the PowerShell tool:
+Run it via `dnx` so you get the current version. **A globally installed `imgforge` may be stale — older versions silently ignore `--bg random` and produce a flat blue background, and anything before 0.2.0 does not know about `.tools/imgforge/`.** `dnx` always pulls the latest from NuGet; if you prefer the global tool, run `dotnet tool update -g ImgForge` first. `dnx` is not on the Bash PATH — use the PowerShell tool:
 
 ```powershell
 dnx -y imgforge -- generate --title "Article Title" --bg random --template .tools/imgforge --format blog --out content/<section>/images/<slug>.png
