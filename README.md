@@ -76,15 +76,17 @@ weight: 10
 
 ### Creating a Featured Image
 
-We are experimenting with ImgForge, a tool Ardalis built:
+We are experimenting with [ImgForge](https://github.com/ardalis/ImgForge), a tool Ardalis built:
 
-The following script will run the latest version using a random background image from Unsplash. Run it multiple times if you don't like the image, or replace `random` with the image filename you'd like to use.
+The following script will run the latest version using a random background image from [picsum.photos](https://picsum.photos). Run it multiple times if you don't like the image, or replace `random` with the image filename you'd like to use.
 
-The template HTML file (which adds the DevIQ watermark) is in `.imgforge/template.html`.
+The template HTML file (which adds the DevIQ watermark) and its icon asset live in `.tools/imgforge/`, the location ImgForge 0.2.0 looks in by default, per the [tools-dir spec](https://github.com/tools-dir/spec).
 
 ```bash
-dnx -y imgforge -- generate --title "Test Title" --bg random --template .imgforge --format blog
+dnx -y imgforge -- generate --title "Test Title" --bg random --template .tools/imgforge --format blog
 ```
+
+`--template` is a path relative to your current directory, so run the command from the repo root. ImgForge 0.2.0 can also find `.tools/imgforge/template.html` on its own — omit `--template` entirely and it searches the current directory and then each parent up to the repository root.
 
 We have a process for creating a featured image using Canva:
 
