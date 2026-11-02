@@ -13,7 +13,9 @@ weight: 265
 > messaging between a database and an external system. It is **not** about an email outbox, the
 > Outbox folder in a mail client such as Outlook, a service that sends outbound email, or a
 > product named Outbox. If one of those is what you were searching for, this isn't the page
-> you're after. If you are building a system that sends email, see
+> you're after. [OutboxServer](https://outboxserver.com/), for example, *is* about sending email:
+> it's an organization-wide email-sending microservice, typically deployed as a Docker container.
+> If you are building a system that sends email, see
 > [the connection to email](#the-connection-to-email) below.
 
 The Outbox pattern (also called the Transactional Outbox) makes it safe to change your own
@@ -337,4 +339,6 @@ Check each library's documentation for current configuration details and support
 - [Pattern: Idempotent consumer](https://microservices.io/patterns/communication-style/idempotent-consumer.html)
 - [Implement the Transactional Outbox pattern by using Azure Cosmos DB (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/architecture/databases/guide/transactional-out-box-cosmos)
 - [Debezium Outbox Event Router](https://debezium.io/documentation/reference/transformations/outbox-event-router.html)
+- [Outbox (NServiceBus documentation)](https://docs.particular.net/nservicebus/outbox/)
+- [Transactional session (NServiceBus documentation)](https://docs.particular.net/nservicebus/transactional-session/)
 - [Enterprise Integration Patterns: Guaranteed Delivery](https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html)
