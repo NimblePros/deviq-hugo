@@ -34,6 +34,7 @@ Antipatterns are simply [design patterns](/design-patterns/) that in many cases 
 - [Frankencode](frankencode)
 - [Frozen Caveman](frozen-caveman)
 - [Golden Hammer](golden-hammer)
+- [HiPPO (Highest Paid Person's Opinion)](hippo)
 - [Iceberg Class](iceberg-class)
 - [Last 10% Trap](last-10percent-trap)
 - [Lois Lane Planning](lois-lane-planning)
