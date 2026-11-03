@@ -7,6 +7,8 @@ params:
 weight: 70
 ---
 
+![fail fast](./images/fail-fast.png)
+
 'Fail fast' suggests that if an error or problem is going to occur, it's best to detect it as early as possible. Improper or invalid inputs to a system or to individual methods, are a common source of problems in software applications. Sometimes, these problems are persisted, resulting in corrupt or invalid data that can be difficult to isolate and correct. Sometimes, the problems leave the system in an unresponsive state, consuming resources and possibly denying other users access to it.
 
 The principle of fail fast helps reduce the feedback loop when problematic inputs enter a system. The sooner a user or another system is notified there is a problem with processing its input, the better. The system will be more responsive and will consume fewer resources dealing with inputs that will ultimately result in errors or system failure.

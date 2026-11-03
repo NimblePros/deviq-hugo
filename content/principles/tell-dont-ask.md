@@ -7,6 +7,8 @@ params:
 weight: 240
 ---
 
+![tell, don't ask](./images/tell-dont-ask.png)
+
 The Tell, Don't Ask (TDA) principle suggests that it is better to issue an object a command to perform some operation or logic, rather than to query its state and then take some action as a result.
 
 > While it is acceptable to use accessors to get the state of an object, such access should not be used to make decisions outside the object. Any decisions based entirely upon the state of one object should be made by the object itself.

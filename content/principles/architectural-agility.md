@@ -7,6 +7,8 @@ params:
 weight: 10
 ---
 
+![principle of architectural agility](./images/architectural-agility.png)
+
 This principle highlights the importance of designing software architectures that can adapt to changing requirements and conditions. Architects should consider using techniques such as modular design, microservices, or other architectural patterns that promote flexibility and adaptability. This principle appears in [Building Evolutionary Architectures](https://amzn.to/41P6J31) by Ford and Parsons.
 
 The Principle of Architectural Agility, while not as widely recognized as some other principles, is an important concept in modern software architecture. It emphasizes the need to design software architectures that can adapt to changing requirements, conditions, or technologies. The term "Architectural Agility" is more of a philosophy that encompasses several practices and patterns that enable a system to evolve more easily.
