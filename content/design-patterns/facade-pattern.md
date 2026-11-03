@@ -7,6 +7,8 @@ params:
 weight: 120
 ---
 
+![facade pattern](./images/facade-pattern.png)
+
 The Facade Pattern is used when you want a simpler interface for a subsystem of a complex system. The complex system typically contains a code smell known as [the big ball of mud](/antipatterns/big-ball-of-mud/) that typically evolves from [the blob](/antipatterns/blob/). By using a facade, you create an interface that only shows the necessary endpoints for a subset of a system rather than the entire complex system.
 
 > **Note**: The subsystem does not know that the facade exists. There are ties from the facade to the subsystem, but not from the subsystem to the facade.

@@ -7,6 +7,8 @@ params:
 weight: 20
 ---
 
+![adapter design pattern](./images/adapter-design-pattern.png)
+
 The Adapter Design Pattern, also known as the Wrapper, allows two classes to work together that otherwise would have incompatible interfaces.  In this case, this software design pattern maps particularly well to the real-world example of an electrical power adapter, which must be used to allow a device to use power.  For instance, most mobile devices today can be powered via some form of USB power, or via AC current.  However, in both cases there is no direct way for the device to plug into the wall or USB port.  The solution is an adapter.  In fact, in some cases adapters can be chained together, as in the case of a USB-to-Device cable that can also be plugged into a wall or car electrical outlet that has a USB power port.
 
 The Adapter pattern relies on a common *abstraction* which defines the interface client code will consume. Different implementations of this interface are then created to support different otherwise incompatible ways of achieving the goal of the abstraction. For example, an application may wish to send notifications as part of its functionality. However, there are several approaches to sending notifications that have different interfaces:

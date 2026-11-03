@@ -7,6 +7,8 @@ params:
 weight: 80
 ---
 
+![cqrs - command query responsibility segregation](./images/cqrs-pattern.png)
+
 **CQRS** - Command Query Responsibility Segregation - is a design pattern used in software architecture to address the complexity and performance issues that can arise in systems handling both read (**query**) and write (**command**) operations. CQRS suggests segregating the data models and operations for reads and writes into separate components, optimizing each for its specific use case.
 
 In a traditional monolithic architecture, the same data model and database schema are often used for both reading and writing data. However, as an application grows in complexity, the read and write patterns might have different requirements and performance characteristics. CQRS helps to tackle this by decoupling the data storage and retrieval mechanisms. 

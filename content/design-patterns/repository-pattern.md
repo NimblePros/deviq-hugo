@@ -11,6 +11,8 @@ params:
 weight: 290
 ---
 
+![repository pattern](./images/repository-pattern.png)
+
 **Last Updated: August 2024**
 
 The Repository Pattern has gained quite a bit of popularity since it was first introduced as a part of [Domain-Driven Design](http://bit.ly/PS-DDD) in 2003. Essentially, it provides an abstraction of data persistence, so that your application can work with a simple abstraction (that your domain model owns) that has an interface approximating that of a collection. Adding, removing, updating, and selecting items from this collection is done through a series of straightforward methods, without the need to deal with database concerns like connections, commands, cursors, or readers. Using this pattern can help achieve loose coupling and can keep domain objects [persistence ignorant](/principles/persistence-ignorance/). Although the pattern is very popular (or perhaps because of this), it is also frequently misunderstood and misused (for example, pretending that directly using a particular ORM type is equivalent to (or exactly) the repository pattern).

@@ -7,6 +7,8 @@ params:
 weight: 100
 ---
 
+![domain events pattern](./images/domain-events-pattern.png)
+
 ## What are Domain Events?
 
 Domain events are events that signify a state change in the domain. They serve as a mechanism to communicate between different parts of the domain without tightly coupling them. In addition to decoupling different areas of the domain model, domain events can also be used (in concert with integration events) to communicate with other parts of the application (such as the UI) or even other systems.

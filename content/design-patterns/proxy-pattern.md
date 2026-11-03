@@ -11,6 +11,8 @@ params:
 weight: 280
 ---
 
+![proxy pattern](./images/proxy-pattern.png)
+
 The Proxy pattern provides a placeholder for another object to control access to it. It can be useful for abstracting the access to data objects, providing additional functionality such as [lazy loading](/design-patterns/lazy-load-pattern/), access control, or caching.
 
 At a high level, the pattern is typically implemented with the following:

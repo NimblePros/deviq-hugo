@@ -11,6 +11,8 @@ params:
 weight: 10
 ---
 
+![abstract factory design pattern](./images/abstract-factory-design-pattern.png)
+
 ## What is the Abstract Factory Pattern?
 
 The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete types. This pattern allows the client to use abstract classes instead of concrete classes to create families of objects.

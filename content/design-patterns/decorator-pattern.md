@@ -7,6 +7,8 @@ params:
 weight: 90
 ---
 
+![decorator design pattern](./images/decorator-design-pattern.png)
+
 ## What is the Decorator Design Pattern?
 
 The Decorator Design Pattern is a structural pattern used to add new functionalities to objects dynamically without altering their structure. This pattern relies on a decorator class which wraps the original class and matches its interface, while providing additional behavior before or after the delegate call to the original class method.

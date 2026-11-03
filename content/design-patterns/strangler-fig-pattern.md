@@ -7,6 +7,8 @@ params:
 weight: 360
 ---
 
+![strangler fig design pattern](./images/strangler-fig-design-pattern.png)
+
 Whether you are refactoring from a monolith to microservices or migrating from one technology to another - such as ASP.NET WebForms to Blazor, the change can be a large undertaking. The Strangler Fig pattern enables you to take these migrations at a slower pace, migrating from one system to another system on a module basis rather than in its entirety.
 
 ## When to Use
