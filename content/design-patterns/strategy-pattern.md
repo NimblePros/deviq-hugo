@@ -7,6 +7,8 @@ params:
 weight: 370
 ---
 
+![strategy design pattern](./images/strategy-pattern.png)
+
 The Strategy Design Pattern allows an object to have some or all of its behavior defined in terms of another object which follows a particular interface.  A particular instance of this interface is provided to the client when it is instantiated or invoked, providing the concrete behavior to be used.  The Strategy design pattern is used extensively to achieve the [Single Responsibility Principle](/principles/single-responsibility-principle/), the [Explicit Dependencies Principle](/principles/explicit-dependencies-principle/), and the [Dependency Inversion Principle](/principles/dependency-inversion-principle/), and is a key to [Dependency Injection](/practices/dependency-injection/) and the use of [Inversion of Control](/principles/inversion-of-control/) Containers.
 
 ## Intent

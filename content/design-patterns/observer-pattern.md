@@ -11,6 +11,8 @@ params:
 weight: 260
 ---
 
+![observer pattern](./images/observer-pattern.png)
+
 The Observer pattern is a fundamental design pattern in software development that facilitates communication between objects in a way that promotes loose coupling and flexibility. In this pattern, a subject maintains a list of observers that are automatically notified of any changes in the subject's state. This allows observers to react to changes without the subject needing to know specific details about the observers. Commonly used in event-driven systems, GUI frameworks, and real-time applications, the Observer pattern enhances maintainability and scalability while enabling dynamic relationships among components.
 
 ## How It Works

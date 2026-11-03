@@ -7,6 +7,8 @@ params:
 weight: 310
 ---
 
+![rules engine pattern](./images/rules-engine-pattern.png)
+
 The Rules Engine Pattern is classified as a behavioral design pattern, as noted in the _Design Patterns_ book by the Gang of Four. This pattern is a design pattern that allows developers to define and manage complex business rules outside of the main application code. It encapsulates the logic for evaluating these rules and applying them to data, making it easier to modify and maintain the rules without affecting the underlying code.
 
 The Rules Engine Pattern has three components - the rules engine, a collection of rules, and an input to which the rules need applied. 

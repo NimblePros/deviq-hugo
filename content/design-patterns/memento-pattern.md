@@ -7,6 +7,8 @@ params:
 weight: 200
 ---
 
+![memento pattern](./images/memento-pattern.png)
+
 The Memento pattern - also known as the Token pattern - is used to externalize an object's internal state for restoration later, without violating [encapsulation](/principles/encapsulation/). This pattern is part of the patterns covered in _Design Patterns_ by the Gang of Four. It is a behavioral pattern, as it allows you to add undo and replay behaviors to an object.
 
 A **memento** holds an object's internal state to be retrieved later. Think of this like save points in a video game,  stacks for tracking changes, or commits in source control. The key thing to note with the Memento pattern is that it captures an object's _internal_ state without violating encapsulation.

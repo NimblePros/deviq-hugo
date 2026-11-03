@@ -7,6 +7,8 @@ params:
 weight: 110
 ---
 
+![event aggregator pattern](./images/event-aggregator-pattern.png)
+
 The Event Aggregator pattern provides a central hub that collects events from multiple sources and routes them to interested subscribers. Rather than having publishers hold direct references to their subscribers (as in the [Observer](/design-patterns/observer-pattern/) pattern), both sides depend only on the aggregator. This eliminates the need for publishers and subscribers to know anything about each other, resulting in a highly decoupled, extensible event-driven system.
 
 ## How It Works
