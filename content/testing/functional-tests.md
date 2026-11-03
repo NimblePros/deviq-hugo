@@ -7,6 +7,8 @@ params:
 weight: 40
 ---
 
+![functional tests](./images/functional-tests.png)
+
 Functional tests verify that specific features of an application work according to the requirements. These tests are focused on the output of the system in response to particular inputs, regardless of the internal code structure. Functional tests are useful for validating user-facing features and ensuring that all aspects of a feature work together as intended.
 
 ## Benefits of Functional Tests

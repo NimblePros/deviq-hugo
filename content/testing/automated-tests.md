@@ -7,6 +7,8 @@ params:
 weight: 20
 ---
 
+![automated tests](./images/automated-tests.png)
+
 Automated tests are scripts or programs that automatically verify the functionality of software, reducing the need for manual testing. They can be run frequently to catch issues early in the development process, ensuring that code changes don't introduce new bugs. Automated tests are ideal for regression testing, continuous integration, and large-scale applications where repeated manual testing is impractical.
 
 ## Benefits of Automated Testing
