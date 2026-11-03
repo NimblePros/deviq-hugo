@@ -7,6 +7,8 @@ params:
 weight: 30
 ---
 
+![feedback](./images/feedback.png)
+
 Feedback is an [Extreme Programming value](http://www.extremeprogramming.org/values.html):
 
 _We will take every iteration commitment seriously by delivering working software.  We demonstrate our software early and often then listen carefully and make any changes needed.  We will talk about the project and adapt our process to it, not the other way around._

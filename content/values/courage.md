@@ -7,6 +7,8 @@ params:
 weight: 20
 ---
 
+![courage](./images/courage.png)
+
 Courage is one of the [Values of Extreme Programming](http://www.extremeprogramming.org/values.html).  To wit:
 
 _We will tell the truth about progress and estimates.  We don't document excuses for failure because we plan to succeed.  We don't fear anything because no one ever works alone.  We will adapt to changes when ever they happen._
