@@ -7,6 +7,8 @@ params:
 weight: 100
 ---
 
+![eventstorming](./images/eventstorming.png)
+
 EventStorming is a powerful and collaborative workshop-based technique that enables teams to gain a deeper understanding of complex business domains, leading to more effective software development. The participants in this workshop are representatives across the business such as stakeholders, IT professionals, developers, domain experts, business analysts, designers, and anyone else relevant to the domain.
 
 ![EventStorming with eCommerce - User is a role. Website, Tax System, ERP System, and Shipping System are external systems. Examples of events are 'Online Store Viewed', 'Category Selected', 'Item Viewed', 'Cart Created', and 'Item Added'.](./images/eventstorming-ecommerce.png)

@@ -7,6 +7,8 @@ params:
 weight: 10
 ---
 
+![aggregate pattern](./images/aggregate-pattern.png)
+
 Aggregates are a design pattern that play a big role in domain-driven development. In many systems, the relationships between [entities](./entity) can become so interwoven that attempting to eager-load an entity and all of its related entities from persistence results in attempting to download the entire database. A common approach to mitigate this issue is to turn on lazy-loading, but this is frequently more of a band-aid than an elegant solution, and brings with it its own problems.
 
 An **aggregate** is a collection of one or more related entities (and possibly [value objects](./value-object)). Each aggregate has a single root entity, referred to as the **aggregate root**. The aggregate root is responsible for controlling access to all of the members of its aggregate. It's perfectly acceptable to have single-entity aggregates, in which case that entity is itself the root of its aggregate. In addition to controlling access, the aggregate root is also responsible for ensuring the consistency of the aggregate. This is why it is important to ensure that the aggregate root does not directly expose its children, but rather controls access itself.

@@ -7,6 +7,8 @@ params:
 weight: 50
 ---
 
+![context mapping](./images/context-mapping.png)
+
 Context Mapping enables seeing how [bounded contexts](./bounded-context) integrate with each other. Context maps show the relationships between bounded contexts and may also indicate relations of teams maintaining those bounded contexts.
 
 ## Team Relationships

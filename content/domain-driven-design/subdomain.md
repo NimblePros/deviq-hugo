@@ -7,6 +7,8 @@ params:
 weight: 130
 ---
 
+![subdomains in ddd](./images/subdomain.png)
+
 In Domain-Driven Design (DDD), a subdomain represents a smaller, well-defined area of knowledge or responsibility within a larger [domain](./domain). It can be further decomposed into even smaller subdomains if necessary, and should be cohesive with clear boundaries from other subdomains.
 
 Here's an example:

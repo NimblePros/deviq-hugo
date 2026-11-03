@@ -7,6 +7,8 @@ params:
 weight: 110
 ---
 
+![shared kernel in ddd](./images/shared-kernel.png)
+
 In DDD, a Shared Kernel is a special type of Bounded Context that contains code and data shared across multiple bounded contexts within the same domain. It acts as a central repository for ubiquitous language elements, domain logic, and data structures that are common to all or a subset of the bounded contexts.
 
 ## Elements of a Shared Kernel

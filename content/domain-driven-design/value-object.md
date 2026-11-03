@@ -7,6 +7,8 @@ params:
 weight: 160
 ---
 
+![value object](./images/value-object.png)
+
 A Value Object is an immutable type that is distinguishable only by the state of its properties. That is, unlike an [Entity](/domain-driven-design/entity/), which has a unique identifier and remains distinct even if its properties are otherwise identical, two Value Objects with the exact same properties can be considered equal. Value Objects are a pattern first described in Evans' [Domain-Driven Design book](http://amzn.to/1Lkgs7B), and further explained in Smith and Lerman's [Domain-Driven Design Fundamentals course](http://bit.ly/PS-DDD).
 
 To produce an immutable type in C#, the type must have all of its state passed in at construction. Any properties must be read-only, which can be achieved using private setters, as in this example:

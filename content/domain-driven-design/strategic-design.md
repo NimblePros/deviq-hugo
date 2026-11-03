@@ -7,6 +7,8 @@ params:
 weight: 120
 ---
 
+![strategic design in ddd](./images/strategic-design.png)
+
 <!-- 
 ```mermaid
 mindmap

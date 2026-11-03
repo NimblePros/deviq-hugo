@@ -7,6 +7,8 @@ params:
 weight: 140
 ---
 
+![tactical design in ddd](./images/tactical-design.png)
+
 <!--
 ```mermaid
 mindmap

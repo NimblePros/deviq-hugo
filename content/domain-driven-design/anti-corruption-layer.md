@@ -7,6 +7,8 @@ params:
 weight: 30
 ---
 
+![anti-corruption layer](./images/anti-corruption-layer.png)
+
 An Anti-Corruption Layer (ACL) is a set of defensive patterns placed between the domain model and other bounded contexts or third party dependencies. The intent of this layer is to prevent the intrusion of foreign concepts and models into the domain model. 
 
 ## Purpose of the ACL
