@@ -7,6 +7,8 @@ params:
 weight: 270
 ---
 
+![not invented here](./images/not-invented-here.png)
+
 Organizations and individuals who refuse to trust anything they didn't create themselves spend important resources [reinventing wheels](/antipatterns/reinventing-the-wheel/) and other commodities when they could be spending those resources on the key features that differentiate their product from its competitors.
 
 ## See Also
