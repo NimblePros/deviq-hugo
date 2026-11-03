@@ -113,4 +113,11 @@ type: docs
     class="deviq-card-even"
     icon="exclamation-circle"
   >}}
+  {{< hextra/feature-card
+    title="Fallacies"
+    subtitle="Explore Fallacies →"
+    link="/fallacies/"
+    class="deviq-card-odd"
+    icon="status-offline"
+  >}}
 {{< /hextra/feature-grid >}}
