@@ -7,6 +7,8 @@ params:
 weight: 40
 ---
 
+![respect](./images/respect.png)
+
 Respect is one of the [values of Extreme Programming](http://www.extremeprogramming.org/values.html):
 
 _Everyone gives and feels the respect they deserve as a valued team member.  Everyone contributes value even if it's simply enthusiasm.  Developers respect the expertise of the customers and vice versa.  Management respects our right to accept responsibility and receive authority over our own work._
