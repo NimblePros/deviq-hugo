@@ -7,6 +7,8 @@ params:
 weight: 20
 ---
 
+![event-driven architecture](./images/event-driven-architecture.png)
+
 Event-Driven Architecture (EDA) is a software architecture pattern where the flow of the program is determined by events—discrete changes in state. 
 
 The concept of reacting to events is not new, but the term "Event-Driven Architecture" started gaining traction in the late 1990s and early 2000s. It was popularized as systems became more distributed and required more real-time processing. Although it’s hard to pinpoint a single person who coined the term, it gained prominence through the works of various thought leaders in software architecture, especially in the context of service-oriented architecture (SOA) and messaging systems.

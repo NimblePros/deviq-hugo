@@ -8,6 +8,8 @@ params:
 weight: 70
 ---
 
+![web-queue-worker architecture](./images/web-queue-worker-architecture.svg)
+
 Web-Queue-Worker Architecture is a distributed systems pattern that separates user-facing web requests from longer-running background work. The web application receives requests and places work items on a durable queue. One or more worker processes consume items from the queue and execute the work asynchronously.
 
 This pattern is commonly used when requests should return quickly, but the underlying work may take seconds or minutes to finish.

@@ -7,6 +7,8 @@ params:
 weight: 10
 ---
 
+![clean architecture](./images/clean-architecture.png)
+
 Clean Architecture is an attempt at aggregating some of the great features of other architectures into one idea. These are the architectures that it takes inspiration from:
 
 - [Hexagonal Architecture](https://alistair.cockburn.us/hexagonal-architecture/) - Ports & Adapters from Alistair Cockburn
