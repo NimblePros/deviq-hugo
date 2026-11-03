@@ -7,6 +7,8 @@ params:
 weight: 60
 ---
 
+![explicit dependencies principle](./images/explicit-dependencies-principle-frame.png)
+
 Have you ever wanted to try to cook a recipe only to find out that it left off an ingredient in the shopping list? Steve ran into that with a [spaghetti Bolognese recipe, where an ingredient was left off](https://www.youtube.com/watch?v=nA3SULjH6Mo). When all of the ingredients are called out explicitly, it's easier to follow the recipe.
 
 Much like ingredients to a recipe, it's important to understand dependencies of classes/packages/libraries/frameworks before working with them. Implicit dependencies and transitive dependencies can make it harder to work with classes/packages/libraries/frameworks. This is why there is the Explicit Dependencies Principle.

@@ -7,6 +7,8 @@ params:
 weight: 20
 ---
 
+![boy scout rule](./images/BoyScoutRule-400x400.png)
+
 The Boy Scout Rule can be summarized as:
 
 _**Leave your code better than you found it.**_

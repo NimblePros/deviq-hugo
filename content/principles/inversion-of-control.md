@@ -7,6 +7,8 @@ params:
 weight: 100
 ---
 
+![inversion of control](./images/inversion-of-control.png)
+
 Inversion of Control (IoC or IOC) describes a system that follows the [Hollywood Principle](/principles/hollywood-principle/). That is, flow of control within the application is not controlled by the application itself, but rather by the underlying framework. Typically in such an architecture, the application is written such that it ties into the application framework by handling framework events or plugging in to framework extension points.
 
 An IoC Container, also known as a [Dependency Inversion (DI)](/principles/dependency-inversion-principle/) container, is a specialized factory used to facilitate [dependency injection](/practices/dependency-injection/).
