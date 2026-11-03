@@ -7,6 +7,8 @@ params:
 weight: 20
 ---
 
+![authentication](./images/authentication.png)
+
 "Are you who you claim to be?" This is the main concept of **authentication** - ensuring that a user, system, or entity is truly who they claim to be.
 
 ## Authentication vs Authorization

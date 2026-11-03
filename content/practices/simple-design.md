@@ -7,6 +7,8 @@ params:
 weight: 250
 ---
 
+![simple design](./images/simple-design.png)
+
 [Kent Beck](http://en.wikipedia.org/wiki/Kent_Beck) created four rules of Simple Design. These are sometimes referred to as The Four Commandments or the [XP Simplicity Rules](http://c2.com/cgi/wiki?XpSimplicityRules). The rules, in priority order, are that code should:
 
 1. Pass all tests

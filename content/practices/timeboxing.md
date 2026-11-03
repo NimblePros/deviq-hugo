@@ -7,6 +7,8 @@ params:
 weight: 280
 ---
 
+![timeboxing](./images/timeboxing.png)
+
 ## Introduction
 
 Timeboxing is a popular time management technique used in various fields, including software development, project management, and personal productivity. The practice involves allocating a fixed period, or "timebox," to a specific task or activity. During this period, the focus is solely on completing the assigned task, with distractions and unrelated tasks kept to a minimum. Timeboxing can help increase productivity, maintain focus, and encourage a sense of urgency. In this article, we will discuss the benefits, applications, and best practices of timeboxing.

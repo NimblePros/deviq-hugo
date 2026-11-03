@@ -7,6 +7,8 @@ params:
 weight: 30
 ---
 
+![authorization](./images/authorization.png)
+
 "Do you have the permission to do what you are trying to do?" This is the main concept of **authorization** - ensuring that an entity has permissions to perform an action.
 
 ## Authentication vs Authorization
