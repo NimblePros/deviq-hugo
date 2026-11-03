@@ -8,6 +8,8 @@ params:
 weight: 40
 ---
 
+![modular monolith](./images/modular-monolith.png)
+
 A Modular Monolith is an architectural approach that structures a monolithic application into loosely coupled, highly cohesive modules. Each module encapsulates a specific business capability and has well-defined boundaries, yet the entire application remains a single deployable unit.
 
 This architecture represents a middle ground between traditional monoliths and microservices, offering many of the organizational benefits of distributed systems without the operational complexity.

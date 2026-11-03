@@ -11,6 +11,8 @@ params:
 weight: 60
 ---
 
+![vertical slice architecture](./images/vertical-slice-architecture.png)
+
 In Vertical Slice Architecture, we organize the application by features rather than layers. Each feature is encapsulated in its own "slice," containing all the necessary components from the presentation layer down to the data access layer.
 
 The following diagram could be an approach for an eCommerce website. Notice that there are vertical slices for products, orders, and users.
