@@ -7,6 +7,8 @@ params:
 weight: 70
 ---
 
+![technical debt](./images/technical-debt.png)
+
 Technical debt is a metaphor for all of the shortcuts, hacks, and poor design choices made for a given software system that compromised its quality, usually in an attempt to meet a deadline. It can be an appropriate business decision to take on technical debt, but if such debt is allowed to grow, the lack of quality of the system may eventually make it too expensive to maintain, at which point the business or team may need to declare "technical bankruptcy" and rewrite the application rather than continue to try to maintain it.
 
 As with financial debt, technical debt must be paid back, and is comprised of two parts: principal and interest. In the software development metaphor, the interest is paid in the form of additional work required to maintain the software system given its sub-optimal code. Time spent improving the code, which isn't directly adding customer value and which wouldn't be necessary if the code were optimally designed currently, represents paying down the principal on the debt. Usually this takes the form of [refactoring](https://www.pluralsight.com/courses/refactoring-csharp-developers) the code to improve its design, making it more appropriate to its current requirements and conditions.
