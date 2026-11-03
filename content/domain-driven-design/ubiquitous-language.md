@@ -7,6 +7,8 @@ params:
 weight: 150
 ---
 
+![ubiquitous language](./images/ubiquitous-language.png)
+
 All stakeholders on a software application, from users to product managers to developers, should share the same terminology when discussing the elements of the application. Use of a _ubiquitous language_ reduces the risk of miscommunication and the need to translate between technical abstractions and real world elements.
 
 [Naming things](/practices/naming-things/) is one of the most difficult tasks in software development. One of the very real benefits of [pair programming](/practices/pair-programming/), as well as working closely with (as in, in the same room) users or product owners is that names can quickly be agreed upon by the [whole team](/practices/whole-team-activity/). Names that are chosen for marketing purposes or in early architectural diagrams that do not translate into the application's design as expressed in its codebase are harmful. They breed confusion. In the simple case, there is a simple disconnect, in which the developers have chosen to refer to a concept as Foo, but others think of it as Bar. In this case, the developers must often translate on the fly whenever discussing the Foo concept. A worse case occurs when the developer has implemented Foo, but it's different from what others think of as Foo. Foo has two, perhaps nuanced, meanings, and the potential for confusion or miscommunication is greatly enhanced.

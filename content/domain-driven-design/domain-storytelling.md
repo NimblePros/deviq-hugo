@@ -7,6 +7,8 @@ params:
 weight: 70
 ---
 
+![domain storytelling](./images/domain-storytelling.png)
+
 Communication is important in DDD, especially in developing [ubiquitous language](./ubiquitous-language). It allows domain experts to tell the stories, capture the workflows, and illustrate those stories.
 
 The stories of the domains are illustrated with iconography and arrows, with labels to identify the **actors** and their **activities** with the **work objects**.

@@ -7,6 +7,8 @@ params:
 weight: 20
 ---
 
+![anemic model](./images/anemic-model.png)
+
 In object-oriented programming, and especially in Domain-Driven Design, objects are said to be _anemic_ if they have state but lack behavior. Some kinds of objects, such as Data Transfer Objects (DTOs), are expected to simply be a collection of data. However, the objects that model the behavior of the problem space within the application should use [encapsulation](/principles/encapsulation/) to manage their internal state and behavior. An anemic model frequently fails to follow the [Tell, Don't Ask principle](/principles/tell-dont-ask/), since objects cannot perform operations on their own state, but are constantly manipulated by other objects in a non-object-oriented fashion. Rich domain models provide useful behavior to clients within the system. Some code smells that may indicate an anemic domain model include [exposed collection properties](/antipatterns/exposing-collection-properties/), and over-use of properties in general (especially setters).
 
 What does an anemic model look like in terms of code? An anemic model tries to represent a domain object but only takes care of the properties, missing the behaviors as part of the model. So where do the behaviors go for these anemic models? The behaviors are usually extracted to service objects in a business layer.

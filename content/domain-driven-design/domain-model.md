@@ -7,6 +7,8 @@ params:
 weight: 60
 ---
 
+![domain model in ddd](./images/domain-model.png)
+
 A **domain model** in DDD is a conceptual representation of the core concepts, entities, and relationships within a specific domain. It serves as a shared understanding between domain experts and developers, facilitating communication and collaboration. The domain model is a living document and should continuously evolve as your understanding of the domain grows.
 
 ## Domain Modeling
