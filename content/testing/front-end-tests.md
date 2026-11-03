@@ -7,6 +7,8 @@ params:
 weight: 30
 ---
 
+![front-end tests](./images/front-end-tests.png)
+
 Front-end tests focus on the user interface (UI) and user experience (UX) aspects of an application. These tests ensure that the front-end of an application behaves as expected from the user's perspective. Front-end tests are essential for ensuring that visual components render correctly across different devices and browsers, and that user interactions perform as intended.
 
 ## Benefits of Front-End Tests

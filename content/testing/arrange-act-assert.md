@@ -7,6 +7,8 @@ params:
 weight: 10
 ---
 
+![arrange-act-assert](./images/arrange-act-assert.png)
+
 The Arrange-Act-Assert (AAA) pattern is a simple yet powerful way to structure your test cases, particularly in unit testing. It provides a clear and concise format for testing code, making your tests easier to read, understand, and maintain. The code structure looks like this:
 
 ```csharp

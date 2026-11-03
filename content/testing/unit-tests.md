@@ -7,6 +7,8 @@ params:
 weight: 70
 ---
 
+![unit tests](./images/unit-tests.png)
+
 Unit tests are the smallest, fastest, and most granular type of test. They focus on individual components or functions, ensuring they behave as expected in isolation from the rest of the system. Unit tests are ideal for validating business logic, utility functions, and other small, isolated parts of the application.
 
 ## Benefits of Unit Tests

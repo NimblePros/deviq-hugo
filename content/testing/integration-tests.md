@@ -7,6 +7,8 @@ params:
 weight: 50
 ---
 
+![integration tests](./images/integration-tests.png)
+
 Integration tests evaluate the interaction between different modules or services within an application. These tests check that components work together correctly when integrated into a larger system. Integration tests are critical for microservices architectures and systems with multiple interacting components, where ensuring correct communication between parts is essential.
 
 ## Benefits of Integration Tests
