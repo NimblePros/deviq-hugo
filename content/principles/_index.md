@@ -21,6 +21,7 @@ Consistently following good principles is important to good code. This means app
 - [Don't Repeat Yourself](/principles/dont-repeat-yourself/)
 - [Encapsulation](/principles/encapsulation/)
 - [Explicit Dependencies](/principles/explicit-dependencies-principle/)
+- [Fairbairn Threshold](/principles/fairbairn-threshold/)
 - [Hollywood](/principles/hollywood-principle/)
 - [Interface Segregation](/principles/interface-segregation/)
 - [Inversion of Control](/principles/inversion-of-control/)
