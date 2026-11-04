@@ -52,4 +52,5 @@ Laws of software development, laws of programming, laws of software engineering.
 - Sturgeon's Law
 - [Tesler's Law (Law of Conservation of Complexity)](/laws/teslers-law/)
 - Vogels' Law
+- [Wheaton's Law (Don't Be a Dick)](/laws/wheatons-law/)
 - [Wirth's Law](/laws/wirths-law/)
