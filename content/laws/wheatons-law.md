@@ -26,7 +26,7 @@ Wheaton's Law is the shortest law in this collection, and arguably the hardest t
 
 ## Origin
 
-Wil Wheaton is an actor, author, and long-time gaming advocate. In 2007 he delivered the keynote address at PAX (the Penny Arcade Expo), a large gaming convention. In that talk he spoke to the gaming community about how players treat one another, and his advice was simple: don't be a dick. The idea stuck, and became known as Wheaton's Law.
+Wil Wheaton is an actor, author, and long-time gaming advocate. In August 2007 he delivered the keynote address at PAX (the Penny Arcade Expo), a large gaming convention, to an audience of more than 5,000 people. Writing on his blog a few days later, he summed it up this way: "One of the core messages of my speech was 'don't be a dick' when you play games online, and a lot of people told me how glad they were to hear that." He added that he might make it his new motto. The phrase itself was not new, but his use of it caught on, and it became known as Wheaton's Law.
 
 Although the talk was about gamers, the idea is not specific to games. Anywhere people communicate through a screen, with little context about each other and few immediate consequences, it is easy to be dismissive, sarcastic, or cruel. Software development is full of such places.
 
@@ -104,5 +104,6 @@ The difference is between criticizing an idea and diminishing a person.
 ## References
 
 1. Wheaton, Wil. [PAX 2007 keynote (audio)](http://s3.amazonaws.com/media.penny-arcade.com/PAX07_Keynote.mp3) — Penny Arcade Expo, 2007.
-2. [Wheaton's Law video](https://www.youtube.com/watch?v=t3ICRoe-QIw) — YouTube.
-3. [Wil Wheaton — Wikipedia](https://en.wikipedia.org/wiki/Wil_Wheaton)
+2. Wheaton, Wil. ["PAX FTW"](https://web.archive.org/web/2008/http://wilwheaton.typepad.com/wwdnbackup/2007/08/pax-ftw.html) — *WWdN: In Exile* (blog), August 27, 2007 (archived).
+3. [Wil Wheaton Explains Wheaton's Law (Don't Be A Dick)](https://www.youtube.com/watch?v=t3ICRoe-QIw) — YouTube.
+4. [Wil Wheaton — Wikipedia](https://en.wikipedia.org/wiki/Wil_Wheaton)
