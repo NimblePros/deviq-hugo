@@ -29,6 +29,7 @@ An *architecture style* is a high level approach to how an application is struct
 
 - [Competing Consumers Pattern](/architecture/competing-consumers/)
 - [Sidecar Pattern](/architecture/sidecar-pattern/)
+- [Tactical Forking Pattern](/architecture/tactical-forking/)
 - [Web-Queue-Worker Architecture](/architecture/web-queue-worker-architecture/)
 
 ## Architecture Antipatterns
