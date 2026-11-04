@@ -18,6 +18,7 @@ A fallacy is a belief that seems reasonable, is widely held, and is wrong. In so
 ## Table of Contents
 
 - [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+- [Additional Fallacies](#additional-fallacies)
 - [A Brief History](#a-brief-history)
 - [Why the Fallacies Still Matter](#why-the-fallacies-still-matter)
 - [Designing With the Fallacies in Mind](#designing-with-the-fallacies-in-mind)
@@ -38,6 +39,18 @@ The best-known set of software fallacies describes the assumptions developers ma
 8. [The Network Is Homogeneous](/fallacies/the-network-is-homogeneous/)
 
 Each of these is easy to believe when an application runs on a single machine, or on a handful of machines in the same rack. Each becomes false as soon as the system grows, moves to the cloud, crosses an organizational boundary, or simply runs long enough.
+
+## Additional Fallacies
+
+The original eight aren't the only false assumptions that cause trouble in distributed systems. These fallacies aren't part of the classic list, but they are just as common and just as costly:
+
+- [There Is Only One Version](/fallacies/there-is-only-one-version/)
+- [Clocks Are Synchronized](/fallacies/clocks-are-synchronized/)
+- [Messages Are Delivered Exactly Once, In Order](/fallacies/messages-are-delivered-exactly-once-in-order/)
+- [The Data Is Consistent](/fallacies/the-data-is-consistent/)
+- [Failures Are Independent](/fallacies/failures-are-independent/)
+- [Downstream Capacity Is Infinite](/fallacies/downstream-capacity-is-infinite/)
+- [A Distributed System Can Be Debugged Like a Local One](/fallacies/distributed-systems-debug-like-local-ones/)
 
 ## A Brief History
 
