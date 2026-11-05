@@ -278,7 +278,7 @@ IOSP overlaps with several other well-known ideas, which is useful when you need
 
 - [Single Responsibility Principle](/principles/single-responsibility-principle/). Westphal presents IOSP as an application of SRP: coordinating work and doing work are separate reasons for a function to change.
 - [Separation of Concerns](/principles/separation-of-concerns/). IOSP separates the concern of composition from the concern of computation.
-- Single Level of Abstraction Principle (SLAP). A function should operate at one level of abstraction. An integration works at the level of steps in a workflow; an operation works at the level of a single computation. Mixing them is a common way to violate SLAP.
+- Single Level of Abstraction Principle (SLAP). A function should operate at one level of abstraction. An integration works at the level of steps in a workflow; an operation works at the level of a single computation. Mixing them is a common way to violate SLAP, and produces the [Inconsistent Abstraction Levels](/code-smells/inconsistent-abstraction-levels/) code smell.
 - Functional core, imperative shell. Both ideas push logic into small, easily tested units and keep the coordinating code thin.
 - [Mediator](/design-patterns/mediator-pattern/) and [Facade](/design-patterns/facade-pattern/) patterns. Both often serve as the integrating layer that composes other components, though neither requires that the integrator be free of logic.
 
