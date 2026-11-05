@@ -16,6 +16,7 @@ Consistently following good principles is important to good code. This means app
 ## Principles
 
 - [Architectural Agility](/principles/architectural-agility/)
+- [Bennett Principle](/principles/bennett-principle/)
 - [Boy Scout Rule](/principles/boy-scout-rule/)
 - [Dependency Inversion](/principles/dependency-inversion-principle/)
 - [Don't Repeat Yourself](/principles/dont-repeat-yourself/)
