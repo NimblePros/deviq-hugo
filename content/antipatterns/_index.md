@@ -42,6 +42,7 @@ Antipatterns are simply [design patterns](/design-patterns/) that in many cases 
 - [Mushroom Management](mushroom-management)
 - [Not Invented Here](not-invented-here)
 - [One Thing to Rule Them All](one-thing-to-rule-them-all)
+- [Premature Optimization](premature-optimization)
 - [Reinventing the Wheel](reinventing-the-wheel)
 - [Singleton](/design-patterns/singleton/)
 - [Service Locator](service-locator)
