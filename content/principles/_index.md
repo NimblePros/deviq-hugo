@@ -24,6 +24,7 @@ Consistently following good principles is important to good code. This means app
 - [Explicit Dependencies](/principles/explicit-dependencies-principle/)
 - [Fairbairn Threshold](/principles/fairbairn-threshold/)
 - [Hollywood](/principles/hollywood-principle/)
+- [Integration Operation Segregation (IOSP)](/principles/integration-operation-segregation-principle/)
 - [Interface Segregation](/principles/interface-segregation/)
 - [Inversion of Control](/principles/inversion-of-control/)
 - [Keep It Simple](/principles/keep-it-simple/)
