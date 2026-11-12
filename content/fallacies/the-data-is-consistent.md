@@ -47,7 +47,7 @@ PACELC extends this: if there is a **P**artition, choose **A**vailability or **C
 These are some of the techniques that help systems work correctly when data is not immediately consistent:
 
 - **Choose consistency boundaries deliberately.** Keep data that must be strongly consistent together, within a single [Aggregate](/domain-driven-design/aggregate-pattern/) and a single transaction. Accept eventual consistency between aggregates and between [Bounded Contexts](/domain-driven-design/bounded-context/).
-- **Use sagas instead of distributed transactions.** Model multi-service processes as a sequence of local transactions, each with a compensating action that undoes it if a later step fails.
+- **Use sagas instead of distributed transactions.** Model multi-service processes as a sequence of local transactions, each with a compensating action that undoes it if a later step fails. Don't assume the compensations always succeed - see [Compensating Actions Are Always Successful](/fallacies/compensating-actions-are-always-successful/).
 - **Provide read-your-writes where it matters.** Route a user's reads to the primary for a short time after they write, return the updated state from the write itself, or have the UI wait for a version number to appear in the read model.
 - **Design the user experience for it.** Show "processing" states, confirm that a request was *accepted* rather than *completed*, and update the UI optimistically.
 - **Make staleness explicit.** Set cache durations consciously, include version numbers or timestamps on data, and decide how stale each piece of data is allowed to be.

@@ -51,6 +51,7 @@ The original eight aren't the only false assumptions that cause trouble in distr
 - [Failures Are Independent](/fallacies/failures-are-independent/)
 - [Downstream Capacity Is Infinite](/fallacies/downstream-capacity-is-infinite/)
 - [A Distributed System Can Be Debugged Like a Local One](/fallacies/distributed-systems-debug-like-local-ones/)
+- [Compensating Actions Are Always Successful](/fallacies/compensating-actions-are-always-successful/)
 
 ## A Brief History
 
