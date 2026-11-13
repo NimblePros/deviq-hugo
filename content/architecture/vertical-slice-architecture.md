@@ -15,6 +15,8 @@ weight: 60
 
 In Vertical Slice Architecture, we organize the application by features rather than layers. Each feature is encapsulated in its own "slice," containing all the necessary components from the presentation layer down to the data access layer.
 
+Vertical Slice Architecture builds on the long-established practice of delivering software in [Vertical Slices](/practices/vertical-slices/). Delivering a feature at a time, with each slice cutting through every layer, has long been recognized as a better approach than building the system one horizontal layer at a time. Building layer by layer means there is no usable software until every layer is complete, which can take a very long time and delays feedback from real users. Vertical Slice Architecture takes this delivery practice and applies it to how the code itself is organized.
+
 The following diagram could be an approach for an eCommerce website. Notice that there are vertical slices for products, orders, and users.
 
 ```mermaid
@@ -73,6 +75,7 @@ When implementing this architecture, teams should have the following understandi
 
 ## References
 
+- [Vertical Slices](/practices/vertical-slices/)
 - [Technology & Friends: Jimmy Bogard on Vertical Slice Architecture and MediatR](https://youtu.be/k4UP08SZoHc?si=f141E7Qpu5_-Y7x8)
 - [Vertical Slice Architecture - Jimmy Bogard's website](https://www.jimmybogard.com/vertical-slice-architecture/)
 - [Vertical Slice Architecture - Jimmy Bogard - NDC Conferences](https://www.youtube.com/watch?v=SUiWfhAhgQw)
