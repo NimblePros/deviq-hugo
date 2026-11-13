@@ -41,6 +41,9 @@ enableRobotsTXT = true
   [params.search]
     enable = true
     type = "flexsearch"
+    [params.search.flexsearch]
+      # Limit matches shown per page so one article doesn't crowd out the others
+      maxSectionResults = 3
 
   [params.mermaid]
     base = "https://cdn.jsdelivr.net/npm/mermaid"
