@@ -16,6 +16,7 @@ Good coding practices are important to good code. They can help to guide program
 ## Practices
 
 - [The 50/72 Rule](/practices/50-72-rule/)
+- [Architecture Decision Records (ADRs)](/practices/architecture-decision-records/)
 - [Authentication](/practices/authentication/)
 - [Authorization](/practices/authorization/)
 - [Behavior Driven Development](/practices/behavior-driven-development/)

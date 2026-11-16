@@ -21,6 +21,7 @@ Microservices aren't the only designs that can more easily be updated. Any appli
 
 ## Learn More
 
+- [Architecture Decision Records (ADRs)](/practices/architecture-decision-records/)
 - [On-Demand Webinar: Modular Monoliths](https://mailchi.mp/nimblepros/modular-monolith-recording)
 - [Course: Getting Started with Modular Monoliths in .NET](https://dometrain.com/course/getting-started-modular-monoliths-in-dotnet/)
 - [Course: Deep Dive with Modular Monoliths in .NET](https://dometrain.com/course/deep-dive-modular-monoliths-in-dotnet/)
