@@ -35,3 +35,4 @@ The Architecture by Implication (ABI) antipattern is a common issue that arises 
 2. [AntiPatterns: Refactoring Software, Architectures, and Projects in Crisis](https://amzn.to/3L2uIVF) (Amazon.com)
 3. [Recognizing and Refactoring Antipatterns in Software Design](https://www.researchgate.net/publication/318320120_Recognizing_and_Refactoring_Antipatterns_in_Software_Design)
 4. [Getting Started with Architecture Decision Records](https://ardalis.com/getting-started-with-architecture-decision-records/)
+5. [Architecture Decision Records (ADRs)](/practices/architecture-decision-records/)
