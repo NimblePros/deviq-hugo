@@ -51,7 +51,7 @@ These are some of the tradeoffs to consider:
 
 - **Message Ordering**: Because multiple consumers process messages concurrently, strict first-in-first-out ordering across all consumers is difficult to guarantee. Partitioned or session-based queues can restore ordering within a subset of messages when required.
 - **Idempotency Requirements**: Queues may redeliver messages after a timeout or consumer crash. Consumer logic must be idempotent—processing the same message twice must produce the same outcome as processing it once.
-- **Duplicate Processing Risk**: In at-least-once delivery systems, a message may be processed by more than one consumer instance in edge cases, such as when an acknowledgment is lost. Deduplication strategies (unique identifiers, idempotency keys) mitigate this.
+- **Duplicate Processing Risk**: In at-least-once delivery systems, a message may be processed by more than one consumer instance in edge cases, such as when an acknowledgment is lost. Deduplication strategies (unique identifiers, idempotency keys) mitigate this. Assuming otherwise is the fallacy that [messages are delivered exactly once, in order](/fallacies/messages-are-delivered-exactly-once-in-order/).
 - **Operational Complexity**: Teams must monitor queue depth, consumer lag, redelivery rates, and dead-letter queues. Poison messages—messages that consistently cause consumer failures—need explicit handling policies.
 - **Visibility and Observability**: Tracing a single unit of work across producers, the queue, and whichever consumer instance handled it requires distributed tracing and correlated logging.
 

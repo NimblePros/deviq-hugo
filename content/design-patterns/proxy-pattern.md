@@ -44,7 +44,7 @@ When creating the real object is resource-intensive or time-consuming, it may ma
 
 A **remote proxy** can encapsulate the network communication details and provide a local representation of a remote object, making it transparent to the client. This type of proxy hides the complexities of remote communication, providing a local representation of the remote object. By caching results or batching requests, remote proxies can reduce the overhead of network communication.
 
-While the remote proxy can encapsulate the network communications and be used to help reduce the overhead of network communication, it comes with some drawbacks. Remote proxies introduce latency due to network communication, which can impact application performance. The reliability of remote proxies depends on network connectivity, making them vulnerable to network failures.
+While the remote proxy can encapsulate the network communications and be used to help reduce the overhead of network communication, it comes with some drawbacks. Remote proxies introduce latency due to network communication, which can impact application performance - [latency is not zero](/fallacies/latency-is-zero/). The reliability of remote proxies depends on network connectivity, making them vulnerable to network failures, because [the network is not reliable](/fallacies/the-network-is-reliable/). Making a remote call look like a local one makes these costs easy to forget.
 
 When it comes to network-related applications, remote proxies can help when working with distributed systems where objects are located on remote servers. Another use case for remote proxies is when interacting with web APIs or microservices over the network.
 

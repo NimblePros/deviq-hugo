@@ -31,7 +31,7 @@ Metrics provide a high-level overview of the system's health and performance. Th
 
 **Traces** track the journey of a request as it travels through various components and services of a distributed system. They provide a detailed map of the request's path, including timing information for each segment of the journey.
 
-Traces are essential for understanding the behavior and performance of distributed systems. They help in pinpointing where bottlenecks and failures occur by showing the flow of requests across different services and components. Traces provide insights into the latency and dependencies between services, making them invaluable for root cause analysis and performance optimization in microservices architectures.
+Traces are essential for understanding the behavior and performance of distributed systems. They help in pinpointing where bottlenecks and failures occur by showing the flow of requests across different services and components. Traces provide insights into the latency and dependencies between services, making them invaluable for root cause analysis and performance optimization in microservices architectures, where [a distributed system can't be debugged like a local one](/fallacies/distributed-systems-debug-like-local-ones/).
 
 ## Practices in Observability
 

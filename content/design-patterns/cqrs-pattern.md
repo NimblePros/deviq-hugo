@@ -44,7 +44,7 @@ Consider this example with social media.
 5. The event to update the read database comes in and synchronizes the database.
 6. Eventually, the profile details indicate there is an update and the page needs refreshed to see the new message.
 
-The nature of the reads and writes separated means that the reads are not necessarily blocked by writes. There is an eventual consistency that means that the read database will be in sync with the write database eventually, not necessarily immediately in sync.
+The nature of the reads and writes separated means that the reads are not necessarily blocked by writes. There is an eventual consistency that means that the read database will be in sync with the write database eventually, not necessarily immediately in sync. Code that reads from the query side shouldn't assume [the data is consistent](/fallacies/the-data-is-consistent/).
 
 ## Common Patterns with CQRS
 

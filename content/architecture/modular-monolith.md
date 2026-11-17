@@ -63,7 +63,7 @@ A modular monolith offers several advantages:
 
 - **Simpler Operations**: A single deployment unit eliminates the complexity of managing multiple services, networks, and distributed transactions.
 - **Easier Development**: Developers can work within a single codebase while maintaining clear ownership boundaries around modules.
-- **Better Performance**: In-process communication between modules is faster than network calls in distributed systems.
+- **Better Performance**: In-process communication between modules is faster than network calls in distributed systems, where [latency is never zero](/fallacies/latency-is-zero/).
 - **Incremental Migration**: Modules can later be extracted into separate services if needed, providing a path toward microservices.
 - **[Separation of Concerns](/principles/separation-of-concerns/)**: Each module focuses on a specific business capability, making the codebase easier to understand and maintain.
 - **Testability**: Modules can be tested independently while still allowing integration tests across the entire application.
