@@ -146,7 +146,7 @@ Treat these as design concerns, not premature optimizations:
 - **N+1 queries.** Loading a list and then issuing one query per item is a design defect that is simple to avoid up front with a join or an eager load.
 - **Wrong algorithmic complexity at a known scale.** If you know the collection holds a million items, an O(n²) nested loop is not a simplification, it is a bug waiting for production data. Choosing a dictionary over a list scan costs nothing.
 - **Unbounded results.** Returning every row with no paging, when the table will grow, is a predictable failure.
-- **Chatty remote calls.** Making many fine-grained network requests where one coarse request would do is an architectural choice, not a micro-optimization.
+- **Chatty remote calls.** Making many fine-grained network requests where one coarse request would do is an architectural choice, not a micro-optimization, because [latency is not zero](/fallacies/latency-is-zero/).
 - **Missing indexes on obvious lookup columns.** Indexing the columns you filter and join on is routine schema design.
 
 Avoid this N+1 pattern, a design defect that is known to be costly:

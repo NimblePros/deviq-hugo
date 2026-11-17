@@ -89,7 +89,7 @@ A distributed monolith combines the drawbacks of both of its neighbours on the c
 - **From monoliths:** changes ripple across the system, teams step on one another, and everything must be released together.
 - **From microservices:** network latency, partial failures, distributed tracing, service discovery, versioned APIs, container orchestration, and the operational burden of running many deployables.
 
-Each in-process method call that became a network call is now slower and can fail in new ways. Transactions that used to be atomic now span multiple services and require compensating logic. Debugging a single request means correlating logs across several processes. And because the services are still coupled, none of this complexity buys the team independent delivery or independent scaling.
+Each in-process method call that became a network call is now slower and can fail in new ways - [latency is not zero](/fallacies/latency-is-zero/), and [the network is not reliable](/fallacies/the-network-is-reliable/). Transactions that used to be atomic now span multiple services and require compensating logic, which [can itself fail](/fallacies/compensating-actions-are-always-successful/). Debugging a single request means correlating logs across several processes, because [a distributed system can't be debugged like a local one](/fallacies/distributed-systems-debug-like-local-ones/). And because the services are still coupled, none of this complexity buys the team independent delivery or independent scaling.
 
 ## Avoiding a Distributed Monolith
 
@@ -118,6 +118,7 @@ In practice, teams often consolidate first to regain stability and a clear view 
 - [Big Ball of Mud](/antipatterns/big-ball-of-mud/) - the single-deployment counterpart of this antipattern
 - [Bounded Context](/domain-driven-design/bounded-context/) - the primary tool for finding good service boundaries
 - [Event-Driven Architecture](/architecture/event-driven-architecture/) - reduces temporal coupling between services
+- [Fallacies of Distributed Computing](/fallacies/) - the false assumptions that make distribution more expensive than it looks
 - [Conway's Law](/laws/conways-law/) and [Gall's Law](/laws/galls-law/) - explain how architecture and team structure influence one another and why complexity should grow incrementally
 
 ## References

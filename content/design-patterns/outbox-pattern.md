@@ -212,7 +212,9 @@ the same messages more than once.
 
 The relay can crash after publishing a message but before marking it as sent. On restart it
 publishes the message again. The outbox therefore provides **at-least-once** delivery: no message
-is lost, but a message may be delivered more than once.
+is lost, but a message may be delivered more than once. Designing as though
+[messages are delivered exactly once, in order](/fallacies/messages-are-delivered-exactly-once-in-order/)
+is a common fallacy.
 
 Consumers must be **idempotent**, meaning that processing the same message twice has the same
 effect as processing it once. Common techniques include:
@@ -288,7 +290,8 @@ integration events, calling a payment gateway, or updating a search index.
 - You are publishing [domain events](/design-patterns/domain-events-pattern/) as integration
   events to other services in an
   [event-driven architecture](/architecture/event-driven-architecture/).
-- You can accept eventual consistency and at-least-once delivery.
+- You can accept eventual consistency (the [data won't always be consistent](/fallacies/the-data-is-consistent/))
+  and at-least-once delivery.
 
 ## When Not to Use It
 

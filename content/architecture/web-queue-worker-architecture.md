@@ -48,9 +48,9 @@ These are some of the benefits of Web-Queue-Worker Architecture:
 
 These are some of the tradeoffs to consider:
 
-- **Eventual Consistency**: Users may not see results immediately because processing is asynchronous.
+- **Eventual Consistency**: Users may not see results immediately because processing is asynchronous, so the UI can't assume [the data is consistent](/fallacies/the-data-is-consistent/).
 - **Higher System Complexity**: You must manage queue infrastructure, worker lifecycle, and distributed observability.
-- **Retry and Idempotency Requirements**: Workers may process messages more than once, so handlers should be idempotent.
+- **Retry and Idempotency Requirements**: Workers may process messages more than once, so handlers should be idempotent (see [Messages Are Delivered Exactly Once, In Order](/fallacies/messages-are-delivered-exactly-once-in-order/)).
 - **Ordering and Concurrency Challenges**: Some workloads need strict ordering or deduplication strategies.
 - **More Operational Surface Area**: Monitoring dead-letter queues, poison messages, and backlogs becomes essential.
 

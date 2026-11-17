@@ -11,13 +11,21 @@ params:
 
 ![Fallacies of Distributed Computing](./images/fallacies-overview.png)
 
-*"Essentially everyone, when they first build a distributed application, makes the following eight assumptions. All prove to be false in the long run and all cause big trouble and painful learning experiences."* — Peter Deutsch
+*"Essentially everyone, when they first build a distributed application, makes
+the following eight assumptions. All prove to be false in the long run and all
+cause big trouble and painful learning experiences."* — Peter Deutsch
 
-A fallacy is a belief that seems reasonable, is widely held, and is wrong. In software, fallacies are dangerous precisely because they are rarely stated out loud. Nobody writes "the network never fails" in a design document - they simply write code that only works if it is true. The code passes every test on a developer's machine, ships, and then fails in production in ways that are expensive to diagnose and fix.
+A fallacy is a belief that seems reasonable, is widely held, and is wrong. In
+software, fallacies are dangerous precisely because they are rarely stated out
+loud. Nobody writes "the network never fails" in a design document - they simply
+write code that only works if it is true. The code passes every test on a
+developer's machine, ships, and then fails in production in ways that are
+expensive to diagnose and fix.
 
 ## Table of Contents
 
-- [The Fallacies of Distributed Computing](#the-fallacies-of-distributed-computing)
+- [The Fallacies of Distributed
+  Computing](#the-fallacies-of-distributed-computing)
 - [Additional Fallacies](#additional-fallacies)
 - [A Brief History](#a-brief-history)
 - [Why the Fallacies Still Matter](#why-the-fallacies-still-matter)
@@ -27,7 +35,8 @@ A fallacy is a belief that seems reasonable, is widely held, and is wrong. In so
 
 ## The Fallacies of Distributed Computing
 
-The best-known set of software fallacies describes the assumptions developers make when a system starts talking to other systems over a network:
+The best-known set of software fallacies describes the assumptions developers
+make when a system starts talking to other systems over a network:
 
 1. [The Network Is Reliable](/fallacies/the-network-is-reliable/)
 2. [Latency Is Zero](/fallacies/latency-is-zero/)
@@ -38,58 +47,102 @@ The best-known set of software fallacies describes the assumptions developers ma
 7. [Transport Cost Is Zero](/fallacies/transport-cost-is-zero/)
 8. [The Network Is Homogeneous](/fallacies/the-network-is-homogeneous/)
 
-Each of these is easy to believe when an application runs on a single machine, or on a handful of machines in the same rack. Each becomes false as soon as the system grows, moves to the cloud, crosses an organizational boundary, or simply runs long enough.
+Each of these is easy to believe when an application runs on a single machine,
+or on a handful of machines in the same rack. Each becomes false as soon as the
+system grows, moves to the cloud, crosses an organizational boundary, or simply
+runs long enough.
 
 ## Additional Fallacies
 
-The original eight aren't the only false assumptions that cause trouble in distributed systems. These fallacies aren't part of the classic list, but they are just as common and just as costly:
+The original eight aren't the only false assumptions that cause trouble in
+distributed systems. These fallacies aren't part of the classic list, but they
+are just as common and just as costly:
 
 <!-- markdownlint-disable MD029 -->
 9. [There Is Only One Version](/fallacies/there-is-only-one-version/)
 10. [Clocks Are Synchronized](/fallacies/clocks-are-synchronized/)
-11. [Messages Are Delivered Exactly Once, In Order](/fallacies/messages-are-delivered-exactly-once-in-order/)
+11. [Messages Are Delivered Exactly Once, In
+    Order](/fallacies/messages-are-delivered-exactly-once-in-order/)
 12. [The Data Is Consistent](/fallacies/the-data-is-consistent/)
 13. [Failures Are Independent](/fallacies/failures-are-independent/)
-14. [Downstream Capacity Is Infinite](/fallacies/downstream-capacity-is-infinite/)
-15. [A Distributed System Can Be Debugged Like a Local One](/fallacies/distributed-systems-debug-like-local-ones/)
-16. [Compensating Actions Are Always Successful](/fallacies/compensating-actions-are-always-successful/)
+14. [Downstream Capacity Is
+    Infinite](/fallacies/downstream-capacity-is-infinite/)
+15. [A Distributed System Can Be Debugged Like a Local
+    One](/fallacies/distributed-systems-debug-like-local-ones/)
+16. [Compensating Actions Are Always
+    Successful](/fallacies/compensating-actions-are-always-successful/)
 <!-- markdownlint-enable MD029 -->
 
 ## A Brief History
 
-The list originated at Sun Microsystems. Bill Joy and Tom Lyon identified the first four fallacies, and in 1994 [L. Peter Deutsch](https://en.wikipedia.org/wiki/L_Peter_Deutsch) collected them, adding three more to make seven. Around 1997, James Gosling - the creator of Java - added the eighth, "the network is homogeneous." The list has been passed around, presented, and rediscovered by each new generation of distributed system builders ever since.
+The list originated at Sun Microsystems. Bill Joy and Tom Lyon identified the
+first four fallacies, and in 1994 [L. Peter
+Deutsch](https://en.wikipedia.org/wiki/L_Peter_Deutsch) collected them, adding
+three more to make seven. Around 1997, James Gosling - the creator of Java -
+added the eighth, "the network is homogeneous." The list has been passed around,
+presented, and rediscovered by each new generation of distributed system
+builders ever since.
 
 ## Why the Fallacies Still Matter
 
-The fallacies were written in the era of client-server applications and remote procedure calls. They are more relevant now, not less. Microservices, serverless functions, mobile apps, third-party APIs, message brokers, and multi-region cloud deployments mean that nearly every modern application is a distributed system - often without its developers thinking of it that way.
+The fallacies were written in the era of client-server applications and remote
+procedure calls. They are more relevant now, not less. Microservices, serverless
+functions, mobile apps, third-party APIs, message brokers, and multi-region
+cloud deployments mean that nearly every modern application is a distributed
+system - often without its developers thinking of it that way.
 
-Many popular frameworks make remote calls look exactly like local calls. That convenience is useful, but it hides exactly the details the fallacies warn about. A method call that takes nanoseconds and never fails in-process can take hundreds of milliseconds, time out, partially succeed, or be intercepted once it crosses the network. Teams that split a monolith into services without accounting for this often end up with a [Distributed Monolith](/architecture/distributed-monolith/) - all of the cost of distribution and none of the benefit.
+Many popular frameworks make remote calls look exactly like local calls. That
+convenience is useful, but it hides exactly the details the fallacies warn
+about. A method call that takes nanoseconds and never fails in-process can take
+hundreds of milliseconds, time out, partially succeed, or be intercepted once it
+crosses the network. Teams that split a monolith into services without
+accounting for this often end up with a [Distributed
+Monolith](/architecture/distributed-monolith/) - all of the cost of distribution
+and none of the benefit.
 
 ## Designing With the Fallacies in Mind
 
-The fallacies are not an argument against distributed systems. They are a checklist. When designing anything that communicates over a network, ask what happens to your design when each assumption is false:
+The fallacies are not an argument against distributed systems. They are a
+checklist. When designing anything that communicates over a network, ask what
+happens to your design when each assumption is false:
 
-- What happens when this call fails, or when it times out and you don't know whether it succeeded?
-- How many round trips does this operation require, and what does that cost at the 99th percentile?
+- What happens when this call fails, or when it times out and you don't know
+  whether it succeeded?
+- How many round trips does this operation require, and what does that cost at
+  the 99th percentile?
 - How much data is being moved, and does it need to be?
 - Who could be reading or tampering with this traffic?
 - What happens when the address of this dependency changes?
-- Who else operates the systems you depend on, and how will you find out when they change something?
+- Who else operates the systems you depend on, and how will you find out when
+  they change something?
 - What does each message cost in serialization, infrastructure, and money?
 - What other platforms, protocols, and versions are on the other end?
 
-Each article in this section explores one fallacy in depth: what it assumes, why the assumption fails, what it costs when you get it wrong, and the patterns and practices that help.
+Each article in this section explores one fallacy in depth: what it assumes, why
+the assumption fails, what it costs when you get it wrong, and the patterns and
+practices that help.
 
 ## Related Concepts
 
-- [Distributed Monolith](/architecture/distributed-monolith/) - a common result of ignoring the fallacies when adopting microservices
-- [Modular Monolith](/architecture/modular-monolith/) - an architecture that defers distribution until it is needed
-- [Event-Driven Architecture](/architecture/event-driven-architecture/) - reduces temporal coupling between distributed components
-- [Observability](/practices/observability/) - how you find out which fallacy just bit you in production
-- [Murphy's Law](/laws/murphys-law/) - anything that can go wrong will go wrong, especially over a network
+- [Distributed Monolith](/architecture/distributed-monolith/) - a common result
+  of ignoring the fallacies when adopting microservices
+- [Modular Monolith](/architecture/modular-monolith/) - an architecture that
+  defers distribution until it is needed
+- [Event-Driven Architecture](/architecture/event-driven-architecture/) -
+  reduces temporal coupling between distributed components
+- [Observability](/practices/observability/) - how you find out which fallacy
+  just bit you in production
+- [Murphy's Law](/laws/murphys-law/) - anything that can go wrong will go wrong,
+  especially over a network
 
 ## References
 
-- [Fallacies of Distributed Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) - Wikipedia
-- [Fallacies of Distributed Computing Explained](https://www.rgoarchitects.com/Files/fallacies.pdf) - Arnon Rotem-Gal-Oz
-- [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832) - Jonas Bonér, based on figures from Jeff Dean and Peter Norvig
+- [Fallacies of Distributed
+  Computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) -
+  Wikipedia
+- [Fallacies of Distributed Computing
+  Explained](https://www.rgoarchitects.com/Files/fallacies.pdf) - Arnon
+  Rotem-Gal-Oz
+- [Latency Numbers Every Programmer Should
+  Know](https://gist.github.com/jboner/2841832) - Jonas Bonér, based on figures
+  from Jeff Dean and Peter Norvig
