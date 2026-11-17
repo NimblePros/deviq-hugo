@@ -33,6 +33,8 @@ Team members give and expect to be treated with respect.  This includes respect
 
 [Pair Programming](/practices/pair-programming/)
 
+[Hanlon's Razor](/laws/hanlons-razor/)
+
 ## References
 
 [The Values of Extreme Programming](http://www.extremeprogramming.org/values.html)

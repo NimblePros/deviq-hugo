@@ -27,6 +27,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Gall's Law](/laws/galls-law/)
 - [Gilb's Law](/laws/gilbs-law/)
 - [Goodhart's Law](/laws/goodharts-law/)
+- [Hanlon's Razor](/laws/hanlons-razor/)
 - [Hebb's Law](/laws/hebbs-law/)
 - [Hofstadter's Law](/laws/hofstadters-law/)
 - Keep It Simple, Stupid (KISS)

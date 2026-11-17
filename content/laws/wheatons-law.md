@@ -59,7 +59,7 @@ A constructive one:
 
 > This loads every order into memory before filtering. Could we push the filter into the query instead? It should cut memory use a lot for large customers.
 
-Both comments identify the same problem. Only the second is likely to get it fixed and leave the author willing to submit another pull request. Critique the code, explain your reasoning, and where possible ask questions or offer a concrete suggestion. The same goes for receiving a review: assume good intent, and don't respond to a critique of your code as though it were a critique of you.
+Both comments identify the same problem. Only the second is likely to get it fixed and leave the author willing to submit another pull request. Critique the code, explain your reasoning, and where possible ask questions or offer a concrete suggestion. The same goes for receiving a review: assume good intent ([Hanlon's Razor](../hanlons-razor/)), and don't respond to a critique of your code as though it were a critique of you.
 
 ### Open Source Maintainers and Contributors
 
@@ -100,6 +100,7 @@ The difference is between criticizing an idea and diminishing a person.
 - **[Collective Code Ownership](/practices/collective-code-ownership/)** — when anyone may change any code, reviews and edits must be given and received without ego.
 - **[Boy Scout Rule](/principles/boy-scout-rule/)** — leave the codebase better than you found it; the same applies to the team and community you work in.
 - **[Conway's Law](../conways-law/)** — the communication patterns of a team shape the systems it builds, so toxic communication tends to show up in the architecture.
+- **[Hanlon's Razor](../hanlons-razor/)** — "never attribute to malice that which is adequately explained by stupidity." Assuming a mistake rather than bad intent is what makes courteous code reviews and blameless postmortems possible.
 
 ## References
 
