@@ -44,14 +44,16 @@ Each of these is easy to believe when an application runs on a single machine, o
 
 The original eight aren't the only false assumptions that cause trouble in distributed systems. These fallacies aren't part of the classic list, but they are just as common and just as costly:
 
-- [There Is Only One Version](/fallacies/there-is-only-one-version/)
-- [Clocks Are Synchronized](/fallacies/clocks-are-synchronized/)
-- [Messages Are Delivered Exactly Once, In Order](/fallacies/messages-are-delivered-exactly-once-in-order/)
-- [The Data Is Consistent](/fallacies/the-data-is-consistent/)
-- [Failures Are Independent](/fallacies/failures-are-independent/)
-- [Downstream Capacity Is Infinite](/fallacies/downstream-capacity-is-infinite/)
-- [A Distributed System Can Be Debugged Like a Local One](/fallacies/distributed-systems-debug-like-local-ones/)
-- [Compensating Actions Are Always Successful](/fallacies/compensating-actions-are-always-successful/)
+<!-- markdownlint-disable MD029 -->
+9. [There Is Only One Version](/fallacies/there-is-only-one-version/)
+10. [Clocks Are Synchronized](/fallacies/clocks-are-synchronized/)
+11. [Messages Are Delivered Exactly Once, In Order](/fallacies/messages-are-delivered-exactly-once-in-order/)
+12. [The Data Is Consistent](/fallacies/the-data-is-consistent/)
+13. [Failures Are Independent](/fallacies/failures-are-independent/)
+14. [Downstream Capacity Is Infinite](/fallacies/downstream-capacity-is-infinite/)
+15. [A Distributed System Can Be Debugged Like a Local One](/fallacies/distributed-systems-debug-like-local-ones/)
+16. [Compensating Actions Are Always Successful](/fallacies/compensating-actions-are-always-successful/)
+<!-- markdownlint-enable MD029 -->
 
 ## A Brief History
 
