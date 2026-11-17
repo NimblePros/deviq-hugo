@@ -53,6 +53,7 @@ Security is a cross-cutting concern that must be designed in from the start. Ret
 - [Authentication](/practices/authentication/) and [Authorization](/practices/authorization/) - verifying identity and permissions on every request
 - [There Is One Administrator](/fallacies/there-is-one-administrator/) - many parties control parts of the network, each with their own security policies
 - [Kerckhoff's Principle](/laws/kerckhoffs-principle/) - a system should be secure even if everything about it except the key is public
+- [Hanlon's Razor](/laws/hanlons-razor/) - most incidents stem from misconfiguration and mistakes rather than attackers, but that is no reason to stop designing for the ones who are malicious
 - [Sidecar Pattern](/architecture/sidecar-pattern/) - a common way to add mTLS and policy enforcement to services
 
 ## References

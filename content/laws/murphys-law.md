@@ -21,6 +21,8 @@ Murphy's Law is often applied to software systems and hardware devices. When des
 
 [Fail Fast](/principles/fail-fast/)
 
+[Hanlon's Razor](/laws/hanlons-razor/)
+
 ## References
 
 [Murphy's Law](https://en.wikipedia.org/wiki/Murphy%27s_law)(Wikipedia)
