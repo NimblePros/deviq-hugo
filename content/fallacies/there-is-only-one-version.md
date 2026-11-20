@@ -68,3 +68,4 @@ These are some of the techniques that let multiple versions coexist safely:
 - [TolerantReader](https://martinfowler.com/bliki/TolerantReader.html) - Martin Fowler
 - [Consumer-Driven Contracts: A Service Evolution Pattern](https://martinfowler.com/articles/consumerDrivenContracts.html) - Ian Robinson
 - [Versioning in an Event Sourced System](https://leanpub.com/esversioning) - Greg Young
+- [The Three New Fallacies of Distributed Computing](https://www.youtube.com/watch?v=3O4JXSfbbx4) - Thoughtworks Technology Podcast with Neal Ford and Mark Richards, who describe this fallacy as "versioning is easy" (video)
