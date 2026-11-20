@@ -15,6 +15,7 @@ The fallacy that there is only one version is not one of the eight classic [Fall
 
 - [What the Fallacy Assumes](#what-the-fallacy-assumes)
 - [Why It's False](#why-its-false)
+- [Breaking and Non-Breaking Changes](#breaking-and-non-breaking-changes)
 - [Designing for Many Versions](#designing-for-many-versions)
 - [Related Concepts](#related-concepts)
 - [References](#references)
@@ -42,6 +43,22 @@ In a distributed system, a deployment is a process, not an instant:
 - **Rollbacks.** If a release goes badly, you roll back - and now the *old* code must cope with data written by the *new* code.
 - **Independent deployability.** The whole point of separately deployed services is that they don't release together. If they must, you've built a [Distributed Monolith](/architecture/distributed-monolith/).
 
+## Breaking and Non-Breaking Changes
+
+Once you accept that several versions will run at once, the key question about any contract change is whether existing producers and consumers can keep working without changes. A *breaking change* forces the other side to change at the same time; a *non-breaking* change does not.
+
+| Usually non-breaking                                      | Usually breaking                                                   |
+| --------------------------------------------------------- | ------------------------------------------------------------------ |
+| Adding an optional field to a request or message          | Adding a required field to a request or message                    |
+| Adding a field to a response or event                     | Removing or renaming a field                                       |
+| Adding a new endpoint, operation, or message type         | Changing a field's type, format, or units (e.g. dollars to cents)  |
+| Adding a new optional query parameter or header           | Changing the meaning of an existing field or status code           |
+| Relaxing validation (accepting a wider range of input)    | Tightening validation (rejecting input that used to be accepted)   |
+| Adding a value to an enum that consumers already tolerate | Adding an enum value to consumers that reject unknown values       |
+| Changing behavior nobody can observe                      | Removing an endpoint, operation, or message type                   |
+
+Whether a change breaks anything depends on the consumers as much as the producer. Adding a field is only safe if consumers ignore fields they don't recognize, and adding an enum value is only safe if they handle values they don't expect. And per [Hyrum's Law](https://www.hyrumslaw.com/), with enough consumers, someone depends on behavior you never promised, such as field order, error message text, or response timing. Treat the left column as "safe by default" rather than "always safe."
+
 ## Designing for Many Versions
 
 These are some of the techniques that let multiple versions coexist safely:
@@ -50,6 +67,7 @@ These are some of the techniques that let multiple versions coexist safely:
 - **Make changes forward compatible.** Old code must tolerate what new code produces. Use tolerant readers that ignore unknown fields rather than rejecting them.
 - **Expand, then contract.** Split breaking changes into steps that are each safe to deploy: add the new field or column, migrate writers and readers to it, backfill data, and only then remove the old one. This is often called *parallel change*.
 - **Version contracts explicitly.** Version public APIs and message types, and support at least two versions at once while consumers migrate.
+- **Publish both versions of an event during a transition.** When an event's contract has to change in a breaking way, the producer can publish the old and new versions side by side for a while. Existing consumers keep subscribing to the old contract, new and migrated consumers switch to the new one, and the old version is retired once nothing still subscribes to it. This lets each consumer move on its own schedule, at the cost of the producer maintaining both contracts until the transition is complete.
 - **Decouple deploy from release.** Use feature flags so new behavior can be deployed everywhere before it is turned on, and turned off without a rollback.
 - **Test compatibility.** Consumer-driven contract tests verify that a provider's change doesn't break any of its consumers before it ships.
 - **Plan for rollback.** Before each release, ask whether the previous version can still run against data written by this one.
