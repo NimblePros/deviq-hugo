@@ -42,8 +42,11 @@ Duplicates and reordering are a direct consequence of an [unreliable network](/f
 - **Retries create duplicates.** When a sender doesn't receive an acknowledgment, it can't tell whether the message was lost or only the acknowledgment was. The safe choice is to send it again - so the receiver may get it twice.
 - **Consumers fail after processing.** A consumer that processes a message and then crashes before acknowledging it will see the message again when the broker redelivers it.
 - **Parallelism reorders.** With [Competing Consumers](/architecture/competing-consumers/), several instances process messages concurrently, so a later message can finish before an earlier one.
+- **Concurrency within a consumer reorders.** Even a single consumer instance, receiving messages in exactly the order they were sent, often processes several at once. Prefetching, concurrency settings such as a maximum number of concurrent handlers, and async handlers all let a later message start before an earlier one finishes. Handlers don't take the same time to run, so they can *complete* out of order even though they *started* in order. In-order delivery doesn't guarantee in-order processing.
 - **Retries reorder.** A message that fails and is retried after a delay is processed after messages that were sent later.
 - **Partitions reorder.** Brokers like Kafka guarantee order only within a partition, and different producers have no shared order at all.
+
+Out-of-order processing causes wrong business outcomes, not just errors. Suppose a customer updates their shipping address twice in quick succession, and a consumer handles both `ShippingAddressChanged` messages concurrently. If the handler for the first change happens to be slower, it writes last, and the order ships to the address the customer replaced. Similarly, if `OrderCancelled` finishes processing before the `OrderPlaced` it follows, the cancellation finds nothing to cancel, and the order is then created as active. No message was lost, duplicated, or delivered out of order, but the result is still wrong.
 
 Exactly-once *delivery* is impossible in the general case: no protocol can guarantee that a message is delivered once and only once over an unreliable network. What systems can provide is effectively-once *processing* - and they do it by making duplicates harmless.
 
@@ -66,6 +69,8 @@ These are some of the techniques that let consumers handle duplicated and reorde
 - **Publish reliably.** Use the [Outbox Pattern](/design-patterns/outbox-pattern/) so a message is published if and only if the transaction that produced it commits - accepting that it may be published more than once.
 - **Carry sequence numbers or versions.** Include an aggregate version or sequence number so consumers can detect stale or out-of-order messages and ignore them, wait for missing ones, or re-fetch current state.
 - **Use ordering keys where order matters.** Route all messages for the same entity to the same partition or session so they are processed in order relative to one another, while different entities still process in parallel.
+- **Limit concurrency per key, not just per consumer.** Ordered delivery only helps if the consumer also processes messages for the same entity one at a time. Use broker features that do this for you, such as sessions with one concurrent call per session, or dispatch messages inside the consumer to a queue or worker per entity key. Turning off concurrency entirely also works, but it gives up throughput for every entity to protect the few that need ordering.
+- **Guard writes with optimistic concurrency.** Check an aggregate version or sequence number when saving, so a slower handler working from stale data fails and retries instead of overwriting a newer result.
 - **Design events to be order-tolerant.** Where possible, design handlers so the result is the same regardless of order - for example, by handling "shipped" for an order that hasn't been seen yet by creating it in a pending state.
 
 ## Related Concepts
