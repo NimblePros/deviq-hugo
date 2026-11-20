@@ -73,6 +73,17 @@ are just as common and just as costly:
     Successful](/fallacies/compensating-actions-are-always-successful/)
 <!-- markdownlint-enable MD029 -->
 
+Three of these line up with the "new" fallacies Neal Ford and Mark Richards
+added in the second edition of *Fundamentals of Software Architecture*:
+versioning is easy ([There Is Only One
+Version](/fallacies/there-is-only-one-version/)), compensating updates always
+work ([Compensating Actions Are Always
+Successful](/fallacies/compensating-actions-are-always-successful/)), and
+observability is optional ([A Distributed System Can Be Debugged Like a Local
+One](/fallacies/distributed-systems-debug-like-local-ones/)). They discuss all
+three on the Thoughtworks Technology Podcast episode [The Three New Fallacies of
+Distributed Computing](https://www.youtube.com/watch?v=3O4JXSfbbx4).
+
 ## A Brief History
 
 The list originated at Sun Microsystems. Bill Joy and Tom Lyon identified the
@@ -143,6 +154,9 @@ practices that help.
 - [Fallacies of Distributed Computing
   Explained](https://www.rgoarchitects.com/Files/fallacies.pdf) - Arnon
   Rotem-Gal-Oz
+- [The Three New Fallacies of Distributed
+  Computing](https://www.youtube.com/watch?v=3O4JXSfbbx4) - Thoughtworks
+  Technology Podcast with Neal Ford and Mark Richards (video)
 - [Latency Numbers Every Programmer Should
   Know](https://gist.github.com/jboner/2841832) - Jonas Bonér, based on figures
   from Jeff Dean and Peter Norvig

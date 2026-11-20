@@ -157,3 +157,4 @@ These are some of the techniques that help limit the damage when compensations f
 - [The limits of the Saga pattern](https://www.ufried.com/blog/limits_of_saga_pattern/) - Uwe Friedrichsen
 - [Saga: How to implement complex business transactions without two phase commit](https://medium.com/@berndruecker/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b) - Bernd Rücker
 - [Transactional Sagas (chapter 12)](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/ch12.html) - *Software Architecture: The Hard Parts*, Neal Ford, Mark Richards, Pramod Sadalage, and Zhamak Dehghani
+- [The Three New Fallacies of Distributed Computing](https://www.youtube.com/watch?v=3O4JXSfbbx4) - Thoughtworks Technology Podcast with Neal Ford and Mark Richards, who describe this fallacy as "compensating updates always work" (video)

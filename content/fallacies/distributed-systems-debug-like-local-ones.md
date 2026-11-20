@@ -60,3 +60,4 @@ These are some of the techniques that make distributed systems understandable wh
 - [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure/) - Sigelman et al.
 - [Observability Engineering](https://www.oreilly.com/library/view/observability-engineering/9781492076438/) - Charity Majors, Liz Fong-Jones, and George Miranda
 - [.NET Aspire overview](https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview) - Microsoft Learn
+- [The Three New Fallacies of Distributed Computing](https://www.youtube.com/watch?v=3O4JXSfbbx4) - Thoughtworks Technology Podcast with Neal Ford and Mark Richards, who describe this fallacy as "observability is optional" (video)
